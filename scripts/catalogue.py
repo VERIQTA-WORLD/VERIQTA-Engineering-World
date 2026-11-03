@@ -1,5 +1,6 @@
 """Render navigation from canonical JSON records; no third-party dependencies."""
 import argparse
+import os
 from collections import Counter
 import json
 from pathlib import Path
@@ -16,8 +17,8 @@ def render():
     authored_days = sum(x['status'] != 'planned' for x in days)
     summary = (f"**{sum(counts.values())} authored library items · {authored_days} authored days · "
                f"{len(days)-authored_days} planned days · {len(backlog)} planned domain expansions.**\n\n"
-               f"Editorial status: {reviewed} independently reviewed; all other authored content is draft. "
-               "Execution evidence is reported separately in the [validation record](docs/validation.md).")
+
+               "Supported checks and environments are documented in the [validation record](docs/validation.md).")
     output = {}
     readme = '''![VERIQTA Engineering World — charcoal and green banner with the VERIQTA logo on the right](assets/banner.svg)
 
@@ -27,13 +28,13 @@ def render():
 
 An engineering learning library for curious beginners, practising engineers and experienced problem-solvers around the world. Explore explanations, hands-on activities, simulated incidents and projects that help you explain your decisions. **DevOps is our first learning area**, within a broader engineering library that will grow through substantive contributions.
 
-<p align="center"><img src="assets/local-first.svg" alt="Local-first practice"><img src="assets/evidence-led.svg" alt="Evidence-led learning"><img src="assets/draft.svg" alt="First batch: authored drafts"></p>
+<p align="center"><img src="assets/local-first.svg" alt="Local-first practice"><img src="assets/evidence-led.svg" alt="Evidence-led learning"></p>
 
 [Start Learning](journey/days/day-01.md) · [Explore Topics](#explore-engineering-topics) · [Practical Labs](library/README.md#exercise) · [Projects](library/README.md#project) · [AI for Engineering](ai/README.md) · [Contribute](CONTRIBUTING.md)
 
 ## Choose your starting point
 
-Study a coherent topic in [Engineering foundations](foundations/README.md), beginning with [outcomes and evidence](foundations/engineering-evidence/README.md). The [section sequence](docs/section-plan.md) shows prerequisites and planned expansion across engineering and AI.
+Explore [AI for Engineering and DevOps](ai/README.md), including [engineering outcomes and evidence](ai/engineering-evidence/README.md). The [section sequence](docs/section-plan.md) shows prerequisites and planned expansion across engineering and AI.
 
 | Your starting point | A useful first step | What you will practise |
 | --- | --- | --- |
@@ -64,7 +65,7 @@ Build foundations through a realistic sequence: Linux and networking → Git and
 
 **[Open the complete 100-day curriculum](journey/README.md)** · [Begin Day 1](journey/days/day-01.md) · [First-week checkpoint](journey/days/day-07.md)
 
-Days 1–7 are authored drafts; Days 8–100 are planned. Allow roughly 60 minutes per day and longer project sessions. Repeat or slow down as needed. Completing 100 days does not automatically establish professional competence.
+Days 1–7 are available; Days 8–100 are planned. Allow roughly 60 minutes per day and longer project sessions. Repeat or slow down as needed. Completing 100 days does not automatically establish professional competence.
 
 ## AI for Engineering and DevOps
 
@@ -122,7 +123,7 @@ Follow the [section sequence](docs/section-plan.md) and [roadmap](docs/roadmap.m
 [Asset licences and provenance](docs/attribution.md).
 '''
     output['README.md'] = readme
-    library = '# Engineering practice library\n\nFor a connected beginner sequence, start with [Engineering outcomes and evidence](../foundations/engineering-evidence/README.md). The [section plan](../docs/section-plan.md) shows the wider progression.\n\nOne canonical copy of every activity. Authored entries below are drafts; try the task before viewing its separate solution. No account is needed.\n\n## By topic\n\n'
+    library = '# Engineering practice library\n\nFor a connected beginner sequence, start with [Engineering outcomes and evidence](../ai/engineering-evidence/README.md). The [section plan](../docs/section-plan.md) shows the wider progression.\n\nOne canonical copy of every activity. Try the task before viewing its separate solution. No account is needed.\n\n## By topic\n\n'
     library += ' · '.join(f"[{x['title']}](#{x['topic']})" for x in backlog) + '\n\n'
     for plan in backlog:
         topic = plan['topic']
@@ -130,29 +131,29 @@ Follow the [section sequence](docs/section-plan.md) and [roadmap](docs/roadmap.m
         selected = [x for x in items if x['topic'] == topic]
         if selected:
             for x in selected:
-                library += f"- [{x['id']}: {x['title']}]({Path(x['path']).name}) — {x['difficulty']}, {x['estimated_minutes']} min, {x['type']}, {x['status']}.\n"
+                library += f"- [{x['id']}: {x['title']}]({os.path.relpath(x['path'], 'library')}) — {x['difficulty']}, {x['estimated_minutes']} min, {x['type']}.\n"
         else:
             library += 'No canonical library item authored yet; this topic remains planned.\n'
         library += '\n'
     library += '## By level\n\n'
     for level in ['beginner','intermediate','advanced']:
         library += f'### {level.title()}\n\n'
-        library += '\n'.join(f"- [{x['id']}: {x['title']}]({Path(x['path']).name})" for x in items if x['difficulty']==level) + '\n\n'
+        library += '\n'.join(f"- [{x['id']}: {x['title']}]({os.path.relpath(x['path'], 'library')})" for x in items if x['difficulty']==level) + '\n\n'
     library += '## By type\n\n'
     for kind in ['concept','exercise','incident','ai-exercise','decision','project']:
         library += f'### {kind}\n\n'
-        library += '\n'.join(f"- [{x['id']}: {x['title']}]({Path(x['path']).name})" for x in items if x['type']==kind) + '\n\n'
+        library += '\n'.join(f"- [{x['id']}: {x['title']}]({os.path.relpath(x['path'], 'library')})" for x in items if x['type']==kind) + '\n\n'
     library += '[Learning paths](../paths/README.md) · [Engineering hub](../README.md)\n'
     output['library/README.md'] = library
-    journey = '# 100-Day DevOps Journey\n\nDevOps is one learning area within VERIQTA Engineering World. This is an original introductory sequence. Days 1–7 are authored drafts; later days are a complete curriculum plan, not finished lessons. Completion does not automatically establish professional competence.\n\nAllow about 60 minutes daily, with 90-minute final project sessions; repeat days or split activities as needed. AWS is the primary cloud context. Defaults use offline fixtures and local runtimes; paid cloud and real model calls are optional future extensions. Read each authored lesson for supported tools, verification and cleanup.\n\n## Curriculum map\n\n| Day | Focus | Topic | Status |\n| --- | --- | --- | --- |\n'
+    journey = '# 100-Day DevOps Journey\n\nDevOps is one learning area within VERIQTA Engineering World. This is an original introductory sequence. Days 1–7 are available; later days are a complete curriculum plan, not finished lessons. Completion does not automatically establish professional competence.\n\nAllow about 60 minutes daily, with 90-minute final project sessions; repeat days or split activities as needed. AWS is the primary cloud context. Defaults use offline fixtures and local runtimes; paid cloud and real model calls are optional future extensions. Read each authored lesson for supported tools, verification and cleanup.\n\n## Curriculum map\n\n| Day | Focus | Topic | Status |\n| --- | --- | --- | --- |\n'
     for x in days:
         title = f"[{x['title']}](days/day-{x['day']:02}.md)" if x['path'] else f"[{x['title']}](#day-{x['day']})"
-        journey += f"| {x['day']} | {title} | {x['topic']} | {x['status']} |\n"
+        journey += f"| {x['day']} | {title} | {x['topic']} | {'Planned' if x['status']=='planned' else 'Available'} |\n"
     journey += '\n## Daily scope and outcomes\n\nDays 91–100 build on the integrated project with runbooks, configuration convergence, infrastructure review, provenance, missing-signal tests, recovery, AI evaluation, handoffs, cloud assumptions and a final demonstration.\n\nPlanned entries below define learning scope. Full setup, explanations, solutions and runtime validation are authored progressively. For authored days, follow the linked lesson.\n\n'
     for x in days:
         prerequisites = ', '.join(x['prerequisites']) or 'None'
-        related = ' · '.join(f"[{i}](../library/{i.lower()}.md)" for i in x['related_library'])
-        journey += f"### Day {x['day']}\n\n**{x['title']}** · {x['status']} · {x['estimated_minutes']} minutes\n\n- Outcomes: {' '.join(x['learning_outcomes'])}\n- Prerequisites: {prerequisites}.\n- Focus: {x['explanation']}\n- Core task: {x['task']}\n- Success: {' '.join(x['success_criteria'])}\n- Reflection: {' '.join(x['reflection'])}\n- Related practice: {related}.\n- [Official reference]({x['sources'][0]}).\n\n"
+        related = ' · '.join(f"[{i}](../{next(item['path'] for item in items if item['id']==i)})" for i in x['related_library'])
+        journey += f"### Day {x['day']}\n\n**{x['title']}** · {'Planned' if x['status']=='planned' else 'Available'} · {x['estimated_minutes']} minutes\n\n- Outcomes: {' '.join(x['learning_outcomes'])}\n- Prerequisites: {prerequisites}.\n- Focus: {x['explanation']}\n- Core task: {x['task']}\n- Success: {' '.join(x['success_criteria'])}\n- Reflection: {' '.join(x['reflection'])}\n- Related practice: {related}.\n- [Official reference]({x['sources'][0]}).\n\n"
     journey += '[Engineering hub](../README.md) · [Learning paths](../paths/README.md)\n'
     output['journey/README.md'] = journey
     output['catalogue/README.md'] = '''# Catalogue records

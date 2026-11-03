@@ -33,3 +33,7 @@ One H1 per page; descriptive links; fenced code with a language; alt text on ima
 Conceptual introductions need scope, prerequisites, explanation, an appropriate task, verification and reflection; do not invent resource setup or cleanup when no resources are created. A daily lesson may declare `learning_format: conceptual` in its catalogue record to use this format. Practical work retains the full lab standard.
 
 A section connects canonical activities through an ordered explanation, suitable practice, separate complete solutions and a checkpoint. Track section publication readiness separately from draft/reviewed editorial status and from execution evidence. A completed offline section does not imply a tool was deployed or an independent review occurred.
+
+## Learner-facing presentation
+
+Present published lessons and solutions as complete teaching material. Keep editorial draft/review labels in the machine-readable catalogue and maintainer records, rather than learner headings, solution bylines, indexes or badges. Keep concrete environment requirements, expected results and execution limitations visible where learners need them. AI sections use the existing ai/ folder, including their examples and solutions; do not introduce new root folders for those materials.

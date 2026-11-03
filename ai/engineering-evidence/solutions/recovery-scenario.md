@@ -1,0 +1,40 @@
+# Solution: The recovery announcement that outran the evidence
+
+`VW-I006` · Solution and reasoning
+
+## Evidence and conclusion
+
+EV1 establishes the recorded activation and successful job, not successful user requests. EV2 establishes four 503 responses in six gateway-observed search attempts during 10:01–10:03. It does not identify four distinct people, prove the remaining two results correct or determine the full incident duration.
+
+EV3 is a restoration request. No completion or active-revision evidence follows. EV4 establishes eight successful health checks, a different request population. EV5 is one successful direct search check with an expected body; it demonstrates a narrower working path at that instant. EV6 contains assertions rather than additional observations.
+
+“All users recovered” is unsupported: there is no post-action search result through the gateway, population coverage or recovery window. No recovery timestamp can be derived from the eight health checks. “Configuration was definitely the cause” is also unsupported: temporal order and an intended restoration do not distinguish candidate behavior, gateway state, shared dependencies or measurement changes.
+
+## Plausible alternatives
+
+| Hypothesis | Discriminating observation | What would weaken it |
+| --- | --- | --- |
+| Candidate behavior/configuration causes search failures | Compare the same controlled search input on known active revisions using the same path; verify expected bodies | Baseline and candidate fail identically under controlled conditions |
+| Gateway routing is failing while the instance can serve requests | Compare direct and gateway requests using a known revision and equivalent request input/identity; inspect the gateway route evidence | Both paths return correct results repeatedly while failures persist elsewhere |
+
+The packet does not justify assigning probabilities. A direct-vs-gateway difference is suggestive but can also reflect different authentication, headers, target instances or timing. Control those variables or state them as limitations. Do not infer a concrete Kubernetes selector or DNS fault without that evidence.
+
+## Recovery verification
+
+First establish the active configuration/artifact revision and whether EV3 completed. Capture a bounded search test through the intended gateway path, checking both status and expected result. Define the test population and window before executing it; for a teaching drill, ten controlled requests over two minutes can exercise the path, but do not prove all-user recovery or a production SLO.
+
+Require the defined drill checks to pass and repeat a previously failing controlled case. Record any remaining unknown coverage, such as geography, client identity, intermittent errors or failures before the observation boundary. If these are real operational checks, follow the service owner's access and change procedures; this fixture authorises no external actions.
+
+## Example update
+
+“Simulation update at 10:07 UTC: four of six observed gateway search attempts returned 503 during 10:01–10:03. Later health checks pass and one direct instance search succeeds, but gateway search recovery is not yet verified. The coordinator is confirming the active revision and assigning an owner to a bounded gateway search check. Cause and full user impact remain under investigation.”
+
+This acknowledges useful positive evidence without overstating it. Recovery can be verified before cause is fully explained; the two questions require related but distinct evidence.
+
+## Prevention and trade-offs
+
+Make dashboards name the route, population, window and signal they measure. Add a representative user-path check alongside internal health signals. Record requested, started and completed recovery actions separately, with revision identity and observed results.
+
+More checks add cost, maintenance and possible false alarms. Choose checks that answer an operational question and avoid claiming a tiny synthetic sample represents every user. A post-incident review should improve evidence collection and handoffs rather than blame the person who read the dashboard.
+
+[Return to incident](../recovery-scenario.md)

@@ -1,6 +1,6 @@
 # Day 6 solution: Write a bounded shell check
 
-Draft guidance; not independent review.
+
 
 ## Reasoning and expected result
 

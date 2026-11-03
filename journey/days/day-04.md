@@ -1,6 +1,6 @@
 # Day 4: Turn logs into observations
 
-`VW-DAY004` · beginner · 60 minutes · draft · free/local
+`VW-DAY004` · beginner · 60 minutes · free/local
 
 ## Learning outcomes
 

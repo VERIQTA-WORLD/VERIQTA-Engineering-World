@@ -1,6 +1,6 @@
 # Day 2 solution: Build a safe learning workspace
 
-Draft guidance; not independent review.
+
 
 ## Reasoning and expected result
 

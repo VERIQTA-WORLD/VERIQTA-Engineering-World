@@ -1,0 +1,65 @@
+# The recovery announcement that outran the evidence
+
+`VW-I006` · beginner · 40 minutes · free/offline
+
+## Symptoms and impact
+
+Simulation: a reading-list service is experiencing search failures after a release. A teammate announces recovery after seeing eight green dashboard checks. You are asked to decide what can be said publicly and what observation is still needed. No real service or customer data is involved.
+
+The impact established by the packet is failed search attempts at the gateway. The number of affected people, complete outage duration and data correctness are unknown. A request count is not a person count.
+
+## Available evidence
+
+All times below are UTC on the same fictional day. IDs identify records, not independent verification of their truth.
+
+| ID | Time | Supplied observation |
+| --- | --- | --- |
+| EV1 | 10:00 | Candidate configuration activated; release job reports success |
+| EV2 | 10:01–10:03 | Gateway records six `/search` attempts; four return 503, two return 200; response bodies not checked |
+| EV3 | 10:04 | Coordinator requests restoration of the previous configuration; completion and active revision are not recorded |
+| EV4 | 10:05–10:06 | Dashboard reports eight successful `/health` requests; no `/search` observation is included |
+| EV5 | 10:06 | One direct request to an application instance returns 200 and the expected search body; it bypasses the gateway |
+| EV6 | 10:07 | Teammate writes “all users recovered, configuration was definitely the cause” |
+
+A **direct request** reaches an application instance without following the gateway route used by normal clients. It can establish something useful about that instance while leaving the user route untested.
+
+## Investigation tasks
+
+1. Write a timeline separating observed events, requested actions and unsupported claims. Do not convert EV3 into a completed rollback.
+2. State the strongest impact claim EV2 supports. Explain why the two 200 statuses do not establish correct search results.
+3. Evaluate each part of EV6: all users recovered, recovery time, and configuration as definite cause. Name the missing evidence for each.
+4. Rank two alternatives: a candidate application/configuration problem, and a gateway/routing problem. Describe a controlled check and its prediction for each.
+5. Draft a brief factual update without a root-cause claim. State who coordinates the next decision and which evidence should be captured.
+6. Specify recovery acceptance criteria including active revision, intended request path, response correctness, window and remaining coverage limits.
+
+## Progressive hints
+
+<details>
+<summary>Hint 1: compare populations</summary>
+
+The green dashboard measures `/health`. The failures concern `/search`. Compare the route and observation boundary before comparing colours.
+
+</details>
+
+<details>
+<summary>Hint 2: distinguish an action request from its completion</summary>
+
+EV3 records intent. You still need evidence of which revision is active and when it became active. EV5 bypasses part of the failing path.
+
+</details>
+
+## Verification
+
+Your submission should cite EV IDs for each observation, mark unknowns, provide predictions that distinguish alternatives and avoid treating one successful direct request as all-user recovery. No command execution is required; this is a reasoning exercise with a complete separate solution.
+
+A defensible update can say investigation continues while reporting the observed failures. It should not withhold all information until root cause is known, and it should not turn a plausible explanation into a fact.
+
+## Reflection
+
+Could a real recovery occur without proving the original cause? Could the gateway path fail while a direct application request succeeds? What independent observation would most improve the next update?
+
+## Sources
+
+Primary references checked 2026-11-02: [Google SRE: monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/) and [effective troubleshooting](https://sre.google/sre-book/effective-troubleshooting/). This is an original fictional incident, not an adaptation of an undisclosed production event.
+
+[Solution](solutions/recovery-scenario.md) · [Section](README.md) · [Library](../../library/README.md)

@@ -1,6 +1,6 @@
 # Day 1 solution: Define an engineering outcome
 
-`VW-DAY001` · draft guidance · not independent review
+`VW-DAY001` · Solution and reasoning
 
 ## Example outcome contract
 

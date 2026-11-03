@@ -1,6 +1,6 @@
 # Day 3 solution: Navigate files and explain permissions
 
-Draft guidance; not independent review.
+
 
 ## Reasoning and expected result
 

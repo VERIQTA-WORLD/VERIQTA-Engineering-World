@@ -1,6 +1,6 @@
 # Validation: Engineering outcomes and evidence
 
-`VW-S001` · authored draft · independent review not completed
+`VW-S001` · independent review not completed
 
 ## Content and technical checks
 
@@ -15,14 +15,14 @@ The optional Python checker reads the 28-row fictional CSV. Expected eligible co
 Run from the repository root:
 
 ```sh
-python3 examples/engineering-evidence/check_evidence.py examples/engineering-evidence/requests.csv
+python3 ai/engineering-evidence/examples/check_evidence.py ai/engineering-evidence/examples/requests.csv
 python3 -m unittest discover -s tests -v
 python3 scripts/validate.py
 ```
 
 Tests cover the exact fixture, inclusive timing boundary, fast wrong answers, unknown correctness, health-check exclusions, zero traffic, duplicate IDs, invalid columns/values and CLI failure handling without dumping input. Tests run in memory or disposable directories and use no network, credentials or external model.
 
-Observed execution environment: macOS 26.2, Python 3.9.6. CI separately exercises the checker tests on its configured Ubuntu/Python runner when the published run completes. See the [machine-readable validation record](../../catalogue/validation.json) for observed results and dates.
+Observed execution environment: macOS 26.2, Python 3.9.6. CI separately exercises the checker tests on its configured Ubuntu/Python runner when the published run completes. See the [machine-readable validation record](../catalogue/validation.json) for observed results and dates.
 
 ## Limits
 
@@ -30,4 +30,4 @@ The checker verifies arithmetic and input handling only. It does not establish s
 
 The section is complete for its promised offline learning scope; its editorial state remains draft. Planned follow-on sections are not included in that claim.
 
-[Section](README.md) · [Checkpoint solution](../../solutions/section-engineering-evidence.md)
+[Section](../ai/engineering-evidence/README.md) · [Checkpoint solution](../ai/engineering-evidence/solutions/checkpoint.md)

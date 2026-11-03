@@ -614,8 +614,8 @@
     ],
     "sources_checked": "2026-11-02",
     "status": "draft",
-    "path": "library/vw-e007.md",
-    "solution": "solutions/vw-e007.md",
+    "path": "ai/engineering-evidence/release-evidence.md",
+    "solution": "ai/engineering-evidence/solutions/release-evidence.md",
     "execution": {
       "status": "partial",
       "environment": "macOS 26.2; Python 3.9.6; standard library, offline",
@@ -650,8 +650,8 @@
     ],
     "sources_checked": "2026-11-02",
     "status": "draft",
-    "path": "library/vw-i006.md",
-    "solution": "solutions/vw-i006.md",
+    "path": "ai/engineering-evidence/recovery-scenario.md",
+    "solution": "ai/engineering-evidence/solutions/recovery-scenario.md",
     "execution": {
       "status": "not-run",
       "environment": null,

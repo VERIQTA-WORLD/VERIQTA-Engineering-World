@@ -8,7 +8,7 @@ import tempfile
 import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
-spec=importlib.util.spec_from_file_location('evidence',ROOT/'examples/engineering-evidence/check_evidence.py')
+spec=importlib.util.spec_from_file_location('evidence',ROOT/'ai/engineering-evidence/examples/check_evidence.py')
 e=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(e)
 HEADER=','.join(e.FIELDS)+'\n'
@@ -19,9 +19,9 @@ class EvidenceTests(unittest.TestCase):
         return e.summarise(io.StringIO(HEADER+rows))
 
     def test_fixture_matches_independently_written_totals(self):
-        with (ROOT/'examples/engineering-evidence/requests.csv').open(newline='') as stream:
+        with (ROOT/'ai/engineering-evidence/examples/requests.csv').open(newline='') as stream:
             actual=e.summarise(stream)
-        expected=json.loads((ROOT/'examples/engineering-evidence/expected.json').read_text())
+        expected=json.loads((ROOT/'ai/engineering-evidence/examples/expected.json').read_text())
         self.assertEqual(actual,expected)
 
     def test_inclusive_limit_and_fast_wrong_result(self):
@@ -64,7 +64,7 @@ class EvidenceTests(unittest.TestCase):
     def test_cli_reads_fixture_without_writing(self):
         output=io.StringIO()
         with contextlib.redirect_stdout(output):
-            self.assertEqual(e.main([str(ROOT/'examples/engineering-evidence/requests.csv')]),0)
+            self.assertEqual(e.main([str(ROOT/'ai/engineering-evidence/examples/requests.csv')]),0)
         self.assertEqual(json.loads(output.getvalue())['baseline']['eligible'],12)
 
     def test_cli_errors_return_two_without_input_dump(self):

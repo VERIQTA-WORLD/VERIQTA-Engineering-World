@@ -1,6 +1,6 @@
 # Day 2: Build a safe learning workspace
 
-`VW-DAY002` · beginner · 60 minutes · draft · free/local
+`VW-DAY002` · beginner · 60 minutes · free/local
 
 ## Learning outcomes
 

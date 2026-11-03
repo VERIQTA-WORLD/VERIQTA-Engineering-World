@@ -2,6 +2,10 @@
 
 Use AI to support investigation, automation and configuration review while independently checking its work. Start offline with sanitised evidence and mocked responses; an account, paid API and real credentials are unnecessary.
 
+## Start with the foundations
+
+[Engineering outcomes and evidence](engineering-evidence/README.md) develops the reasoning needed to assess engineering claims before accepting AI recommendations. Follow its explanations, worked example, release-evidence exercise, recovery scenario and checkpoint.
+
 ## Choose a practice
 
 | Tool or workflow | Authored exercise | Independent check |
@@ -12,7 +16,7 @@ Use AI to support investigation, automation and configuration review while indep
 | Kubernetes | [Disprove a restart explanation](../library/vw-a004.md) | Match events to probe behavior; reject invented evidence |
 | Read-only assistant | [Build an evidence assistant](../library/vw-p002.md) | Validate paths, citations, factual claims and fallback behavior |
 
-These items are authored drafts. Mocks teach evaluation mechanics; they do not measure real model performance.
+Mocks teach evaluation mechanics; they do not measure real model performance.
 
 ## Four distinct approaches
 

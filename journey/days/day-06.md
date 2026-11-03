@@ -1,6 +1,6 @@
 # Day 6: Write a bounded shell check
 
-`VW-DAY006` · beginner · 60 minutes · draft · free/local
+`VW-DAY006` · beginner · 60 minutes · free/local
 
 ## Learning outcomes
 

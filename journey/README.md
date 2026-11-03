@@ -1,6 +1,6 @@
 # 100-Day DevOps Journey
 
-DevOps is one learning area within VERIQTA Engineering World. This is an original introductory sequence. Days 1–7 are authored drafts; later days are a complete curriculum plan, not finished lessons. Completion does not automatically establish professional competence.
+DevOps is one learning area within VERIQTA Engineering World. This is an original introductory sequence. Days 1–7 are available; later days are a complete curriculum plan, not finished lessons. Completion does not automatically establish professional competence.
 
 Allow about 60 minutes daily, with 90-minute final project sessions; repeat days or split activities as needed. AWS is the primary cloud context. Defaults use offline fixtures and local runtimes; paid cloud and real model calls are optional future extensions. Read each authored lesson for supported tools, verification and cleanup.
 
@@ -8,106 +8,106 @@ Allow about 60 minutes daily, with 90-minute final project sessions; repeat days
 
 | Day | Focus | Topic | Status |
 | --- | --- | --- | --- |
-| 1 | [Define an engineering outcome](days/day-01.md) | foundations | draft |
-| 2 | [Build a safe learning workspace](days/day-02.md) | foundations | draft |
-| 3 | [Navigate files and explain permissions](days/day-03.md) | foundations | draft |
-| 4 | [Turn logs into observations](days/day-04.md) | foundations | draft |
-| 5 | [Record a change with Git](days/day-05.md) | foundations | draft |
-| 6 | [Write a bounded shell check](days/day-06.md) | foundations | draft |
-| 7 | [Review the first evidence bundle](days/day-07.md) | foundations | draft |
-| 8 | [Processes and exit status](#day-8) | linux | planned |
-| 9 | [Environment variables and configuration](#day-9) | linux | planned |
-| 10 | [Users, groups and least privilege](#day-10) | linux | planned |
-| 11 | [Storage, inodes and filesystem boundaries](#day-11) | linux | planned |
-| 12 | [Service lifecycle and logs](#day-12) | linux | planned |
-| 13 | [Virtual machines and isolation](#day-13) | linux | planned |
-| 14 | [Linux troubleshooting checkpoint](#day-14) | linux | planned |
-| 15 | [Addresses, subnets and routes](#day-15) | networking | planned |
-| 16 | [Ports and TCP connections](#day-16) | networking | planned |
-| 17 | [DNS answers and caching](#day-17) | networking | planned |
-| 18 | [HTTP methods and status semantics](#day-18) | networking | planned |
-| 19 | [TLS identity and trust](#day-19) | networking | planned |
-| 20 | [APIs and authentication boundaries](#day-20) | networking | planned |
-| 21 | [Network troubleshooting review](#day-21) | networking | planned |
-| 22 | [Branches and small reviewable changes](#day-22) | git | planned |
-| 23 | [Resolve a conflict with intent](#day-23) | git | planned |
-| 24 | [GitHub review and issue workflows](#day-24) | git | planned |
-| 25 | [Undo safely and preserve evidence](#day-25) | git | planned |
-| 26 | [Quote inputs and handle failures](#day-26) | bash | planned |
-| 27 | [Compose small command-line tools](#day-27) | bash | planned |
-| 28 | [Python files and structured data](#day-28) | python | planned |
-| 29 | [Validate data before automation](#day-29) | python | planned |
-| 30 | [Test boundary conditions](#day-30) | python | planned |
-| 31 | [Scripted workflow checkpoint](#day-31) | python | planned |
-| 32 | [Cloud responsibility and cost boundaries](#day-32) | cloud | planned |
-| 33 | [AWS identity before resources](#day-33) | cloud | planned |
-| 34 | [AWS networking foundations](#day-34) | cloud | planned |
-| 35 | [Compute and load balancing](#day-35) | cloud | planned |
-| 36 | [Storage and database choices](#day-36) | cloud | planned |
-| 37 | [Availability and recovery objectives](#day-37) | cloud | planned |
-| 38 | [Cloud architecture review](#day-38) | cloud | planned |
-| 39 | [Build inputs and Maven lifecycle](#day-39) | delivery | planned |
-| 40 | [Artifacts and repository promotion](#day-40) | delivery | planned |
-| 41 | [Quality signals and SonarQube limits](#day-41) | delivery | planned |
-| 42 | [Images, layers and context](#day-42) | containers | planned |
-| 43 | [Build a small container locally](#day-43) | containers | planned |
-| 44 | [Container networks and volumes](#day-44) | containers | planned |
-| 45 | [Image identity and scanning](#day-45) | containers | planned |
-| 46 | [Container delivery checkpoint](#day-46) | containers | planned |
-| 47 | [CI events and trust boundaries](#day-47) | delivery | planned |
-| 48 | [GitHub Actions quality gate](#day-48) | delivery | planned |
-| 49 | [Jenkins and GitLab pipeline translation](#day-49) | delivery | planned |
-| 50 | [Promote once and deploy deliberately](#day-50) | delivery | planned |
-| 51 | [Pipeline troubleshooting day](#day-51) | delivery | planned |
-| 52 | [Terraform state and desired configuration](#day-52) | infrastructure | planned |
-| 53 | [Read a plan before applying](#day-53) | infrastructure | planned |
-| 54 | [Variables, modules and provider versions](#day-54) | infrastructure | planned |
-| 55 | [Drift and state safety](#day-55) | infrastructure | planned |
-| 56 | [Infrastructure review checkpoint](#day-56) | infrastructure | planned |
-| 57 | [Ansible inventory and desired state](#day-57) | configuration | planned |
-| 58 | [Check mode and idempotency](#day-58) | configuration | planned |
-| 59 | [Configuration and image trade-offs](#day-59) | configuration | planned |
-| 60 | [The Kubernetes object model](#day-60) | kubernetes | planned |
-| 61 | [Deploy to a disposable local cluster](#day-61) | kubernetes | planned |
-| 62 | [Services and EndpointSlices](#day-62) | kubernetes | planned |
-| 63 | [Configuration and secret boundaries](#day-63) | kubernetes | planned |
-| 64 | [Requests, limits and scheduling](#day-64) | kubernetes | planned |
-| 65 | [Startup, readiness and liveness](#day-65) | kubernetes | planned |
-| 66 | [Helm templates and values](#day-66) | kubernetes | planned |
-| 67 | [Rollouts and Kubernetes troubleshooting](#day-67) | kubernetes | planned |
-| 68 | [Local Kubernetes checkpoint and EKS context](#day-68) | kubernetes | planned |
-| 69 | [Git as reviewed desired state](#day-69) | gitops | planned |
-| 70 | [Argo CD drift and sync safety](#day-70) | gitops | planned |
-| 71 | [GitOps recovery checkpoint](#day-71) | gitops | planned |
-| 72 | [Signals and instrumentation](#day-72) | observability | planned |
-| 73 | [Prometheus counters and rates](#day-73) | observability | planned |
-| 74 | [Grafana dashboards with decisions](#day-74) | observability | planned |
-| 75 | [OpenTelemetry trace context](#day-75) | observability | planned |
-| 76 | [Alert behavior and missing evidence](#day-76) | observability | planned |
-| 77 | [Threat model the delivery path](#day-77) | security | planned |
-| 78 | [Secrets, dependencies and supply chain](#day-78) | security | planned |
-| 79 | [Policy and infrastructure scanning](#day-79) | security | planned |
-| 80 | [Define an SLI and provisional SLO](#day-80) | reliability | planned |
-| 81 | [Incident response and communication](#day-81) | reliability | planned |
-| 82 | [Backups and a restore rehearsal](#day-82) | reliability | planned |
-| 83 | [Capacity and dependency failures](#day-83) | reliability | planned |
-| 84 | [Responsible assistant boundaries](#day-84) | ai | planned |
-| 85 | [Mock-assisted review and evaluation](#day-85) | ai | planned |
-| 86 | [Retrieval and source provenance](#day-86) | ai | planned |
-| 87 | [Controlled tools and failure boundaries](#day-87) | ai | planned |
-| 88 | [Final project architecture checkpoint](#day-88) | reliability | planned |
-| 89 | [Final project delivery evidence](#day-89) | reliability | planned |
-| 90 | [Final project recovery and retrospective](#day-90) | reliability | planned |
-| 91 | [Rehearse the project runbook](#day-91) | reliability | planned |
-| 92 | [Verify configuration convergence](#day-92) | configuration | planned |
-| 93 | [Review a project infrastructure change](#day-93) | infrastructure | planned |
-| 94 | [Trace project artifact provenance](#day-94) | security | planned |
-| 95 | [Test the missing-signal case](#day-95) | observability | planned |
-| 96 | [Check rollback and data compatibility](#day-96) | reliability | planned |
-| 97 | [Evaluate a read-only project assistant](#day-97) | ai | planned |
-| 98 | [Test the learner-to-operator handoff](#day-98) | platform | planned |
-| 99 | [Compare environment assumptions](#day-99) | cloud | planned |
-| 100 | [Demonstrate the project and explain its limits](#day-100) | reliability | planned |
+| 1 | [Define an engineering outcome](days/day-01.md) | foundations | Available |
+| 2 | [Build a safe learning workspace](days/day-02.md) | foundations | Available |
+| 3 | [Navigate files and explain permissions](days/day-03.md) | foundations | Available |
+| 4 | [Turn logs into observations](days/day-04.md) | foundations | Available |
+| 5 | [Record a change with Git](days/day-05.md) | foundations | Available |
+| 6 | [Write a bounded shell check](days/day-06.md) | foundations | Available |
+| 7 | [Review the first evidence bundle](days/day-07.md) | foundations | Available |
+| 8 | [Processes and exit status](#day-8) | linux | Planned |
+| 9 | [Environment variables and configuration](#day-9) | linux | Planned |
+| 10 | [Users, groups and least privilege](#day-10) | linux | Planned |
+| 11 | [Storage, inodes and filesystem boundaries](#day-11) | linux | Planned |
+| 12 | [Service lifecycle and logs](#day-12) | linux | Planned |
+| 13 | [Virtual machines and isolation](#day-13) | linux | Planned |
+| 14 | [Linux troubleshooting checkpoint](#day-14) | linux | Planned |
+| 15 | [Addresses, subnets and routes](#day-15) | networking | Planned |
+| 16 | [Ports and TCP connections](#day-16) | networking | Planned |
+| 17 | [DNS answers and caching](#day-17) | networking | Planned |
+| 18 | [HTTP methods and status semantics](#day-18) | networking | Planned |
+| 19 | [TLS identity and trust](#day-19) | networking | Planned |
+| 20 | [APIs and authentication boundaries](#day-20) | networking | Planned |
+| 21 | [Network troubleshooting review](#day-21) | networking | Planned |
+| 22 | [Branches and small reviewable changes](#day-22) | git | Planned |
+| 23 | [Resolve a conflict with intent](#day-23) | git | Planned |
+| 24 | [GitHub review and issue workflows](#day-24) | git | Planned |
+| 25 | [Undo safely and preserve evidence](#day-25) | git | Planned |
+| 26 | [Quote inputs and handle failures](#day-26) | bash | Planned |
+| 27 | [Compose small command-line tools](#day-27) | bash | Planned |
+| 28 | [Python files and structured data](#day-28) | python | Planned |
+| 29 | [Validate data before automation](#day-29) | python | Planned |
+| 30 | [Test boundary conditions](#day-30) | python | Planned |
+| 31 | [Scripted workflow checkpoint](#day-31) | python | Planned |
+| 32 | [Cloud responsibility and cost boundaries](#day-32) | cloud | Planned |
+| 33 | [AWS identity before resources](#day-33) | cloud | Planned |
+| 34 | [AWS networking foundations](#day-34) | cloud | Planned |
+| 35 | [Compute and load balancing](#day-35) | cloud | Planned |
+| 36 | [Storage and database choices](#day-36) | cloud | Planned |
+| 37 | [Availability and recovery objectives](#day-37) | cloud | Planned |
+| 38 | [Cloud architecture review](#day-38) | cloud | Planned |
+| 39 | [Build inputs and Maven lifecycle](#day-39) | delivery | Planned |
+| 40 | [Artifacts and repository promotion](#day-40) | delivery | Planned |
+| 41 | [Quality signals and SonarQube limits](#day-41) | delivery | Planned |
+| 42 | [Images, layers and context](#day-42) | containers | Planned |
+| 43 | [Build a small container locally](#day-43) | containers | Planned |
+| 44 | [Container networks and volumes](#day-44) | containers | Planned |
+| 45 | [Image identity and scanning](#day-45) | containers | Planned |
+| 46 | [Container delivery checkpoint](#day-46) | containers | Planned |
+| 47 | [CI events and trust boundaries](#day-47) | delivery | Planned |
+| 48 | [GitHub Actions quality gate](#day-48) | delivery | Planned |
+| 49 | [Jenkins and GitLab pipeline translation](#day-49) | delivery | Planned |
+| 50 | [Promote once and deploy deliberately](#day-50) | delivery | Planned |
+| 51 | [Pipeline troubleshooting day](#day-51) | delivery | Planned |
+| 52 | [Terraform state and desired configuration](#day-52) | infrastructure | Planned |
+| 53 | [Read a plan before applying](#day-53) | infrastructure | Planned |
+| 54 | [Variables, modules and provider versions](#day-54) | infrastructure | Planned |
+| 55 | [Drift and state safety](#day-55) | infrastructure | Planned |
+| 56 | [Infrastructure review checkpoint](#day-56) | infrastructure | Planned |
+| 57 | [Ansible inventory and desired state](#day-57) | configuration | Planned |
+| 58 | [Check mode and idempotency](#day-58) | configuration | Planned |
+| 59 | [Configuration and image trade-offs](#day-59) | configuration | Planned |
+| 60 | [The Kubernetes object model](#day-60) | kubernetes | Planned |
+| 61 | [Deploy to a disposable local cluster](#day-61) | kubernetes | Planned |
+| 62 | [Services and EndpointSlices](#day-62) | kubernetes | Planned |
+| 63 | [Configuration and secret boundaries](#day-63) | kubernetes | Planned |
+| 64 | [Requests, limits and scheduling](#day-64) | kubernetes | Planned |
+| 65 | [Startup, readiness and liveness](#day-65) | kubernetes | Planned |
+| 66 | [Helm templates and values](#day-66) | kubernetes | Planned |
+| 67 | [Rollouts and Kubernetes troubleshooting](#day-67) | kubernetes | Planned |
+| 68 | [Local Kubernetes checkpoint and EKS context](#day-68) | kubernetes | Planned |
+| 69 | [Git as reviewed desired state](#day-69) | gitops | Planned |
+| 70 | [Argo CD drift and sync safety](#day-70) | gitops | Planned |
+| 71 | [GitOps recovery checkpoint](#day-71) | gitops | Planned |
+| 72 | [Signals and instrumentation](#day-72) | observability | Planned |
+| 73 | [Prometheus counters and rates](#day-73) | observability | Planned |
+| 74 | [Grafana dashboards with decisions](#day-74) | observability | Planned |
+| 75 | [OpenTelemetry trace context](#day-75) | observability | Planned |
+| 76 | [Alert behavior and missing evidence](#day-76) | observability | Planned |
+| 77 | [Threat model the delivery path](#day-77) | security | Planned |
+| 78 | [Secrets, dependencies and supply chain](#day-78) | security | Planned |
+| 79 | [Policy and infrastructure scanning](#day-79) | security | Planned |
+| 80 | [Define an SLI and provisional SLO](#day-80) | reliability | Planned |
+| 81 | [Incident response and communication](#day-81) | reliability | Planned |
+| 82 | [Backups and a restore rehearsal](#day-82) | reliability | Planned |
+| 83 | [Capacity and dependency failures](#day-83) | reliability | Planned |
+| 84 | [Responsible assistant boundaries](#day-84) | ai | Planned |
+| 85 | [Mock-assisted review and evaluation](#day-85) | ai | Planned |
+| 86 | [Retrieval and source provenance](#day-86) | ai | Planned |
+| 87 | [Controlled tools and failure boundaries](#day-87) | ai | Planned |
+| 88 | [Final project architecture checkpoint](#day-88) | reliability | Planned |
+| 89 | [Final project delivery evidence](#day-89) | reliability | Planned |
+| 90 | [Final project recovery and retrospective](#day-90) | reliability | Planned |
+| 91 | [Rehearse the project runbook](#day-91) | reliability | Planned |
+| 92 | [Verify configuration convergence](#day-92) | configuration | Planned |
+| 93 | [Review a project infrastructure change](#day-93) | infrastructure | Planned |
+| 94 | [Trace project artifact provenance](#day-94) | security | Planned |
+| 95 | [Test the missing-signal case](#day-95) | observability | Planned |
+| 96 | [Check rollback and data compatibility](#day-96) | reliability | Planned |
+| 97 | [Evaluate a read-only project assistant](#day-97) | ai | Planned |
+| 98 | [Test the learner-to-operator handoff](#day-98) | platform | Planned |
+| 99 | [Compare environment assumptions](#day-99) | cloud | Planned |
+| 100 | [Demonstrate the project and explain its limits](#day-100) | reliability | Planned |
 
 ## Daily scope and outcomes
 
@@ -117,7 +117,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 1
 
-**Define an engineering outcome** · draft · 60 minutes
+**Define an engineering outcome** · Available · 60 minutes
 
 - Outcomes: Distinguish an engineering output from a user outcome. Define a scoped, falsifiable check and a feedback owner.
 - Prerequisites: None.
@@ -125,12 +125,12 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 - Core task: Map a small service change from request to feedback; identify one user outcome.
 - Success: The note defines behavior, eligible requests, observation boundary and window. The feedback map, bounded stop condition and one limitation can be explained without claiming an unrun test succeeded.
 - Reflection: What is established by your evidence? What would you test next, and why?
-- Related practice: [VW-C001](../library/vw-c001.md) · [VW-E007](../library/vw-e007.md) · [VW-I006](../library/vw-i006.md).
+- Related practice: [VW-C001](../library/vw-c001.md) · [VW-E007](../ai/engineering-evidence/release-evidence.md) · [VW-I006](../ai/engineering-evidence/recovery-scenario.md).
 - [Official reference](https://sre.google/sre-book/monitoring-distributed-systems/).
 
 ### Day 2
 
-**Build a safe learning workspace** · draft · 60 minutes
+**Build a safe learning workspace** · Available · 60 minutes
 
 - Outcomes: Create a scoped workspace and inventory your local tools without credentials Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY001.
@@ -143,7 +143,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 3
 
-**Navigate files and explain permissions** · draft · 60 minutes
+**Navigate files and explain permissions** · Available · 60 minutes
 
 - Outcomes: Create a directory tree; compare file and directory permissions Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY002.
@@ -156,7 +156,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 4
 
-**Turn logs into observations** · draft · 60 minutes
+**Turn logs into observations** · Available · 60 minutes
 
 - Outcomes: Filter a tiny log fixture and separate observations from hypotheses Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY003.
@@ -169,7 +169,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 5
 
-**Record a change with Git** · draft · 60 minutes
+**Record a change with Git** · Available · 60 minutes
 
 - Outcomes: Create and inspect two local commits in a disposable repository Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY004.
@@ -182,7 +182,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 6
 
-**Write a bounded shell check** · draft · 60 minutes
+**Write a bounded shell check** · Available · 60 minutes
 
 - Outcomes: Write a script that checks one file and returns meaningful exit codes Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY005.
@@ -195,7 +195,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 7
 
-**Review the first evidence bundle** · draft · 60 minutes
+**Review the first evidence bundle** · Available · 60 minutes
 
 - Outcomes: Investigate a broken handoff using your workspace, Git and shell evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY006.
@@ -208,7 +208,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 8
 
-**Processes and exit status** · planned · 60 minutes
+**Processes and exit status** · Planned · 60 minutes
 
 - Outcomes: Start a disposable process and capture its exit status Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY007.
@@ -221,7 +221,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 9
 
-**Environment variables and configuration** · planned · 60 minutes
+**Environment variables and configuration** · Planned · 60 minutes
 
 - Outcomes: Compare a process environment with explicit configuration Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY008.
@@ -234,7 +234,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 10
 
-**Users, groups and least privilege** · planned · 60 minutes
+**Users, groups and least privilege** · Planned · 60 minutes
 
 - Outcomes: Design a service account permission table without changing host users Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY009.
@@ -247,7 +247,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 11
 
-**Storage, inodes and filesystem boundaries** · planned · 60 minutes
+**Storage, inodes and filesystem boundaries** · Planned · 60 minutes
 
 - Outcomes: Compare directory size, filesystem capacity and inode evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY010.
@@ -260,7 +260,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 12
 
-**Service lifecycle and logs** · planned · 60 minutes
+**Service lifecycle and logs** · Planned · 60 minutes
 
 - Outcomes: Read a simulated systemd unit and match failure logs to restart behavior Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY011.
@@ -273,7 +273,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 13
 
-**Virtual machines and isolation** · planned · 60 minutes
+**Virtual machines and isolation** · Planned · 60 minutes
 
 - Outcomes: Compare VM, process and container isolation for a lab workload Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY012.
@@ -286,7 +286,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 14
 
-**Linux troubleshooting checkpoint** · planned · 60 minutes
+**Linux troubleshooting checkpoint** · Planned · 60 minutes
 
 - Outcomes: Diagnose a simulated full-disk service failure from bounded evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY013.
@@ -299,7 +299,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 15
 
-**Addresses, subnets and routes** · planned · 60 minutes
+**Addresses, subnets and routes** · Planned · 60 minutes
 
 - Outcomes: Trace a sample packet through a documented subnet and route table Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY014.
@@ -312,7 +312,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 16
 
-**Ports and TCP connections** · planned · 60 minutes
+**Ports and TCP connections** · Planned · 60 minutes
 
 - Outcomes: Compare listener, timeout and refused-connection evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY015.
@@ -325,7 +325,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 17
 
-**DNS answers and caching** · planned · 60 minutes
+**DNS answers and caching** · Planned · 60 minutes
 
 - Outcomes: Compare supplied resolver answers and TTLs across two environments Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY016.
@@ -338,7 +338,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 18
 
-**HTTP methods and status semantics** · planned · 60 minutes
+**HTTP methods and status semantics** · Planned · 60 minutes
 
 - Outcomes: Classify sample HTTP requests by safety, idempotency and response meaning Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY017.
@@ -351,7 +351,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 19
 
-**TLS identity and trust** · planned · 60 minutes
+**TLS identity and trust** · Planned · 60 minutes
 
 - Outcomes: Inspect a sanitised certificate summary for hostname and expiry errors Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY018.
@@ -364,7 +364,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 20
 
-**APIs and authentication boundaries** · planned · 60 minutes
+**APIs and authentication boundaries** · Planned · 60 minutes
 
 - Outcomes: Design a scoped token exchange and redact a sample request Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY019.
@@ -377,7 +377,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 21
 
-**Network troubleshooting review** · planned · 60 minutes
+**Network troubleshooting review** · Planned · 60 minutes
 
 - Outcomes: Locate the failing request boundary from DNS, TLS and HTTP evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY020.
@@ -390,7 +390,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 22
 
-**Branches and small reviewable changes** · planned · 60 minutes
+**Branches and small reviewable changes** · Planned · 60 minutes
 
 - Outcomes: Create two disposable branches and compare diffs Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY021.
@@ -403,7 +403,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 23
 
-**Resolve a conflict with intent** · planned · 60 minutes
+**Resolve a conflict with intent** · Planned · 60 minutes
 
 - Outcomes: Resolve a local conflict while preserving both stated requirements Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY022.
@@ -416,7 +416,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 24
 
-**GitHub review and issue workflows** · planned · 60 minutes
+**GitHub review and issue workflows** · Planned · 60 minutes
 
 - Outcomes: Draft a review checklist and an actionable issue offline Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY023.
@@ -429,7 +429,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 25
 
-**Undo safely and preserve evidence** · planned · 60 minutes
+**Undo safely and preserve evidence** · Planned · 60 minutes
 
 - Outcomes: Compare revert, restore and reset in a disposable repository Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY024.
@@ -442,7 +442,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 26
 
-**Quote inputs and handle failures** · planned · 60 minutes
+**Quote inputs and handle failures** · Planned · 60 minutes
 
 - Outcomes: Test a script with spaces, empty input and failed commands Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY025.
@@ -455,7 +455,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 27
 
-**Compose small command-line tools** · planned · 60 minutes
+**Compose small command-line tools** · Planned · 60 minutes
 
 - Outcomes: Transform a fixture with explicit pipeline failure handling Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY026.
@@ -468,7 +468,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 28
 
-**Python files and structured data** · planned · 60 minutes
+**Python files and structured data** · Planned · 60 minutes
 
 - Outcomes: Parse a small JSON fixture and report selected fields Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY027.
@@ -481,7 +481,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 29
 
-**Validate data before automation** · planned · 60 minutes
+**Validate data before automation** · Planned · 60 minutes
 
 - Outcomes: Reject invalid types and missing fields with useful exit codes Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY028.
@@ -494,7 +494,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 30
 
-**Test boundary conditions** · planned · 60 minutes
+**Test boundary conditions** · Planned · 60 minutes
 
 - Outcomes: Write tests for empty, malformed and unexpected input Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY029.
@@ -507,7 +507,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 31
 
-**Scripted workflow checkpoint** · planned · 60 minutes
+**Scripted workflow checkpoint** · Planned · 60 minutes
 
 - Outcomes: Combine shell and Python into a local evidence collection task Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY030.
@@ -520,7 +520,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 32
 
-**Cloud responsibility and cost boundaries** · planned · 60 minutes
+**Cloud responsibility and cost boundaries** · Planned · 60 minutes
 
 - Outcomes: Map customer/provider responsibilities and write a no-spend lab plan Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY031.
@@ -533,7 +533,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 33
 
-**AWS identity before resources** · planned · 60 minutes
+**AWS identity before resources** · Planned · 60 minutes
 
 - Outcomes: Review an example IAM policy for unnecessary authority Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY032.
@@ -546,7 +546,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 34
 
-**AWS networking foundations** · planned · 60 minutes
+**AWS networking foundations** · Planned · 60 minutes
 
 - Outcomes: Draw a VPC request path with subnet, route and security group boundaries Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY033.
@@ -559,7 +559,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 35
 
-**Compute and load balancing** · planned · 60 minutes
+**Compute and load balancing** · Planned · 60 minutes
 
 - Outcomes: Compare a single instance and a load-balanced service against requirements Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY034.
@@ -572,7 +572,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 36
 
-**Storage and database choices** · planned · 60 minutes
+**Storage and database choices** · Planned · 60 minutes
 
 - Outcomes: Choose storage semantics and backup requirements for a sample service Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY035.
@@ -585,7 +585,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 37
 
-**Availability and recovery objectives** · planned · 60 minutes
+**Availability and recovery objectives** · Planned · 60 minutes
 
 - Outcomes: Define acceptable loss and recovery time for a fictional workload Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY036.
@@ -598,7 +598,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 38
 
-**Cloud architecture review** · planned · 60 minutes
+**Cloud architecture review** · Planned · 60 minutes
 
 - Outcomes: Review a costed fictional AWS design; compare Azure and GCP terminology Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY037.
@@ -611,7 +611,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 39
 
-**Build inputs and Maven lifecycle** · planned · 60 minutes
+**Build inputs and Maven lifecycle** · Planned · 60 minutes
 
 - Outcomes: Trace source through compile, test and package using a sample POM Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY038.
@@ -624,7 +624,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 40
 
-**Artifacts and repository promotion** · planned · 60 minutes
+**Artifacts and repository promotion** · Planned · 60 minutes
 
 - Outcomes: Design versioning and promotion in an Artifactory-style repository Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY039.
@@ -637,7 +637,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 41
 
-**Quality signals and SonarQube limits** · planned · 60 minutes
+**Quality signals and SonarQube limits** · Planned · 60 minutes
 
 - Outcomes: Distinguish static quality findings from runtime correctness Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY040.
@@ -650,7 +650,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 42
 
-**Images, layers and context** · planned · 60 minutes
+**Images, layers and context** · Planned · 60 minutes
 
 - Outcomes: Review a Docker build context for accidental secret inclusion Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY041.
@@ -663,7 +663,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 43
 
-**Build a small container locally** · planned · 60 minutes
+**Build a small container locally** · Planned · 60 minutes
 
 - Outcomes: Build a reviewed local service image and record runtime/version evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY042.
@@ -676,7 +676,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 44
 
-**Container networks and volumes** · planned · 60 minutes
+**Container networks and volumes** · Planned · 60 minutes
 
 - Outcomes: Test persistence and connectivity in a disposable local setup Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY043.
@@ -689,7 +689,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 45
 
-**Image identity and scanning** · planned · 60 minutes
+**Image identity and scanning** · Planned · 60 minutes
 
 - Outcomes: Compare tag, digest, provenance and vulnerability evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY044.
@@ -702,7 +702,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 46
 
-**Container delivery checkpoint** · planned · 60 minutes
+**Container delivery checkpoint** · Planned · 60 minutes
 
 - Outcomes: Reproduce a candidate container release and document rollback limits Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY045.
@@ -715,7 +715,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 47
 
-**CI events and trust boundaries** · planned · 60 minutes
+**CI events and trust boundaries** · Planned · 60 minutes
 
 - Outcomes: Compare fork PR and trusted deployment contexts Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY046.
@@ -728,7 +728,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 48
 
-**GitHub Actions quality gate** · planned · 60 minutes
+**GitHub Actions quality gate** · Planned · 60 minutes
 
 - Outcomes: Add deterministic tests to a disposable workflow with minimal permissions Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY047.
@@ -741,7 +741,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 49
 
-**Jenkins and GitLab pipeline translation** · planned · 60 minutes
+**Jenkins and GitLab pipeline translation** · Planned · 60 minutes
 
 - Outcomes: Translate stage intent without assuming identical security models Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY048.
@@ -754,7 +754,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 50
 
-**Promote once and deploy deliberately** · planned · 60 minutes
+**Promote once and deploy deliberately** · Planned · 60 minutes
 
 - Outcomes: Record source, artifact and configuration identity for promotion Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY049.
@@ -767,7 +767,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 51
 
-**Pipeline troubleshooting day** · planned · 60 minutes
+**Pipeline troubleshooting day** · Planned · 60 minutes
 
 - Outcomes: Diagnose a false-green pipeline and leaked fake sentinel Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY050.
@@ -780,7 +780,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 52
 
-**Terraform state and desired configuration** · planned · 60 minutes
+**Terraform state and desired configuration** · Planned · 60 minutes
 
 - Outcomes: Explain resource addresses and inspect a sanitised state summary Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY051.
@@ -793,7 +793,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 53
 
-**Read a plan before applying** · planned · 60 minutes
+**Read a plan before applying** · Planned · 60 minutes
 
 - Outcomes: Classify add, update, replace and destroy effects in a fixture Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY052.
@@ -806,7 +806,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 54
 
-**Variables, modules and provider versions** · planned · 60 minutes
+**Variables, modules and provider versions** · Planned · 60 minutes
 
 - Outcomes: Design a small reusable interface with pinned constraints Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY053.
@@ -819,7 +819,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 55
 
-**Drift and state safety** · planned · 60 minutes
+**Drift and state safety** · Planned · 60 minutes
 
 - Outcomes: Distinguish config changes, drift and address refactors in plan evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY054.
@@ -832,7 +832,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 56
 
-**Infrastructure review checkpoint** · planned · 60 minutes
+**Infrastructure review checkpoint** · Planned · 60 minutes
 
 - Outcomes: Approve or reject a fictional stateful replacement with explicit evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY055.
@@ -845,7 +845,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 57
 
-**Ansible inventory and desired state** · planned · 60 minutes
+**Ansible inventory and desired state** · Planned · 60 minutes
 
 - Outcomes: Review a local-only inventory and an idempotent file task Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY056.
@@ -858,7 +858,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 58
 
-**Check mode and idempotency** · planned · 60 minutes
+**Check mode and idempotency** · Planned · 60 minutes
 
 - Outcomes: Predict first and second run changes; identify check-mode limitations Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY057.
@@ -871,7 +871,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 59
 
-**Configuration and image trade-offs** · planned · 60 minutes
+**Configuration and image trade-offs** · Planned · 60 minutes
 
 - Outcomes: Compare Ansible convergence with a Packer image pipeline Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY058.
@@ -884,7 +884,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 60
 
-**The Kubernetes object model** · planned · 60 minutes
+**The Kubernetes object model** · Planned · 60 minutes
 
 - Outcomes: Connect desired state, controllers and observed status Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY059.
@@ -897,7 +897,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 61
 
-**Deploy to a disposable local cluster** · planned · 60 minutes
+**Deploy to a disposable local cluster** · Planned · 60 minutes
 
 - Outcomes: Deploy a small reviewed app in a dedicated local namespace Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY060.
@@ -910,7 +910,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 62
 
-**Services and EndpointSlices** · planned · 60 minutes
+**Services and EndpointSlices** · Planned · 60 minutes
 
 - Outcomes: Verify selector matching and ready endpoints Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY061.
@@ -923,7 +923,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 63
 
-**Configuration and secret boundaries** · planned · 60 minutes
+**Configuration and secret boundaries** · Planned · 60 minutes
 
 - Outcomes: Separate nonsecret config from secret references and access controls Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY062.
@@ -936,7 +936,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 64
 
-**Requests, limits and scheduling** · planned · 60 minutes
+**Requests, limits and scheduling** · Planned · 60 minutes
 
 - Outcomes: Explain a Pending pod using node and resource evidence Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY063.
@@ -949,7 +949,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 65
 
-**Startup, readiness and liveness** · planned · 60 minutes
+**Startup, readiness and liveness** · Planned · 60 minutes
 
 - Outcomes: Test a slow-start scenario without hiding a stuck process Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY064.
@@ -962,7 +962,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 66
 
-**Helm templates and values** · planned · 60 minutes
+**Helm templates and values** · Planned · 60 minutes
 
 - Outcomes: Render a chart and check selectors and ports before applying Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY065.
@@ -975,7 +975,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 67
 
-**Rollouts and Kubernetes troubleshooting** · planned · 60 minutes
+**Rollouts and Kubernetes troubleshooting** · Planned · 60 minutes
 
 - Outcomes: Investigate a failed rollout and verify a bounded recovery Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY066.
@@ -988,7 +988,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 68
 
-**Local Kubernetes checkpoint and EKS context** · planned · 60 minutes
+**Local Kubernetes checkpoint and EKS context** · Planned · 60 minutes
 
 - Outcomes: Package local evidence and identify managed-control-plane differences Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY067.
@@ -1001,7 +1001,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 69
 
-**Git as reviewed desired state** · planned · 60 minutes
+**Git as reviewed desired state** · Planned · 60 minutes
 
 - Outcomes: Separate artifact build, config change and reconciliation Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY068.
@@ -1014,7 +1014,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 70
 
-**Argo CD drift and sync safety** · planned · 60 minutes
+**Argo CD drift and sync safety** · Planned · 60 minutes
 
 - Outcomes: Interpret a fictional out-of-sync diff before choosing recovery Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY069.
@@ -1027,7 +1027,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 71
 
-**GitOps recovery checkpoint** · planned · 60 minutes
+**GitOps recovery checkpoint** · Planned · 60 minutes
 
 - Outcomes: Explain revert, reconciliation and data compatibility limits Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY070.
@@ -1040,7 +1040,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 72
 
-**Signals and instrumentation** · planned · 60 minutes
+**Signals and instrumentation** · Planned · 60 minutes
 
 - Outcomes: Choose logs, metrics and traces for a specific user failure Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY071.
@@ -1053,7 +1053,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 73
 
-**Prometheus counters and rates** · planned · 60 minutes
+**Prometheus counters and rates** · Planned · 60 minutes
 
 - Outcomes: Interpret counter reset and aggregation using fixture data Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY072.
@@ -1066,7 +1066,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 74
 
-**Grafana dashboards with decisions** · planned · 60 minutes
+**Grafana dashboards with decisions** · Planned · 60 minutes
 
 - Outcomes: Design panels that answer an operational question Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY073.
@@ -1079,7 +1079,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 75
 
-**OpenTelemetry trace context** · planned · 60 minutes
+**OpenTelemetry trace context** · Planned · 60 minutes
 
 - Outcomes: Find a missing span boundary in a sanitised trace Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY074.
@@ -1092,7 +1092,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 76
 
-**Alert behavior and missing evidence** · planned · 60 minutes
+**Alert behavior and missing evidence** · Planned · 60 minutes
 
 - Outcomes: Test error, zero-traffic and missing-telemetry cases Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY075.
@@ -1105,7 +1105,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 77
 
-**Threat model the delivery path** · planned · 60 minutes
+**Threat model the delivery path** · Planned · 60 minutes
 
 - Outcomes: Identify assets, actors and trust boundaries for the lab Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY076.
@@ -1118,7 +1118,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 78
 
-**Secrets, dependencies and supply chain** · planned · 60 minutes
+**Secrets, dependencies and supply chain** · Planned · 60 minutes
 
 - Outcomes: Review a secret-handling and artifact-provenance checklist Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY077.
@@ -1131,7 +1131,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 79
 
-**Policy and infrastructure scanning** · planned · 60 minutes
+**Policy and infrastructure scanning** · Planned · 60 minutes
 
 - Outcomes: Separate scanner findings, policy decisions and risk acceptance Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY078.
@@ -1144,7 +1144,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 80
 
-**Define an SLI and provisional SLO** · planned · 60 minutes
+**Define an SLI and provisional SLO** · Planned · 60 minutes
 
 - Outcomes: Compute a request-based budget with explicit eligibility Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY079.
@@ -1157,7 +1157,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 81
 
-**Incident response and communication** · planned · 60 minutes
+**Incident response and communication** · Planned · 60 minutes
 
 - Outcomes: Draft a factual timeline and recovery decision log Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY080.
@@ -1170,7 +1170,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 82
 
-**Backups and a restore rehearsal** · planned · 60 minutes
+**Backups and a restore rehearsal** · Planned · 60 minutes
 
 - Outcomes: Restore a tiny local dataset and verify integrity and app readability Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY081.
@@ -1183,7 +1183,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 83
 
-**Capacity and dependency failures** · planned · 60 minutes
+**Capacity and dependency failures** · Planned · 60 minutes
 
 - Outcomes: Reason about queue growth, cache loss and database saturation Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY082.
@@ -1196,7 +1196,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 84
 
-**Responsible assistant boundaries** · planned · 60 minutes
+**Responsible assistant boundaries** · Planned · 60 minutes
 
 - Outcomes: Evaluate an evidence-grounded response and reject injected instructions Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY083.
@@ -1209,7 +1209,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 85
 
-**Mock-assisted review and evaluation** · planned · 60 minutes
+**Mock-assisted review and evaluation** · Planned · 60 minutes
 
 - Outcomes: Test structured outputs, timeout fallback and unsupported citations Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY084.
@@ -1222,7 +1222,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 86
 
-**Retrieval and source provenance** · planned · 60 minutes
+**Retrieval and source provenance** · Planned · 60 minutes
 
 - Outcomes: Retrieve approved runbook passages and verify each evidence citation Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY085.
@@ -1235,7 +1235,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 87
 
-**Controlled tools and failure boundaries** · planned · 60 minutes
+**Controlled tools and failure boundaries** · Planned · 60 minutes
 
 - Outcomes: Design read-only tool permissions, approval boundaries and an audit record Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY086.
@@ -1248,7 +1248,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 88
 
-**Final project architecture checkpoint** · planned · 90 minutes
+**Final project architecture checkpoint** · Planned · 90 minutes
 
 - Outcomes: Specify a small delivery system, acceptance criteria and cost boundaries Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY087.
@@ -1261,7 +1261,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 89
 
-**Final project delivery evidence** · planned · 90 minutes
+**Final project delivery evidence** · Planned · 90 minutes
 
 - Outcomes: Assemble source, tests, artifact, configuration and deployment records Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY088.
@@ -1274,7 +1274,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 90
 
-**Final project recovery and retrospective** · planned · 90 minutes
+**Final project recovery and retrospective** · Planned · 90 minutes
 
 - Outcomes: Demonstrate a bounded failure, recovery and honest portfolio limitations Explain the evidence and one limitation of the result.
 - Prerequisites: VW-DAY089.
@@ -1287,7 +1287,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 91
 
-**Rehearse the project runbook** · planned · 60 minutes
+**Rehearse the project runbook** · Planned · 60 minutes
 
 - Outcomes: Walk through detection, triage, recovery and escalation using your integrated project evidence. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY090.
@@ -1300,7 +1300,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 92
 
-**Verify configuration convergence** · planned · 60 minutes
+**Verify configuration convergence** · Planned · 60 minutes
 
 - Outcomes: Compare first and second local configuration runs; document any non-idempotent task. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY091.
@@ -1313,7 +1313,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 93
 
-**Review a project infrastructure change** · planned · 60 minutes
+**Review a project infrastructure change** · Planned · 60 minutes
 
 - Outcomes: Review a sanitised infrastructure plan and identify stateful lifecycle effects before approval. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY092.
@@ -1326,7 +1326,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 94
 
-**Trace project artifact provenance** · planned · 60 minutes
+**Trace project artifact provenance** · Planned · 60 minutes
 
 - Outcomes: Connect source revision, test result and artifact identity; identify one unverified supply-chain assumption. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY093.
@@ -1339,7 +1339,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 95
 
-**Test the missing-signal case** · planned · 60 minutes
+**Test the missing-signal case** · Planned · 60 minutes
 
 - Outcomes: Replay an offline telemetry-loss fixture and specify how the project detects unknown health. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY094.
@@ -1352,7 +1352,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 96
 
-**Check rollback and data compatibility** · planned · 60 minutes
+**Check rollback and data compatibility** · Planned · 60 minutes
 
 - Outcomes: Test a tiny local data restore and explain why code rollback alone may not recover a service. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY095.
@@ -1365,7 +1365,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 97
 
-**Evaluate a read-only project assistant** · planned · 60 minutes
+**Evaluate a read-only project assistant** · Planned · 60 minutes
 
 - Outcomes: Score mocked suggestions against project evidence, injected instructions and a no-answer case. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY096.
@@ -1378,7 +1378,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 98
 
-**Test the learner-to-operator handoff** · planned · 60 minutes
+**Test the learner-to-operator handoff** · Planned · 60 minutes
 
 - Outcomes: Ask a peer to follow a bounded project runbook or self-audit it from a clean local directory. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY097.
@@ -1391,7 +1391,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 99
 
-**Compare environment assumptions** · planned · 60 minutes
+**Compare environment assumptions** · Planned · 60 minutes
 
 - Outcomes: Map your AWS-context design to Azure and Google Cloud concepts without claiming equivalent services or provisioning resources. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY098.
@@ -1404,7 +1404,7 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 ### Day 100
 
-**Demonstrate the project and explain its limits** · planned · 90 minutes
+**Demonstrate the project and explain its limits** · Planned · 90 minutes
 
 - Outcomes: Present a reproducible evidence bundle, one failure/recovery result and a candid final retrospective. Explain which claims your evidence supports and what remains untested.
 - Prerequisites: VW-DAY099.

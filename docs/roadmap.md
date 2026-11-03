@@ -4,7 +4,7 @@ The library grows by useful outcomes, not file count. Planned records are not co
 
 ## Section sequence takes precedence
 
-Follow the [section development plan](section-plan.md), completing and publishing one coherent section before requesting approval for the next. The [Engineering outcomes and evidence](../foundations/engineering-evidence/README.md) section is the first developed unit; Safe local learning environments is next. The older batch proposals below remain future work, not authority to start multiple sections.
+Follow the [section development plan](section-plan.md), completing and publishing one coherent section before requesting approval for the next. The [Engineering outcomes and evidence](../ai/engineering-evidence/README.md) section is the first developed unit; Safe local learning environments is next. The older batch proposals below remain future work, not authority to start multiple sections.
 
 ## Future work after the prerequisite sections
 

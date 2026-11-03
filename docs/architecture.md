@@ -4,11 +4,11 @@ VERIQTA Engineering World is an engineering learning library. DevOps is the firs
 
 ## Canonical architecture
 
-- `foundations/`: coherent foundational sections linking canonical practice.
 - `journey/`: the DevOps sequence and seven authored daily lessons.
 - `library/`: independent canonical items; paths link here rather than copying tasks.
 - `solutions/`: separate answers to preserve independent practice.
-- `ai/` and `paths/`: curated navigation into the same canonical items.
+- `ai/`: AI learning sections with their exercises, examples and solutions.
+- `paths/`: curated routes through canonical learning material.
 - `catalogue/`: source records, planned domain expansions and separate execution evidence.
 - `docs/`: contributor standards, attribution, roadmap and maintenance information.
 - `scripts/`, `tests/`, `.github/`: repository validation and contribution workflows.

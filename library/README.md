@@ -1,8 +1,8 @@
 # Engineering practice library
 
-For a connected beginner sequence, start with [Engineering outcomes and evidence](../foundations/engineering-evidence/README.md). The [section plan](../docs/section-plan.md) shows the wider progression.
+For a connected beginner sequence, start with [Engineering outcomes and evidence](../ai/engineering-evidence/README.md). The [section plan](../docs/section-plan.md) shows the wider progression.
 
-One canonical copy of every activity. Authored entries below are drafts; try the task before viewing its separate solution. No account is needed.
+One canonical copy of every activity. Try the task before viewing its separate solution. No account is needed.
 
 ## By topic
 
@@ -12,22 +12,22 @@ One canonical copy of every activity. Authored entries below are drafts; try the
 
 Engineering foundations. Planned expansion: DevOps principles, workflows, evidence, YAML, JSON, APIs and authentication, storage, virtualisation.
 
-- [VW-C001: A green deployment and a failed user request](vw-c001.md) — beginner, 25 min, concept, draft.
-- [VW-E007: Review a release evidence packet](vw-e007.md) — beginner, 55 min, exercise, draft.
-- [VW-I006: The recovery announcement that outran the evidence](vw-i006.md) — beginner, 40 min, incident, draft.
+- [VW-C001: A green deployment and a failed user request](vw-c001.md) — beginner, 25 min, concept.
+- [VW-E007: Review a release evidence packet](../ai/engineering-evidence/release-evidence.md) — beginner, 55 min, exercise.
+- [VW-I006: The recovery announcement that outran the evidence](../ai/engineering-evidence/recovery-scenario.md) — beginner, 40 min, incident.
 
 ## Linux
 
 Linux and operating systems. Planned expansion: Linux, system administration, filesystems, processes, users, permissions.
 
-- [VW-E001: Find the large file without filling a disk](vw-e001.md) — beginner, 35 min, exercise, draft.
-- [VW-A001: Challenge an AI Linux disk diagnosis](vw-a001.md) — beginner, 45 min, ai-exercise, draft.
+- [VW-E001: Find the large file without filling a disk](vw-e001.md) — beginner, 35 min, exercise.
+- [VW-A001: Challenge an AI Linux disk diagnosis](vw-a001.md) — beginner, 45 min, ai-exercise.
 
 ## Networking
 
 Networking and web protocols. Planned expansion: Subnets, routing, DNS, HTTP, TLS, proxies, authentication.
 
-- [VW-C002: Why DNS success does not prove HTTPS health](vw-c002.md) — beginner, 25 min, concept, draft.
+- [VW-C002: Why DNS success does not prove HTTPS health](vw-c002.md) — beginner, 25 min, concept.
 
 ## Git
 
@@ -45,35 +45,35 @@ No canonical library item authored yet; this topic remains planned.
 
 Python and structured data. Planned expansion: JSON validation, API clients, tests, packaging.
 
-- [VW-E002: Reject malformed release manifests](vw-e002.md) — beginner, 45 min, exercise, draft.
+- [VW-E002: Reject malformed release manifests](vw-e002.md) — beginner, 45 min, exercise.
 
 ## Cloud
 
 Cloud foundations. Planned expansion: AWS primary, IAM, VPC, compute, storage, databases, load balancing, resilience, backup, cost, Azure and Google Cloud progressively.
 
-- [VW-A002: Review an AI IAM policy shortcut](vw-a002.md) — intermediate, 45 min, ai-exercise, draft.
+- [VW-A002: Review an AI IAM policy shortcut](vw-a002.md) — intermediate, 45 min, ai-exercise.
 
 ## Delivery
 
 Builds and continuous delivery. Planned expansion: Maven, JFrog Artifactory, SonarQube, Jenkins, GitHub Actions, GitLab CI/CD.
 
-- [VW-E003: Review a CI gate before giving it authority](vw-e003.md) — intermediate, 40 min, exercise, draft.
-- [VW-I002: A passing pipeline publishes a secret](vw-i002.md) — intermediate, 45 min, incident, draft.
-- [VW-D001: Choose a release gate for a small service](vw-d001.md) — intermediate, 40 min, decision, draft.
-- [VW-P001: Build a release evidence bundle](vw-p001.md) — intermediate, 150 min, project, draft.
+- [VW-E003: Review a CI gate before giving it authority](vw-e003.md) — intermediate, 40 min, exercise.
+- [VW-I002: A passing pipeline publishes a secret](vw-i002.md) — intermediate, 45 min, incident.
+- [VW-D001: Choose a release gate for a small service](vw-d001.md) — intermediate, 40 min, decision.
+- [VW-P001: Build a release evidence bundle](vw-p001.md) — intermediate, 150 min, project.
 
 ## Containers
 
 Containers and Docker. Planned expansion: Build context, layers, networks, volumes, provenance, image scanning.
 
-- [VW-C003: An image tag is not a release identity](vw-c003.md) — intermediate, 25 min, concept, draft.
-- [VW-A003: Test an AI Dockerfile review against build context](vw-a003.md) — intermediate, 45 min, ai-exercise, draft.
+- [VW-C003: An image tag is not a release identity](vw-c003.md) — intermediate, 25 min, concept.
+- [VW-A003: Test an AI Dockerfile review against build context](vw-a003.md) — intermediate, 45 min, ai-exercise.
 
 ## Infrastructure
 
 Infrastructure as code. Planned expansion: Terraform, state, drift, modules, provider constraints, replacement.
 
-- [VW-I003: Replacement hidden inside a small Terraform diff](vw-i003.md) — intermediate, 45 min, incident, draft.
+- [VW-I003: Replacement hidden inside a small Terraform diff](vw-i003.md) — intermediate, 45 min, incident.
 
 ## Configuration
 
@@ -85,9 +85,9 @@ No canonical library item authored yet; this topic remains planned.
 
 Kubernetes and Helm. Planned expansion: Pods, Services, probes, scheduling, Helm, AWS EKS.
 
-- [VW-E004: Render Helm values before approving a change](vw-e004.md) — intermediate, 50 min, exercise, draft.
-- [VW-I001: The service with no destinations](vw-i001.md) — beginner, 45 min, incident, draft.
-- [VW-A004: Disprove an AI Kubernetes restart explanation](vw-a004.md) — intermediate, 45 min, ai-exercise, draft.
+- [VW-E004: Render Helm values before approving a change](vw-e004.md) — intermediate, 50 min, exercise.
+- [VW-I001: The service with no destinations](vw-i001.md) — beginner, 45 min, incident.
+- [VW-A004: Disprove an AI Kubernetes restart explanation](vw-a004.md) — intermediate, 45 min, ai-exercise.
 
 ## Gitops
 
@@ -99,14 +99,14 @@ No canonical library item authored yet; this topic remains planned.
 
 Observability. Planned expansion: Prometheus, Grafana, logs, metrics, traces, OpenTelemetry, alerting.
 
-- [VW-C004: An average can hide an outage](vw-c004.md) — intermediate, 30 min, concept, draft.
-- [VW-I004: The error alert that goes quiet during failure](vw-i004.md) — advanced, 45 min, incident, draft.
+- [VW-C004: An average can hide an outage](vw-c004.md) — intermediate, 30 min, concept.
+- [VW-I004: The error alert that goes quiet during failure](vw-i004.md) — advanced, 45 min, incident.
 
 ## Reliability
 
 Site reliability engineering. Planned expansion: SLIs, SLOs, error budgets, incidents, recovery, capacity, distributed systems, databases, queues, caches, published incident studies.
 
-- [VW-D002: Choose a useful first reliability objective](vw-d002.md) — advanced, 45 min, decision, draft.
+- [VW-D002: Choose a useful first reliability objective](vw-d002.md) — advanced, 45 min, decision.
 
 ## Platform
 
@@ -124,7 +124,7 @@ No canonical library item authored yet; this topic remains planned.
 
 AI for engineering. Planned expansion: Capabilities, context, prompts, structured output, tool calling, RAG, freshness, provenance, read-only tools, permissions, injection, privacy, evaluation, latency, tokens, cost, fallback, audit trails, controlled agents.
 
-- [VW-P002: Build a read-only incident evidence assistant](vw-p002.md) — advanced, 180 min, project, draft.
+- [VW-P002: Build a read-only incident evidence assistant](vw-p002.md) — advanced, 180 min, project.
 
 ## By level
 
@@ -136,8 +136,8 @@ AI for engineering. Planned expansion: Capabilities, context, prompts, structure
 - [VW-E002: Reject malformed release manifests](vw-e002.md)
 - [VW-I001: The service with no destinations](vw-i001.md)
 - [VW-A001: Challenge an AI Linux disk diagnosis](vw-a001.md)
-- [VW-E007: Review a release evidence packet](vw-e007.md)
-- [VW-I006: The recovery announcement that outran the evidence](vw-i006.md)
+- [VW-E007: Review a release evidence packet](../ai/engineering-evidence/release-evidence.md)
+- [VW-I006: The recovery announcement that outran the evidence](../ai/engineering-evidence/recovery-scenario.md)
 
 ### Intermediate
 
@@ -174,7 +174,7 @@ AI for engineering. Planned expansion: Capabilities, context, prompts, structure
 - [VW-E002: Reject malformed release manifests](vw-e002.md)
 - [VW-E003: Review a CI gate before giving it authority](vw-e003.md)
 - [VW-E004: Render Helm values before approving a change](vw-e004.md)
-- [VW-E007: Review a release evidence packet](vw-e007.md)
+- [VW-E007: Review a release evidence packet](../ai/engineering-evidence/release-evidence.md)
 
 ### incident
 
@@ -182,7 +182,7 @@ AI for engineering. Planned expansion: Capabilities, context, prompts, structure
 - [VW-I002: A passing pipeline publishes a secret](vw-i002.md)
 - [VW-I003: Replacement hidden inside a small Terraform diff](vw-i003.md)
 - [VW-I004: The error alert that goes quiet during failure](vw-i004.md)
-- [VW-I006: The recovery announcement that outran the evidence](vw-i006.md)
+- [VW-I006: The recovery announcement that outran the evidence](../ai/engineering-evidence/recovery-scenario.md)
 
 ### ai-exercise
 

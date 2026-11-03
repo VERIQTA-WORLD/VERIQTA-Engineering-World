@@ -59,6 +59,6 @@ Every tool-specific AI section needs representative sanitised input, an interact
 
 ## Current publication boundary
 
-[Engineering outcomes and evidence](../foundations/engineering-evidence/README.md) is the first developed section. Next is **Safe local learning environments**, improving workspace isolation, supported environments, scope checks and cleanup in Days 2–3. Other rows describe planned expansion and do not indicate authored lessons.
+[Engineering outcomes and evidence](../ai/engineering-evidence/README.md) is the first developed section. Next is **Safe local learning environments**, improving workspace isolation, supported environments, scope checks and cleanup in Days 2–3. Other rows describe planned expansion and do not indicate authored lessons.
 
 Contributors can use each row’s completion evidence to scope a focused contribution. See [maintainer operations](maintainers.md) for publication and review.

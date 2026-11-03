@@ -1,6 +1,6 @@
 # Day 1: Define an engineering outcome
 
-`VW-DAY001` · beginner · 60 minutes · draft · free/offline
+`VW-DAY001` · beginner · 60 minutes · free/offline
 
 ## Learning outcomes
 
@@ -60,7 +60,7 @@ Your note has a user-visible result, explicit scope and an inspectable feedback 
 
 Read your note as if another learner had to perform the check. Can they identify the path, expected answer, duration boundary, eligible population and window without asking you? If a crucial detail is missing, revise it.
 
-Then compare your attempt with the [complete example and reasoning](../../solutions/day-01.md). Multiple definitions can be defensible; passing means that the evidence could establish or contradict your stated outcome. No runtime or independent review is claimed by writing the note.
+Then compare your attempt with the [complete example and reasoning](../../solutions/day-01.md). Multiple definitions can be defensible; passing means that the evidence could establish or contradict your stated outcome. Record the check as a proposed check until you run it.
 
 ## Troubleshooting
 
@@ -76,7 +76,7 @@ Add a countermeasure for fast incorrect answers, then name an observation outsid
 
 ## Related library content
 
-For deeper study, follow [Engineering outcomes and evidence](../../foundations/engineering-evidence/README.md), beginning with [VW-C001](../../library/vw-c001.md). Its release-packet exercise and incident are separate activities, not duplicates of this search-outcome design task.
+For deeper study, follow [Engineering outcomes and evidence](../../ai/engineering-evidence/README.md), beginning with [VW-C001](../../library/vw-c001.md). Its release-packet exercise and incident are separate activities, not duplicates of this search-outcome design task.
 
 ## Sources
 

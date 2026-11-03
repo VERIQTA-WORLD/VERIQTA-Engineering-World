@@ -9,7 +9,7 @@ python3 scripts/catalogue.py --write
 python3 scripts/validate.py
 python3 -m unittest discover -s tests -v
 python3 scripts/check_labs.py
-python3 examples/engineering-evidence/check_evidence.py examples/engineering-evidence/requests.csv
+python3 ai/engineering-evidence/examples/check_evidence.py ai/engineering-evidence/examples/requests.csv
 ```
 
 The validator checks metadata, IDs, references, required sections, basic Markdown quality, internal files/anchors, image paths and generated navigation. It does not fetch every external reference, prove prose correctness or execute cloud/container labs. The local lab runner uses only explicit disposable fixtures, no contributed scripts or credentials. Run runtime-specific checks separately in a suitable isolated environment.

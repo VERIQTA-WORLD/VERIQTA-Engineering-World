@@ -1,6 +1,6 @@
 # Day 7: Review the first evidence bundle
 
-`VW-DAY007` · beginner · 60 minutes · draft · free/local
+`VW-DAY007` · beginner · 60 minutes · free/local
 
 ## Learning outcomes
 

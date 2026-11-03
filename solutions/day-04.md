@@ -1,6 +1,6 @@
 # Day 4 solution: Turn logs into observations
 
-Draft guidance; not independent review.
+
 
 ## Reasoning and expected result
 

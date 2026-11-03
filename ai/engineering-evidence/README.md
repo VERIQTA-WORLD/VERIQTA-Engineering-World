@@ -1,6 +1,6 @@
 # Engineering outcomes and evidence
 
-`VW-S001` · beginner · approximately 3 hours across several sessions · free/offline · authored draft
+`VW-S001` · beginner · approximately 3 hours across several sessions · free/offline
 
 A team can ship working software and still fail the people using it. A deployment may finish while a request fails, or a fast response may contain the wrong result. This section teaches you to turn an engineering claim into a question you can investigate, a measurement you can interpret and a decision you can explain.
 
@@ -16,8 +16,8 @@ You will learn to define an observable outcome, distinguish a recorded fact from
 | --- | --- | --- | ---: |
 | 1 | Read the explanations and walkthrough below | A claim rewritten as a measurable outcome | 35 min |
 | 2 | [A green deployment and a failed user request](../../library/vw-c001.md) | Answers with explained limits | 25 min |
-| 3 | [Review a release evidence packet](../../library/vw-e007.md) | Independent calculations and a decision brief | 55 min |
-| 4 | [The recovery announcement that outran the evidence](../../library/vw-i006.md) | Timeline, alternatives and a recovery test | 40 min |
+| 3 | [Review a release evidence packet](release-evidence.md) | Independent calculations and a decision brief | 55 min |
+| 4 | [The recovery announcement that outran the evidence](recovery-scenario.md) | Timeline, alternatives and a recovery test | 40 min |
 | 5 | Complete the checkpoint below | A defensible engineering handoff | 25 min |
 
 The tasks and solutions remain in their canonical library files. Attempt each task before opening its solution. If you are following the daily route, [Day 1](../../journey/days/day-01.md) is a smaller introduction with a different search-service activity.
@@ -128,10 +128,10 @@ Use your completed exercise and incident notes. Without looking at the solutions
 4. A low-risk next check with predictions for two alternatives.
 5. A release or recovery decision, the responsible role and what evidence would change it.
 
-Pass when all five are supported by named evidence and your calculation can be reproduced. If you miss a criterion, revise that part; no score is awarded for confident unsupported wording. Use the [checkpoint solution](../../solutions/section-engineering-evidence.md) only after your attempt. This is self-assessment, not independent technical review or proof of professional competence.
+Pass when all five are supported by named evidence and your calculation can be reproduced. If you miss a criterion, revise that part; no score is awarded for confident unsupported wording. Use the [checkpoint solution](solutions/checkpoint.md) only after your attempt. Use the rubric to identify gaps and revise your reasoning before progressing.
 
 ## References and progression
 
 Primary references checked 2026-11-02: [Google SRE: monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/) explains user-visible and internal observation; [implementing SLOs](https://sre.google/workbook/implementing-slos/) develops explicit measures and objectives. This section uses original small fictional data, not a production case study or copied exercise.
 
-Next planned section: **Safe local learning environments**. Existing [Day 2](../../journey/days/day-02.md) provides a starter workspace activity; the full section is not yet authored. [Foundations index](../README.md) · [Section sequence](../../docs/section-plan.md) · [Validation scope](validation.md)
+Next planned section: **Safe local learning environments**. Existing [Day 2](../../journey/days/day-02.md) provides a starter workspace activity; the full section is not yet authored. [AI learning index](../../ai/README.md) · [Section sequence](../../docs/section-plan.md) · [Validation scope](../../docs/validation-engineering-evidence.md)

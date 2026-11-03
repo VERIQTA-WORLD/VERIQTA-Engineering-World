@@ -5,7 +5,7 @@
     "topic": "foundations",
     "status": "draft",
     "publication_state": "ready",
-    "path": "foundations/engineering-evidence/README.md",
+    "path": "ai/engineering-evidence/README.md",
     "prerequisites": [],
     "content_ids": [
       "VW-DAY001",
@@ -14,8 +14,8 @@
       "VW-I006"
     ],
     "estimated_minutes": 180,
-    "checkpoint": "solutions/section-engineering-evidence.md",
-    "validation": "foundations/engineering-evidence/validation.md",
+    "checkpoint": "ai/engineering-evidence/solutions/checkpoint.md",
+    "validation": "docs/validation-engineering-evidence.md",
     "sources": [
       "https://sre.google/sre-book/monitoring-distributed-systems/",
       "https://sre.google/workbook/implementing-slos/"

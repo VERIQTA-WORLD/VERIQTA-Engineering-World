@@ -1,6 +1,6 @@
 # Day 5: Record a change with Git
 
-`VW-DAY005` · beginner · 60 minutes · draft · free/local
+`VW-DAY005` · beginner · 60 minutes · free/local
 
 ## Learning outcomes
 

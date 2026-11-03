@@ -1,6 +1,6 @@
 # Day 3: Navigate files and explain permissions
 
-`VW-DAY003` · beginner · 60 minutes · draft · free/local
+`VW-DAY003` · beginner · 60 minutes · free/local
 
 ## Learning outcomes
 

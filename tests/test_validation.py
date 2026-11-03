@@ -101,7 +101,7 @@ class SectionValidationTests(unittest.TestCase):
         self.assertTrue(any('invalid section content reference' in e for e in v.section_errors(v.ROOT,self.records,self.ids)))
 
     def test_planned_section_cannot_claim_authored_page(self):
-        self.records[1]['path']='foundations/engineering-evidence/README.md'
+        self.records[1]['path']='ai/engineering-evidence/README.md'
         self.assertTrue(any('planned section claims' in e for e in v.section_errors(v.ROOT,self.records,self.ids)))
 
     def test_ready_section_needs_validation_record(self):

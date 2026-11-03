@@ -1,6 +1,6 @@
 # Day 7 solution: Review the first evidence bundle
 
-Draft guidance; not independent review.
+
 
 ## Reasoning and expected result
 

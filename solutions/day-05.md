@@ -1,6 +1,6 @@
 # Day 5 solution: Record a change with Git
 
-Draft guidance; not independent review.
+
 
 ## Reasoning and expected result
 

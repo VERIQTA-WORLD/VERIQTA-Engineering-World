@@ -6,13 +6,13 @@
 
 An engineering learning library for curious beginners, practising engineers and experienced problem-solvers around the world. Explore explanations, hands-on activities, simulated incidents and projects that help you explain your decisions. **DevOps is our first learning area**, within a broader engineering library that will grow through substantive contributions.
 
-<p align="center"><img src="assets/local-first.svg" alt="Local-first practice"><img src="assets/evidence-led.svg" alt="Evidence-led learning"><img src="assets/draft.svg" alt="First batch: authored drafts"></p>
+<p align="center"><img src="assets/local-first.svg" alt="Local-first practice"><img src="assets/evidence-led.svg" alt="Evidence-led learning"></p>
 
 [Start Learning](journey/days/day-01.md) · [Explore Topics](#explore-engineering-topics) · [Practical Labs](library/README.md#exercise) · [Projects](library/README.md#project) · [AI for Engineering](ai/README.md) · [Contribute](CONTRIBUTING.md)
 
 ## Choose your starting point
 
-Study a coherent topic in [Engineering foundations](foundations/README.md), beginning with [outcomes and evidence](foundations/engineering-evidence/README.md). The [section sequence](docs/section-plan.md) shows prerequisites and planned expansion across engineering and AI.
+Explore [AI for Engineering and DevOps](ai/README.md), including [engineering outcomes and evidence](ai/engineering-evidence/README.md). The [section sequence](docs/section-plan.md) shows prerequisites and planned expansion across engineering and AI.
 
 | Your starting point | A useful first step | What you will practise |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ Build foundations through a realistic sequence: Linux and networking → Git and
 
 **[Open the complete 100-day curriculum](journey/README.md)** · [Begin Day 1](journey/days/day-01.md) · [First-week checkpoint](journey/days/day-07.md)
 
-Days 1–7 are authored drafts; Days 8–100 are planned. Allow roughly 60 minutes per day and longer project sessions. Repeat or slow down as needed. Completing 100 days does not automatically establish professional competence.
+Days 1–7 are available; Days 8–100 are planned. Allow roughly 60 minutes per day and longer project sessions. Repeat or slow down as needed. Completing 100 days does not automatically establish professional competence.
 
 ## AI for Engineering and DevOps
 
@@ -86,7 +86,7 @@ Attempt an activity before opening its linked solution. All incident scenarios i
 
 **22 authored library items · 7 authored days · 93 planned days · 18 planned domain expansions.**
 
-Editorial status: 0 independently reviewed; all other authored content is draft. Execution evidence is reported separately in the [validation record](docs/validation.md).
+Supported checks and environments are documented in the [validation record](docs/validation.md).
 
 | Authored canonical type | Count |
 | --- | ---: |
