@@ -18,7 +18,7 @@ Read the [style guide](docs/style-guide.md), [code of conduct](CODE_OF_CONDUCT.m
 
 ## Reporting issues
 
-Use [GitHub issues](https://github.com/veriqta/VERIQTA-Engineering-World/issues/new/choose) for incorrect answers, broken labs or topic proposals. Include the content ID, environment, expected and observed results, and redacted reproduction steps. For a suspected secret or private data exposure, contact the owner privately through an available verified channel; do not repeat the sensitive content in a public issue.
+Use [GitHub issues](https://github.com/VERIQTA-WORLD/VERIQTA-Engineering-World/issues/new/choose) for incorrect answers, broken labs or topic proposals. Include the content ID, environment, expected and observed results, and redacted reproduction steps. For a suspected secret or private data exposure, contact the owner privately through an available verified channel; do not repeat the sensitive content in a public issue.
 
 ## Review
 

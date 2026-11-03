@@ -1,6 +1,6 @@
 # Repository instructions
 
-Project: VERIQTA Engineering World. DevOps is one area in a broader engineering library. Preserve unrelated work, stable IDs and useful paths. Do not create a separate repository, website or backend for learning-content tasks.
+Project: VERIQTA Engineering World. Canonical repository: https://github.com/VERIQTA-WORLD/VERIQTA-Engineering-World. DevOps is one area in a broader engineering library. Preserve unrelated work, stable IDs and useful paths. Do not create a separate repository, website or backend for learning-content tasks.
 
 Read docs/architecture.md, docs/style-guide.md and docs/maintainers.md before editing content. Use original explanations and fixtures. Never import licensed material without checking and recording terms. Preserve existing licences; an unresolved licensing decision is not authority to apply one.
 
