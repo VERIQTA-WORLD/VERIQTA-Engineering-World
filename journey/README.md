@@ -1,4 +1,4 @@
-# 90-Day DevOps Journey
+# 100-Day DevOps Journey
 
 DevOps is one learning area within VERIQTA Engineering World. This is an original introductory sequence. Days 1–7 are authored drafts; later days are a complete curriculum plan, not finished lessons. Completion does not automatically establish professional competence.
 
@@ -98,8 +98,20 @@ Allow about 60 minutes daily, with 90-minute final project sessions; repeat days
 | 88 | [Final project architecture checkpoint](#day-88) | reliability | planned |
 | 89 | [Final project delivery evidence](#day-89) | reliability | planned |
 | 90 | [Final project recovery and retrospective](#day-90) | reliability | planned |
+| 91 | [Rehearse the project runbook](#day-91) | reliability | planned |
+| 92 | [Verify configuration convergence](#day-92) | configuration | planned |
+| 93 | [Review a project infrastructure change](#day-93) | infrastructure | planned |
+| 94 | [Trace project artifact provenance](#day-94) | security | planned |
+| 95 | [Test the missing-signal case](#day-95) | observability | planned |
+| 96 | [Check rollback and data compatibility](#day-96) | reliability | planned |
+| 97 | [Evaluate a read-only project assistant](#day-97) | ai | planned |
+| 98 | [Test the learner-to-operator handoff](#day-98) | platform | planned |
+| 99 | [Compare environment assumptions](#day-99) | cloud | planned |
+| 100 | [Demonstrate the project and explain its limits](#day-100) | reliability | planned |
 
 ## Daily scope and outcomes
+
+Days 91–100 build on the integrated project with runbooks, configuration convergence, infrastructure review, provenance, missing-signal tests, recovery, AI evaluation, handoffs, cloud assumptions and a final demonstration.
 
 Planned entries below define learning scope. Full setup, explanations, solutions and runtime validation are authored progressively. For authored days, follow the linked lesson.
 
@@ -1272,5 +1284,135 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 - Reflection: What is established by your evidence? What would you test next, and why?
 - Related practice: [VW-D002](../library/vw-d002.md).
 - [Official reference](https://sre.google/workbook/incident-response/).
+
+### Day 91
+
+**Rehearse the project runbook** · planned · 60 minutes
+
+- Outcomes: Walk through detection, triage, recovery and escalation using your integrated project evidence. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY090.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Walk through detection, triage, recovery and escalation using your integrated project evidence.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-D002](../library/vw-d002.md).
+- [Official reference](https://sre.google/workbook/incident-response/).
+
+### Day 92
+
+**Verify configuration convergence** · planned · 60 minutes
+
+- Outcomes: Compare first and second local configuration runs; document any non-idempotent task. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY091.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Compare first and second local configuration runs; document any non-idempotent task.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-E003](../library/vw-e003.md).
+- [Official reference](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions).
+
+### Day 93
+
+**Review a project infrastructure change** · planned · 60 minutes
+
+- Outcomes: Review a sanitised infrastructure plan and identify stateful lifecycle effects before approval. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY092.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Review a sanitised infrastructure plan and identify stateful lifecycle effects before approval.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-I003](../library/vw-i003.md).
+- [Official reference](https://developer.hashicorp.com/terraform/cli/commands/plan).
+
+### Day 94
+
+**Trace project artifact provenance** · planned · 60 minutes
+
+- Outcomes: Connect source revision, test result and artifact identity; identify one unverified supply-chain assumption. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY093.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Connect source revision, test result and artifact identity; identify one unverified supply-chain assumption.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-C003](../library/vw-c003.md).
+- [Official reference](https://docs.docker.com/build/building/best-practices/).
+
+### Day 95
+
+**Test the missing-signal case** · planned · 60 minutes
+
+- Outcomes: Replay an offline telemetry-loss fixture and specify how the project detects unknown health. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY094.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Replay an offline telemetry-loss fixture and specify how the project detects unknown health.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-I004](../library/vw-i004.md).
+- [Official reference](https://prometheus.io/docs/prometheus/latest/querying/basics/).
+
+### Day 96
+
+**Check rollback and data compatibility** · planned · 60 minutes
+
+- Outcomes: Test a tiny local data restore and explain why code rollback alone may not recover a service. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY095.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Test a tiny local data restore and explain why code rollback alone may not recover a service.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-D002](../library/vw-d002.md).
+- [Official reference](https://sre.google/workbook/incident-response/).
+
+### Day 97
+
+**Evaluate a read-only project assistant** · planned · 60 minutes
+
+- Outcomes: Score mocked suggestions against project evidence, injected instructions and a no-answer case. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY096.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Score mocked suggestions against project evidence, injected instructions and a no-answer case.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-P002](../library/vw-p002.md).
+- [Official reference](https://www.nist.gov/itl/ai-risk-management-framework).
+
+### Day 98
+
+**Test the learner-to-operator handoff** · planned · 60 minutes
+
+- Outcomes: Ask a peer to follow a bounded project runbook or self-audit it from a clean local directory. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY097.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Ask a peer to follow a bounded project runbook or self-audit it from a clean local directory.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-P001](../library/vw-p001.md).
+- [Official reference](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions).
+
+### Day 99
+
+**Compare environment assumptions** · planned · 60 minutes
+
+- Outcomes: Map your AWS-context design to Azure and Google Cloud concepts without claiming equivalent services or provisioning resources. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY098.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Map your AWS-context design to Azure and Google Cloud concepts without claiming equivalent services or provisioning resources.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-A002](../library/vw-a002.md).
+- [Official reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html).
+
+### Day 100
+
+**Demonstrate the project and explain its limits** · planned · 90 minutes
+
+- Outcomes: Present a reproducible evidence bundle, one failure/recovery result and a candid final retrospective. Explain which claims your evidence supports and what remains untested.
+- Prerequisites: VW-DAY099.
+- Focus: This project verification session strengthens one operational boundary using a small local task or an offline evidence review.
+- Core task: Present a reproducible evidence bundle, one failure/recovery result and a candid final retrospective.
+- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Reflection: What is established by your evidence? What would you test next, and why?
+- Related practice: [VW-P001](../library/vw-p001.md).
+- [Official reference](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions).
 
 [Engineering hub](../README.md) · [Learning paths](../paths/README.md)

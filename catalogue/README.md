@@ -1,7 +1,7 @@
 # Catalogue records
 
 - [Library](library.json): authored canonical items and their metadata.
-- [Journey](journey.json): exactly 90 ordered days; planned days have no lesson path.
+- [Journey](journey.json): exactly 100 ordered days; planned days have no lesson path.
 - [Backlog](backlog.json): prioritised domain expansion, including tool-specific AI objectives.
 - [Validation](validation.json): observed checks with environment and scope, separate from editorial review.
 

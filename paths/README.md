@@ -4,7 +4,7 @@ Paths assemble canonical activities; they do not duplicate them. “Available st
 
 | Path | Availability | Start and evidence goal |
 | --- | --- | --- |
-| DevOps | Available starter; 90-day map, Days 1–7 authored | [Day 1](../journey/days/day-01.md), then [curriculum](../journey/README.md); retain an evidence bundle |
+| DevOps | Available starter; 100-day map, Days 1–7 authored | [Day 1](../journey/days/day-01.md), then [curriculum](../journey/README.md); retain an evidence bundle |
 | Cloud | Available starter; full path planned | [AWS IAM review](../library/vw-a002.md), then [replacement incident](../library/vw-i003.md); explain authority and data risk |
 | SRE | Available starter; full path planned | [Latency SLI](../library/vw-c004.md), [missing alert](../library/vw-i004.md), [objective decision](../library/vw-d002.md) |
 | Platform Engineering | Planned | Scope: developer feedback, safe self-service, documentation discovery and measurable usability; [roadmap](../docs/roadmap.md) |

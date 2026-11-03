@@ -4323,5 +4323,485 @@
     "difficulty": "beginner",
     "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
     "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY091",
+    "day": 91,
+    "title": "Rehearse the project runbook",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Walk through detection, triage, recovery and escalation using your integrated project evidence.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY090"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Walk through detection, triage, recovery and escalation using your integrated project evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY092",
+    "day": 92,
+    "title": "Verify configuration convergence",
+    "topic": "configuration",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare first and second local configuration runs; document any non-idempotent task.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY091"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Compare first and second local configuration runs; document any non-idempotent task.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "configuration",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY093",
+    "day": 93,
+    "title": "Review a project infrastructure change",
+    "topic": "infrastructure",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Review a sanitised infrastructure plan and identify stateful lifecycle effects before approval.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY092"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Review a sanitised infrastructure plan and identify stateful lifecycle effects before approval.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://developer.hashicorp.com/terraform/cli/commands/plan"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "infrastructure",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY094",
+    "day": 94,
+    "title": "Trace project artifact provenance",
+    "topic": "security",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Connect source revision, test result and artifact identity; identify one unverified supply-chain assumption.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY093"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Connect source revision, test result and artifact identity; identify one unverified supply-chain assumption.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C003"
+    ],
+    "sources": [
+      "https://docs.docker.com/build/building/best-practices/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "security",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY095",
+    "day": 95,
+    "title": "Test the missing-signal case",
+    "topic": "observability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Replay an offline telemetry-loss fixture and specify how the project detects unknown health.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY094"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Replay an offline telemetry-loss fixture and specify how the project detects unknown health.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I004"
+    ],
+    "sources": [
+      "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "observability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY096",
+    "day": 96,
+    "title": "Check rollback and data compatibility",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Test a tiny local data restore and explain why code rollback alone may not recover a service.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY095"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Test a tiny local data restore and explain why code rollback alone may not recover a service.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY097",
+    "day": 97,
+    "title": "Evaluate a read-only project assistant",
+    "topic": "ai",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Score mocked suggestions against project evidence, injected instructions and a no-answer case.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY096"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Score mocked suggestions against project evidence, injected instructions and a no-answer case.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-P002"
+    ],
+    "sources": [
+      "https://www.nist.gov/itl/ai-risk-management-framework"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "ai",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY098",
+    "day": 98,
+    "title": "Test the learner-to-operator handoff",
+    "topic": "platform",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Ask a peer to follow a bounded project runbook or self-audit it from a clean local directory.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY097"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Ask a peer to follow a bounded project runbook or self-audit it from a clean local directory.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-P001"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "platform",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY099",
+    "day": 99,
+    "title": "Compare environment assumptions",
+    "topic": "cloud",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Map your AWS-context design to Azure and Google Cloud concepts without claiming equivalent services or provisioning resources.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY098"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Map your AWS-context design to Azure and Google Cloud concepts without claiming equivalent services or provisioning resources.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-A002"
+    ],
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY100",
+    "day": 100,
+    "title": "Demonstrate the project and explain its limits",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Present a reproducible evidence bundle, one failure/recovery result and a candid final retrospective.",
+      "Explain which claims your evidence supports and what remains untested."
+    ],
+    "prerequisites": [
+      "VW-DAY099"
+    ],
+    "estimated_minutes": 90,
+    "explanation": "This project verification session strengthens one operational boundary using a small local task or an offline evidence review.",
+    "task": "Present a reproducible evidence bundle, one failure/recovery result and a candid final retrospective.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-P001"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
   }
 ]

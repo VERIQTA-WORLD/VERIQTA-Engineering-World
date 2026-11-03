@@ -1,6 +1,4 @@
-<p align="center"><img src="assets/veriqta-logo.png" width="110" alt="VERIQTA green monogram and wordmark on a white background"></p>
-
-![VERIQTA Engineering World — systems, cloud, delivery, reliability and responsible AI](assets/banner.svg)
+![VERIQTA Engineering World — charcoal and green banner with the VERIQTA logo on the right](assets/banner.svg)
 
 # VERIQTA Engineering World
 
@@ -35,15 +33,15 @@ Choose a topic to see authored material and its planned expansion. The catalogue
 | ☁️ [Cloud — AWS first](library/README.md#cloud) | 🔄 [GitOps and Argo CD](library/README.md#gitops) | 🧩 [Platform engineering](library/README.md#platform) |
 | 🧱 [Engineering foundations](library/README.md#foundations) | 🤖 [AI for Engineering](ai/README.md) | 📚 [All topics and planned coverage](library/README.md#by-topic) |
 
-## 90-Day DevOps Journey
+## 100-Day DevOps Journey
 
 ![Learning progression: understand systems, deliver changes, operate safely, integrate and reflect](assets/journey.svg)
 
-Build foundations through a realistic sequence: Linux and networking → Git and scripting → AWS and delivery → infrastructure, Kubernetes and GitOps → observability, security and reliability → responsible AI and an integrated project. Review days and troubleshooting checkpoints connect the tools to engineering outcomes.
+Build foundations through a realistic sequence: Linux and networking → Git and scripting → AWS and delivery → infrastructure, Kubernetes and GitOps → observability, security and reliability → responsible AI and an integrated project, followed by operational verification and a final demonstration. Review days and troubleshooting checkpoints connect the tools to engineering outcomes.
 
-**[Open the complete 90-day curriculum](journey/README.md)** · [Begin Day 1](journey/days/day-01.md) · [First-week checkpoint](journey/days/day-07.md)
+**[Open the complete 100-day curriculum](journey/README.md)** · [Begin Day 1](journey/days/day-01.md) · [First-week checkpoint](journey/days/day-07.md)
 
-Days 1–7 are authored drafts; Days 8–90 are planned. Allow roughly 60 minutes per day and longer project sessions. Repeat or slow down as needed. Completing 90 days does not automatically establish professional competence.
+Days 1–7 are authored drafts; Days 8–100 are planned. Allow roughly 60 minutes per day and longer project sessions. Repeat or slow down as needed. Completing 100 days does not automatically establish professional competence.
 
 ## AI for Engineering and DevOps
 
@@ -62,7 +60,7 @@ Build on these with the [read-only evidence assistant](library/vw-p002.md): retr
 
 | Path | Available today | Expansion |
 | --- | --- | --- |
-| [DevOps](paths/README.md) | First week and full 90-day map | Remaining daily lessons planned |
+| [DevOps](paths/README.md) | First week and full 100-day map | Remaining daily lessons planned |
 | [Cloud](paths/README.md) | IAM review and infrastructure incident | Complete AWS path; Azure/GCP planned |
 | [SRE](paths/README.md) | SLI, alert incident and reliability decision | Full operations path planned |
 | [Platform Engineering](paths/README.md) | Scope and roadmap | Full path planned |
@@ -84,7 +82,7 @@ Attempt an activity before opening its linked solution. All incident scenarios i
 
 ## Library progress
 
-**20 authored library items · 7 authored days · 83 planned days · 18 planned domain expansions.**
+**20 authored library items · 7 authored days · 93 planned days · 18 planned domain expansions.**
 
 Editorial status: 0 independently reviewed; all other authored content is draft. Execution evidence is reported separately in the [validation record](docs/validation.md).
 
@@ -103,6 +101,6 @@ The daily activities are counted separately from canonical library items. Planne
 
 Bring a correction, a reproducible lab result or a distinct engineering problem. Read [Contributing](CONTRIBUTING.md), the [content standard](docs/style-guide.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). [Report an incorrect answer or broken lab](https://github.com/veriqta/VERIQTA-Engineering-World/issues/new/choose), or suggest a topic with a clear learning outcome.
 
-Follow the [roadmap](docs/roadmap.md) for the next batch. **[Licensing decision pending](docs/licensing.md):** no general content or code licence has been selected yet; third-party asset notices remain applicable.
+Follow the [roadmap](docs/roadmap.md) for the next batch. **[MIT licensed](LICENSE):** reuse the original code and educational documentation with the required notice. See [licensing and brand guidance](docs/licensing.md) for asset terms and trademark boundaries.
 
 [Asset licences and provenance](docs/attribution.md).

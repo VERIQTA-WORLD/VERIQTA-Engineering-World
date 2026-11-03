@@ -7,7 +7,7 @@ The library grows by useful outcomes, not file count. Planned records are not co
 | Priority | Deliverable | Acceptance and prerequisite |
 | --- | --- | --- |
 | P0 | Independent technical review of Days 1–7 and 20 library items | Name reviewer/date; resolve incorrect reasoning; retain execution scope |
-| P0 | Select content/code licensing and establish a private conduct/security contact | Owner decision; publish actual terms without changing asset licences |
+| P0 | Establish a private conduct/security contact | Verified private reporting route; retain MIT terms and separate asset notices |
 | P1 | Author Days 8–14 | Processes, environment, users, storage, service lifecycle, VMs and Linux checkpoint; each with solution and safe cleanup |
 | P1 | VW-E005: Ansible local idempotency lab | Disposable local directory; first run changes, second run unchanged; document check-mode gaps |
 | P1 | VW-A005: Terraform plan review | Sanitised JSON with replacement and drift; reject an AI “safe apply” claim; no provider calls |

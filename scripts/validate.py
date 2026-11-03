@@ -124,8 +124,8 @@ def validate(root=ROOT):
     ids=[x['id'] for x in library+journey+backlog]
     if len(ids)!=len(set(ids)):
         errors.append('Duplicate ID across catalogues')
-    if [x.get('day') for x in journey] != list(range(1,91)):
-        errors.append('Journey must contain ordered days 1–90')
+    if [x.get('day') for x in journey] != list(range(1,101)):
+        errors.append('Journey must contain ordered days 1–100')
     for x in journey:
         for target in x['related_library']:
             if target not in {i['id'] for i in library}:
