@@ -60,14 +60,18 @@ Build on these with the [read-only evidence assistant](library/vw-p002.md): retr
 
 ## Learning paths
 
-| Path | Available today | Expansion |
+Paths connect existing lessons and activities. Follow them in order, attempt each task before opening its solution, and retain your own evidence and decisions.
+
+| Path | Recommended route | Availability |
 | --- | --- | --- |
-| [DevOps](paths/README.md) | First week and full 100-day map | Remaining daily lessons planned |
-| [Cloud](paths/README.md) | IAM review and infrastructure incident | Complete AWS path; Azure/GCP planned |
-| [SRE](paths/README.md) | SLI, alert incident and reliability decision | Full operations path planned |
-| [Platform Engineering](paths/README.md) | Scope and roadmap | Full path planned |
-| [Security](paths/README.md) | Pipeline trust, log exposure and IAM starters | Full path planned |
-| [AI](paths/README.md) | Four tool exercises and assistant project | Real-model evaluation and controlled tools planned |
+| DevOps | [Day 1](journey/days/day-01.md) → [100-day curriculum](journey/README.md); build a record of observations and decisions | Days 1–7 available; remaining lessons planned |
+| Cloud | [AWS IAM review](library/vw-a002.md) → [infrastructure replacement incident](library/vw-i003.md); explain authority and data risk | Starter route available; full AWS path and Azure/GCP expansion planned |
+| SRE | [Latency SLI](library/vw-c004.md) → [missing-alert incident](library/vw-i004.md) → [reliability objective decision](library/vw-d002.md) | Starter route available; full operations path planned |
+| Platform Engineering | Developer feedback, safe self-service, documentation discovery and measurable usability; see the [section plan](docs/section-plan.md) | Planned |
+| Security | [CI trust review](library/vw-e003.md) → [log exposure incident](library/vw-i002.md) → [IAM review](library/vw-a002.md) | Starter route available; full path planned |
+| AI | [Engineering evidence](ai/engineering-evidence/README.md) → [AI boundaries and tool exercises](ai/README.md) → [read-only assistant project](library/vw-p002.md) | Starter route available; further sections planned |
+
+Use the starting-point guidance above to choose your level. Practical activities state their supported environments; use disposable local resources and keep experiments away from shared or production systems.
 
 ## Featured practice and projects
 

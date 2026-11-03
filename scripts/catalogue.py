@@ -82,14 +82,18 @@ Build on these with the [read-only evidence assistant](library/vw-p002.md): retr
 
 ## Learning paths
 
-| Path | Available today | Expansion |
+Paths connect existing lessons and activities. Follow them in order, attempt each task before opening its solution, and retain your own evidence and decisions.
+
+| Path | Recommended route | Availability |
 | --- | --- | --- |
-| [DevOps](paths/README.md) | First week and full 100-day map | Remaining daily lessons planned |
-| [Cloud](paths/README.md) | IAM review and infrastructure incident | Complete AWS path; Azure/GCP planned |
-| [SRE](paths/README.md) | SLI, alert incident and reliability decision | Full operations path planned |
-| [Platform Engineering](paths/README.md) | Scope and roadmap | Full path planned |
-| [Security](paths/README.md) | Pipeline trust, log exposure and IAM starters | Full path planned |
-| [AI](paths/README.md) | Four tool exercises and assistant project | Real-model evaluation and controlled tools planned |
+| DevOps | [Day 1](journey/days/day-01.md) → [100-day curriculum](journey/README.md); build a record of observations and decisions | Days 1–7 available; remaining lessons planned |
+| Cloud | [AWS IAM review](library/vw-a002.md) → [infrastructure replacement incident](library/vw-i003.md); explain authority and data risk | Starter route available; full AWS path and Azure/GCP expansion planned |
+| SRE | [Latency SLI](library/vw-c004.md) → [missing-alert incident](library/vw-i004.md) → [reliability objective decision](library/vw-d002.md) | Starter route available; full operations path planned |
+| Platform Engineering | Developer feedback, safe self-service, documentation discovery and measurable usability; see the [section plan](docs/section-plan.md) | Planned |
+| Security | [CI trust review](library/vw-e003.md) → [log exposure incident](library/vw-i002.md) → [IAM review](library/vw-a002.md) | Starter route available; full path planned |
+| AI | [Engineering evidence](ai/engineering-evidence/README.md) → [AI boundaries and tool exercises](ai/README.md) → [read-only assistant project](library/vw-p002.md) | Starter route available; further sections planned |
+
+Use the starting-point guidance above to choose your level. Practical activities state their supported environments; use disposable local resources and keep experiments away from shared or production systems.
 
 ## Featured practice and projects
 
@@ -143,7 +147,7 @@ Follow the [section sequence](docs/section-plan.md) and [roadmap](docs/roadmap.m
     for kind in ['concept','exercise','incident','ai-exercise','decision','project']:
         library += f'### {kind}\n\n'
         library += '\n'.join(f"- [{x['id']}: {x['title']}]({os.path.relpath(x['path'], 'library')})" for x in items if x['type']==kind) + '\n\n'
-    library += '[Learning paths](../paths/README.md) · [Engineering hub](../README.md)\n'
+    library += '[Learning paths](../README.md#learning-paths) · [Engineering hub](../README.md)\n'
     output['library/README.md'] = library
     journey = '# 100-Day DevOps Journey\n\nDevOps is one learning area within VERIQTA Engineering World. This is an original introductory sequence. Days 1–7 are available; later days are a complete curriculum plan, not finished lessons. Completion does not automatically establish professional competence.\n\nAllow about 60 minutes daily, with 90-minute final project sessions; repeat days or split activities as needed. AWS is the primary cloud context. Defaults use offline fixtures and local runtimes; paid cloud and real model calls are optional future extensions. Read each authored lesson for supported tools, verification and cleanup.\n\n## Curriculum map\n\n| Day | Focus | Topic | Status |\n| --- | --- | --- | --- |\n'
     for x in days:
@@ -154,7 +158,7 @@ Follow the [section sequence](docs/section-plan.md) and [roadmap](docs/roadmap.m
         prerequisites = ', '.join(x['prerequisites']) or 'None'
         related = ' · '.join(f"[{i}](../{next(item['path'] for item in items if item['id']==i)})" for i in x['related_library'])
         journey += f"### Day {x['day']}\n\n**{x['title']}** · {'Planned' if x['status']=='planned' else 'Available'} · {x['estimated_minutes']} minutes\n\n- Outcomes: {' '.join(x['learning_outcomes'])}\n- Prerequisites: {prerequisites}.\n- Focus: {x['explanation']}\n- Core task: {x['task']}\n- Success: {' '.join(x['success_criteria'])}\n- Reflection: {' '.join(x['reflection'])}\n- Related practice: {related}.\n- [Official reference]({x['sources'][0]}).\n\n"
-    journey += '[Engineering hub](../README.md) · [Learning paths](../paths/README.md)\n'
+    journey += '[Engineering hub](../README.md) · [Learning paths](../README.md#learning-paths)\n'
     output['journey/README.md'] = journey
     output['catalogue/README.md'] = '''# Catalogue records
 

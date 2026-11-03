@@ -41,4 +41,4 @@ Ask for observations, hypotheses, missing evidence and falsifiable checks. Verif
 
 A real-model extension must record model/version/date, case definitions, expected outcomes and failures. Keep deterministic fallback available. A convincing diagnosis is a hypothesis until independently supported.
 
-[Learning paths](../paths/README.md) · [Engineering hub](../README.md)
+[Learning paths](../README.md#learning-paths) · [Engineering hub](../README.md)

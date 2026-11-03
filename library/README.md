@@ -201,4 +201,4 @@ AI for engineering. Planned expansion: Capabilities, context, prompts, structure
 - [VW-P001: Build a release evidence bundle](vw-p001.md)
 - [VW-P002: Build a read-only incident evidence assistant](vw-p002.md)
 
-[Learning paths](../paths/README.md) · [Engineering hub](../README.md)
+[Learning paths](../README.md#learning-paths) · [Engineering hub](../README.md)

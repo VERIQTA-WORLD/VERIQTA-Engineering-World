@@ -8,10 +8,10 @@ VERIQTA Engineering World is an engineering learning library. DevOps is the firs
 - `library/`: independent canonical items; paths link here rather than copying tasks.
 - `solutions/`: separate answers to preserve independent practice.
 - `ai/`: AI learning sections with their exercises, examples and solutions.
-- `paths/`: curated routes through canonical learning material.
+- Root `README.md`: the learning hub and curated routes linking directly to canonical material.
 - `catalogue/`: source records, planned domain expansions and separate execution evidence.
 - `docs/`: contributor standards, attribution, roadmap and maintenance information.
-- `scripts/`, `tests/`, `.github/`: repository validation and contribution workflows.
+- `scripts/`, `tests/`, `.github/`: repository-wide validation, navigation generation and contribution workflows; subject-specific examples stay inside their subject folder.
 - `assets/`: repository-owned design and attributed tool marks.
 
 Stable IDs survive title changes. Prefer retaining existing paths; a move requires a small redirect Markdown page and link validation. The root title covers engineering broadly while the first sequence is explicitly DevOps. No separate site or backend is required.

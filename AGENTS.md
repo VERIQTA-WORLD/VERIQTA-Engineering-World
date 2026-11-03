@@ -23,3 +23,5 @@ When the user authorises section publication, validate, inspect the diff and pus
 Write learner pages as finished teaching material. Keep editorial draft/review labels in catalogues and maintainer records, not lesson headings, solutions, badges or learner indexes. Preserve honest supported-environment and execution limitations. Place the AI curriculum and its new section material under ai/. Do not promote editorial status merely to remove a public label.
 
 Use the existing top-level folders. Do not add root subject or example directories for AI sections; put section lessons, new practice, examples and solutions under ai/. Keep stable links in existing library/ and solutions/ where needed.
+
+Learning paths belong in the root README and link directly to canonical subject material. Do not recreate a root paths/ folder. Keep root scripts/ for repository-wide maintenance only; put subject-specific executable examples inside the relevant subject folder.

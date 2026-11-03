@@ -1415,4 +1415,4 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 - Related practice: [VW-P001](../library/vw-p001.md).
 - [Official reference](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions).
 
-[Engineering hub](../README.md) · [Learning paths](../paths/README.md)
+[Engineering hub](../README.md) · [Learning paths](../README.md#learning-paths)
