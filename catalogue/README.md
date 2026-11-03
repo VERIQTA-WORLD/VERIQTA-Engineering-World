@@ -2,6 +2,7 @@
 
 - [Library](library.json): authored canonical items and their metadata.
 - [Journey](journey.json): exactly 100 ordered days; planned days have no lesson path.
+- [Challenges](challenges.json): planned independent missions, excluded from authored activity counts.
 - [Sections](sections.json): authored section scope, canonical content references and the next planned section.
 - [Backlog](backlog.json): prioritised domain expansion, including tool-specific AI objectives.
 - [Validation](validation.json): observed checks with environment and scope, separate from editorial review.

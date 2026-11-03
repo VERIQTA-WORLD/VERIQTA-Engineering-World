@@ -113,5 +113,25 @@ class SectionValidationTests(unittest.TestCase):
         self.records[0]['status']='reviewed'
         self.assertTrue(any('section review lacks evidence' in e for e in v.section_errors(v.ROOT,self.records,self.ids)))
 
+class ChallengePlanTests(unittest.TestCase):
+    def setUp(self):
+        import json
+        self.records=json.loads((v.ROOT/'catalogue/challenges.json').read_text())
+
+    def test_plans_are_valid_without_lesson_placeholders(self):
+        self.assertEqual(v.challenge_plan_errors(v.ROOT,self.records,set()),[])
+
+    def test_plan_cannot_claim_a_solution(self):
+        self.records[0]['solution']='challenges/solution.md'
+        self.assertTrue(any('cannot claim an authored path' in x for x in v.challenge_plan_errors(v.ROOT,self.records,set())))
+
+    def test_plan_cannot_claim_execution(self):
+        self.records[0]['execution']['status']='passed'
+        self.assertTrue(any('cannot claim runtime' in x for x in v.challenge_plan_errors(v.ROOT,self.records,set())))
+
+    def test_duplicate_ids_are_rejected(self):
+        self.records.append(self.records[0])
+        self.assertTrue(any('duplicate challenge ID' in x for x in v.challenge_plan_errors(v.ROOT,self.records,set())))
+
 if __name__=='__main__':
     unittest.main()

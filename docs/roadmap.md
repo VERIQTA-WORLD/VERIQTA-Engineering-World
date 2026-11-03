@@ -2,9 +2,9 @@
 
 The library grows by useful outcomes, not file count. Planned records are not completed exercises. The [domain backlog](../catalogue/backlog.json) covers the requested ecosystem without empty product folders.
 
-## Section sequence takes precedence
+## Folder selection takes precedence
 
-Follow the [section development plan](section-plan.md), completing and publishing one coherent section before requesting approval for the next. The [Engineering outcomes and evidence](../ai/engineering-evidence/README.md) section is the first developed unit; Safe local learning environments is next. The older batch proposals below remain future work, not authority to start multiple sections.
+The repository is currently being organised. The [development plan](section-plan.md), [AI curriculum](../ai/ROADMAP.md) and [challenges index](../challenges/README.md) describe future scope. New content will be filled one selected root folder at a time, reviewed, and approved before moving to another folder. The older batch proposals below remain future work.
 
 ## Future work after the prerequisite sections
 

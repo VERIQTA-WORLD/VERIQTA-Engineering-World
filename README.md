@@ -8,7 +8,7 @@ An engineering learning library for curious beginners, practising engineers and 
 
 <p align="center"><img src="assets/local-first.svg" alt="Local-first practice"><img src="assets/evidence-led.svg" alt="Evidence-led learning"></p>
 
-[Start Learning](journey/days/day-01.md) · [Explore Topics](#explore-engineering-topics) · [Practical Labs](library/README.md#exercise) · [Projects](library/README.md#project) · [AI for Engineering](ai/README.md) · [Contribute](CONTRIBUTING.md)
+[Start Learning](journey/days/day-01.md) · [Explore Topics](#explore-engineering-topics) · [Practical Labs](library/README.md#exercise) · [Challenges](challenges/README.md) · [Projects](library/README.md#project) · [AI for Engineering](ai/README.md) · [Contribute](CONTRIBUTING.md)
 
 ## Choose your starting point
 
@@ -71,7 +71,13 @@ Paths connect existing lessons and activities. Follow them in order, attempt eac
 | Security | [CI trust review](library/vw-e003.md) → [log exposure incident](library/vw-i002.md) → [IAM review](library/vw-a002.md) | Starter route available; full path planned |
 | AI | [Engineering evidence](ai/engineering-evidence/README.md) → [AI boundaries and tool exercises](ai/README.md) → [read-only assistant project](library/vw-p002.md) | Starter route available; further sections planned |
 
+For future independent practice alongside these routes, see [planned challenges](challenges/README.md). They are not counted as completed exercises.
+
 Use the starting-point guidance above to choose your level. Practical activities state their supported environments; use disposable local resources and keep experiments away from shared or production systems.
+
+## Independent challenges
+
+The [Challenges area](challenges/README.md) is reserved for independent mission-based problem solving. Its initial Linux, networking, Docker, Kubernetes and Terraform challenges are planned; no challenge is available to run yet. Guided exercises and larger multi-milestone projects remain separate formats.
 
 ## Featured practice and projects
 
@@ -88,7 +94,7 @@ Attempt an activity before opening its linked solution. All incident scenarios i
 
 ## Library progress
 
-**22 authored library items · 7 authored days · 93 planned days · 18 planned domain expansions.**
+**22 authored library items · 7 authored days · 93 planned days · 18 planned domain expansions · 5 planned challenges.**
 
 Supported checks and environments are documented in the [validation record](docs/validation.md).
 
@@ -102,6 +108,23 @@ Supported checks and environments are documented in the [validation record](docs
 | Mini-projects | 2 |
 
 The daily activities are counted separately from canonical library items. Planned topics are not counted as completed content. [Machine-readable catalogues](catalogue/README.md) drive this progress table; [validation results](docs/validation.md) distinguish static checks, local execution and untested runtimes.
+
+## Repository layout
+
+| Folder | Purpose |
+| --- | --- |
+| `journey/` | The structured 100-Day DevOps Journey |
+| `library/` | Topic-based questions, guided practice, incidents, decisions and projects |
+| `ai/` | AI for engineering: curriculum plan, tool-specific workflows and related examples |
+| `challenges/` | Independent engineering missions; initial scope is planned |
+| `catalogue/` | Machine-readable IDs, navigation records and validation evidence |
+| `docs/` | Contribution standards, roadmap and maintainer guidance |
+| `assets/` | VERIQTA graphics and attributed visual assets |
+| `scripts/` | Repository-wide validation and navigation generation |
+| `tests/` | Automated tests for repository maintenance tools |
+| `.github/` | Contribution forms and CI workflows |
+
+Subject-specific examples, solutions and tests belong inside their learning area. Learning paths are maintained in this README.
 
 ## Community and contribution
 

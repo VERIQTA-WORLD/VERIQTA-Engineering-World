@@ -1,0 +1,137 @@
+[
+  {
+    "id": "VW-CH001",
+    "title": "Linux service recovery",
+    "topic": "linux",
+    "tags": [
+      "linux",
+      "challenge"
+    ],
+    "type": "challenge",
+    "difficulty": null,
+    "prerequisites": [],
+    "estimated_minutes": null,
+    "environment": "Disposable Linux VM or isolated Linux container; final choice pending",
+    "cost": "free-local-planned",
+    "versions": null,
+    "sources": [],
+    "sources_checked": null,
+    "status": "planned",
+    "path": null,
+    "solution": null,
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-CH002",
+    "title": "Network connectivity diagnosis",
+    "topic": "networking",
+    "tags": [
+      "networking",
+      "challenge"
+    ],
+    "type": "challenge",
+    "difficulty": null,
+    "prerequisites": [],
+    "estimated_minutes": null,
+    "environment": "Disposable local network environment; final choice pending",
+    "cost": "free-local-planned",
+    "versions": null,
+    "sources": [],
+    "sources_checked": null,
+    "status": "planned",
+    "path": null,
+    "solution": null,
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-CH003",
+    "title": "Container build and runtime repair",
+    "topic": "containers",
+    "tags": [
+      "containers",
+      "challenge"
+    ],
+    "type": "challenge",
+    "difficulty": null,
+    "prerequisites": [],
+    "estimated_minutes": null,
+    "environment": "Local Docker daemon; final supported versions pending",
+    "cost": "free-local-planned",
+    "versions": null,
+    "sources": [],
+    "sources_checked": null,
+    "status": "planned",
+    "path": null,
+    "solution": null,
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-CH004",
+    "title": "Kubernetes service connectivity",
+    "topic": "kubernetes",
+    "tags": [
+      "kubernetes",
+      "challenge"
+    ],
+    "type": "challenge",
+    "difficulty": null,
+    "prerequisites": [],
+    "estimated_minutes": null,
+    "environment": "Disposable local cluster; final supported versions pending",
+    "cost": "free-local-planned",
+    "versions": null,
+    "sources": [],
+    "sources_checked": null,
+    "status": "planned",
+    "path": null,
+    "solution": null,
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-CH005",
+    "title": "Terraform change investigation",
+    "topic": "infrastructure",
+    "tags": [
+      "infrastructure",
+      "challenge"
+    ],
+    "type": "challenge",
+    "difficulty": null,
+    "prerequisites": [],
+    "estimated_minutes": null,
+    "environment": "Sanitised offline plan fixtures; no cloud account intended",
+    "cost": "free-local-planned",
+    "versions": null,
+    "sources": [],
+    "sources_checked": null,
+    "status": "planned",
+    "path": null,
+    "solution": null,
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  }
+]

@@ -10,13 +10,15 @@ Run python3 scripts/catalogue.py --write, python3 scripts/validate.py, python3 -
 
 Before publication inspect the complete staged diff, links, image paths, credentials and unrelated files. Never force push or rewrite shared history. Follow the current user's commit/push authorisation; do not infer perpetual publication authority from this file. Report commit and push status, authored/planned counts, validation scope, untested environments and the next concrete batch.
 
-## Section-by-section development
+## Folder-by-folder development
 
-Read docs/section-plan.md before selecting work. Develop one coherent section thoroughly; do not interpret an entire topic folder or the full AI curriculum as one section. Preserve the approved 100-day journey, branding and MIT licence. Keep learner pages free of instructions to Codex and public claims of superiority or reference-repository inspiration.
+Current stage: repository skeleton and navigation only. Do not author new lessons, challenges, fixtures, solutions or runtime labs until the user selects a root folder for content filling. Preserve existing published material; this is not permission to delete it. Plans and indexes must distinguish available material from future scope.
 
-State the selected section's scope first. Complete explanation, varied appropriate practice, fixtures, separate defensible solutions, checkpoint, catalogue/navigation updates and honest validation within that scope. Distinguish authored, technically checked, runtime-executed and independently reviewed material. Do not label generation independent review.
+After a folder is selected, state its purpose and scope, develop its coherent sections thoroughly, run relevant checks and present it for review. The user must approve that folder before work begins in another root folder. Do not treat earlier section/batch roadmaps as authority to populate multiple folders. Routine edits within the selected scope need no additional approval.
 
-When the user authorises section publication, validate, inspect the diff and push the completed section to main without force-pushing. Summarise completion, checks, limitations and next section. Ask exactly “Would you like me to continue to [specific next section]?” with the actual next section name, then stop and wait. Do not begin the next section without the user's answer. This workflow supersedes older multi-batch roadmap instructions. Do not ask for approval between routine files or steps within the approved section.
+Preserve the 100-day journey, branding and MIT licence. Keep learner pages free of instructions to Codex, editorial-status bylines, superiority claims and reference-repository inspiration wording. Record technical checks, runtime scope and independent review honestly in catalogue/maintainer records.
+
+Publication to main follows the current user's authorisation, with diff and sensitive-data inspection and no force-push. After a selected folder is completed, report checks and limitations, ask which named folder the user wants next, and wait for explicit approval before starting it. This workflow supersedes earlier section-by-section or multi-batch instructions.
 
 ## Public presentation
 
@@ -28,4 +30,4 @@ Learning paths belong in the root README and link directly to canonical subject 
 
 ## Root layout constraint
 
-Do not add any new top-level folder without an explicit user request to create that folder. Use the original approved layout; the retired paths/ and solutions/ folders must not be recreated. Current root folders are .github/, ai/, assets/, catalogue/, docs/, journey/, library/, scripts/ and tests/. Place subject-specific answers, examples and tests inside the corresponding learning area. Root tests/ is for repository-wide validators; root scripts/ is for repository-wide maintenance. AGENTS.md remains at the root because its instructions apply across the repository. This rule applies to future sections as well as routine edits.
+Do not add any new top-level folder without an explicit user request to create that folder. Use the original approved layout; the retired paths/ and solutions/ folders must not be recreated. Current approved root folders are .github/, ai/, assets/, catalogue/, challenges/, docs/, journey/, library/, scripts/ and tests/. The user explicitly authorised challenges/; this is not authority to create any other root folder. Place subject-specific answers, examples and tests inside the corresponding learning area. Root tests/ is for repository-wide validators; root scripts/ is for repository-wide maintenance. AGENTS.md remains at the root because its instructions apply across the repository. This rule applies to future sections as well as routine edits.

@@ -27,10 +27,10 @@ Inspect git status and diff, ensure only intended files are staged, scan for sec
 
 Triage broken labs before adding volume. Recheck sources when software behavior changes; schedule a source review each quarter when maintainers are available. Promote draft material after independent technical review. Retire obsolete commands with explanation and a stable pointer. Do not claim a maintenance service-level guarantee the volunteer project cannot support.
 
-## Section publication workflow
+## Folder development and approval
 
-Use the [section development sequence](section-plan.md) to select one coherent unit with explicit prerequisites and completion evidence. Finish its learning sequence, canonical practice, solutions and checkpoint before extending another section. The AI area contains multiple separately developed sections.
+The current stage is repository skeleton and navigation. Keep future scope in plans and catalogues; do not create empty lesson folders or label planned entries as completed activities. Existing published material stays in place.
 
-Validate technical claims against primary sources, record supported environments and source dates, run suitable disposable checks, and distinguish static validation from execution and independent review. Update catalogues, indexes and counts; inspect the staged diff for unrelated files and sensitive data before publishing.
+Before content filling begins, the requester chooses a root folder. Define its purpose, scope, prerequisites and completion standard, then develop and validate its sections within that folder. Present the completed folder for review. The requester must approve it before development starts in another root folder. This replaces the earlier section/batch publication boundary.
 
-Publish each authorised completed section directly to main with an ordinary push. Report the commit, checks and limitations; name the next section and ask the requester whether to continue to that specific section. Stop until they approve. This section-by-section approval boundary supersedes the older batch roadmap. Routine edits within the approved section need no additional approval.
+Publish authorised changes with an ordinary push to main after checks and diff review. Record authored material, technical checks, runtime execution and independent review separately. Do not introduce another root folder without an explicit user request naming it. The challenges/ folder is an approved exception; its initial five entries are currently plans only.

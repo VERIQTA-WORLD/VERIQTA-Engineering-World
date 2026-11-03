@@ -2,6 +2,10 @@
 
 Use AI to support investigation, automation and configuration review while independently checking its work. Start offline with sanitised evidence and mocked responses; an account, paid API and real credentials are unnecessary.
 
+## Curriculum plan
+
+The [15-section AI curriculum plan](ROADMAP.md) defines the intended progression, prerequisites and completion outcomes. It includes suitable uses, context and structured output, evaluation, AI across engineering tools, retrieval, controlled agents and practical projects. Sections will be developed folder by folder; the plan does not imply that all lessons already exist.
+
 ## Start with the foundations
 
 [Engineering outcomes and evidence](engineering-evidence/README.md) develops the reasoning needed to assess engineering claims before accepting AI recommendations. Follow its explanations, worked example, release-evidence exercise, recovery scenario and checkpoint.

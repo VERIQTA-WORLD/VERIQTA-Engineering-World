@@ -7,6 +7,7 @@ VERIQTA Engineering World is an engineering learning library. DevOps is the firs
 - `journey/`: the DevOps sequence and seven authored daily lessons.
 - `library/`: independent canonical items; paths link here rather than copying tasks.
 - Answers live in `journey/solutions/`, `library/solutions/`, or the relevant AI section; tasks link to their separate answers.
+- `challenges/`: independent mission-based practice; the entry point and initial catalogue currently describe planned scope only.
 - `ai/`: AI learning sections with their exercises, examples and solutions.
 - Root `README.md`: the learning hub and curated routes linking directly to canonical material.
 - `catalogue/`: source records, planned domain expansions and separate execution evidence.
@@ -18,8 +19,8 @@ Stable IDs survive title changes. Prefer retaining existing paths; a move requir
 
 ## Development order
 
-Follow the [section development sequence](section-plan.md). Complete one coherent section, its appropriate practice, separate solutions, checkpoint, navigation and validation record before proposing the next. Publication readiness does not imply independent review.
+Repository skeleton and navigation come first. The requester will choose a root folder before new content filling begins. Complete and review that folder’s coherent sections, then obtain approval before moving to another root folder. The [development plan](section-plan.md) describes intended coverage; it does not authorise automatic progression.
 
-The 100-day map remains intact. The current first section deepens Day 1 and VW-C001 and adds two distinct canonical activities. The next section is Safe local learning environments; it needs separate approval before implementation. Earlier batch targets are a backlog, not the active publication workflow.
+The 100-day journey and existing canonical IDs remain intact. The AI curriculum plan lives inside ai/. The initial challenges catalogue reserves five future missions without creating lesson, fixture or solution placeholders.
 
-A draft is authored, not reviewed. Planned records do not count as exercises. Execution is tracked independently of editorial review. A successful parser or static check cannot establish a live Kubernetes, cloud or model result.
+Editorial status and runtime validation remain distinct. Planned records do not count as completed activities, and static checks do not establish that a runtime lab works.

@@ -151,6 +151,36 @@ def section_errors(root, records, content_ids):
     return errors
 
 
+def challenge_plan_errors(root, records, existing_ids):
+    """Validate reserved scope without treating plans as runnable challenges."""
+    errors = []
+    seen = set(existing_ids)
+    for item in records:
+        ident = item.get('id', '<missing>')
+        if not re.fullmatch(r'VW-CH[0-9]{3}', ident):
+            errors.append(f'{ident}: invalid challenge ID')
+        if ident in seen:
+            errors.append(f'{ident}: duplicate challenge ID')
+        seen.add(ident)
+        required = {'id','title','topic','tags','type','difficulty','prerequisites',
+                    'estimated_minutes','environment','cost','versions','sources',
+                    'sources_checked','status','path','solution','execution'}
+        if required - set(item):
+            errors.append(f'{ident}: missing challenge metadata')
+        if item.get('type') != 'challenge' or item.get('status') != 'planned':
+            errors.append(f'{ident}: challenge content authoring requires a selected folder and extended validation')
+        if item.get('path') is not None or item.get('solution') is not None:
+            errors.append(f'{ident}: planned challenge cannot claim an authored path')
+        if item.get('execution', {}).get('status') != 'not-run':
+            errors.append(f'{ident}: planned challenge cannot claim runtime execution')
+        if not item.get('title') or not item.get('topic'):
+            errors.append(f'{ident}: challenge title/topic missing')
+        for target in item.get('prerequisites', []):
+            if target not in existing_ids:
+                errors.append(f'{ident}: invalid challenge prerequisite')
+    return errors
+
+
 def validate(root=ROOT):
     errors=[]
     library=json.loads((root/'catalogue/library.json').read_text())
@@ -160,6 +190,8 @@ def validate(root=ROOT):
     section_records=json.loads((root/'catalogue/sections.json').read_text())
     errors += section_errors(root, section_records, {x['id'] for x in library+journey})
     ids=[x['id'] for x in library+journey+backlog]
+    challenge_records=json.loads((root/'catalogue/challenges.json').read_text())
+    errors += challenge_plan_errors(root, challenge_records, set(ids))
     if len(ids)!=len(set(ids)):
         errors.append('Duplicate ID across catalogues')
     if [x.get('day') for x in journey] != list(range(1,101)):
