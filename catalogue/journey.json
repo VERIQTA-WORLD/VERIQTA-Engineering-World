@@ -1,0 +1,4327 @@
+[
+  {
+    "id": "VW-DAY001",
+    "day": 1,
+    "title": "Define an engineering outcome",
+    "topic": "foundations",
+    "status": "draft",
+    "path": "journey/days/day-01.md",
+    "learning_outcomes": [
+      "Map a small service change from request to feedback; identify one user outcome",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [],
+    "estimated_minutes": 60,
+    "explanation": "This session develops define an engineering outcome through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Map a small service change from request to feedback; identify one user outcome.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://sre.google/sre-book/embracing-risk/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "foundations",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02",
+    "solution": "solutions/day-01.md"
+  },
+  {
+    "id": "VW-DAY002",
+    "day": 2,
+    "title": "Build a safe learning workspace",
+    "topic": "foundations",
+    "status": "draft",
+    "path": "journey/days/day-02.md",
+    "learning_outcomes": [
+      "Create a scoped workspace and inventory your local tools without credentials",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY001"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops build a safe learning workspace through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Create a scoped workspace and inventory your local tools without credentials.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://sre.google/sre-book/embracing-risk/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
+      "date": "2026-11-02",
+      "result": "passed: Workspace setup snippet and environment inventory"
+    },
+    "tags": [
+      "foundations",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02",
+    "solution": "solutions/day-02.md"
+  },
+  {
+    "id": "VW-DAY003",
+    "day": 3,
+    "title": "Navigate files and explain permissions",
+    "topic": "foundations",
+    "status": "draft",
+    "path": "journey/days/day-03.md",
+    "learning_outcomes": [
+      "Create a directory tree; compare file and directory permissions",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY002"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops navigate files and explain permissions through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Create a directory tree; compare file and directory permissions.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://sre.google/sre-book/embracing-risk/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
+      "date": "2026-11-02",
+      "result": "passed: Permission setup, 400/600 transitions and content check; no cross-user access test"
+    },
+    "tags": [
+      "foundations",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02",
+    "solution": "solutions/day-03.md"
+  },
+  {
+    "id": "VW-DAY004",
+    "day": 4,
+    "title": "Turn logs into observations",
+    "topic": "foundations",
+    "status": "draft",
+    "path": "journey/days/day-04.md",
+    "learning_outcomes": [
+      "Filter a tiny log fixture and separate observations from hypotheses",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY003"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops turn logs into observations through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Filter a tiny log fixture and separate observations from hypotheses.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://sre.google/sre-book/embracing-risk/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
+      "date": "2026-11-02",
+      "result": "passed: Log fixture counts and grep result"
+    },
+    "tags": [
+      "foundations",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02",
+    "solution": "solutions/day-04.md"
+  },
+  {
+    "id": "VW-DAY005",
+    "day": 5,
+    "title": "Record a change with Git",
+    "topic": "foundations",
+    "status": "draft",
+    "path": "journey/days/day-05.md",
+    "learning_outcomes": [
+      "Create and inspect two local commits in a disposable repository",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY004"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops record a change with git through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Create and inspect two local commits in a disposable repository.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://sre.google/sre-book/embracing-risk/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
+      "date": "2026-11-02",
+      "result": "passed: Actual lesson Git commands, two commits and clean disposable tree"
+    },
+    "tags": [
+      "foundations",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02",
+    "solution": "solutions/day-05.md"
+  },
+  {
+    "id": "VW-DAY006",
+    "day": 6,
+    "title": "Write a bounded shell check",
+    "topic": "foundations",
+    "status": "draft",
+    "path": "journey/days/day-06.md",
+    "learning_outcomes": [
+      "Write a script that checks one file and returns meaningful exit codes",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY005"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops write a bounded shell check through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Write a script that checks one file and returns meaningful exit codes.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://sre.google/sre-book/embracing-risk/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
+      "date": "2026-11-02",
+      "result": "passed: Published script syntax and four behavioral exit-code cases"
+    },
+    "tags": [
+      "foundations",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02",
+    "solution": "solutions/day-06.md"
+  },
+  {
+    "id": "VW-DAY007",
+    "day": 7,
+    "title": "Review the first evidence bundle",
+    "topic": "foundations",
+    "status": "draft",
+    "path": "journey/days/day-07.md",
+    "learning_outcomes": [
+      "Investigate a broken handoff using your workspace, Git and shell evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY006"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops review the first evidence bundle through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Investigate a broken handoff using your workspace, Git and shell evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://sre.google/sre-book/embracing-risk/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
+      "date": "2026-11-02",
+      "result": "passed: Reused Day 6 script rejects supplied prod fixture; handoff reasoning requires review"
+    },
+    "tags": [
+      "foundations",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02",
+    "solution": "solutions/day-07.md"
+  },
+  {
+    "id": "VW-DAY008",
+    "day": 8,
+    "title": "Processes and exit status",
+    "topic": "linux",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Start a disposable process and capture its exit status",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY007"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops processes and exit status through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Start a disposable process and capture its exit status.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E001"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "linux",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY009",
+    "day": 9,
+    "title": "Environment variables and configuration",
+    "topic": "linux",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare a process environment with explicit configuration",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY008"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops environment variables and configuration through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare a process environment with explicit configuration.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E001"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "linux",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY010",
+    "day": 10,
+    "title": "Users, groups and least privilege",
+    "topic": "linux",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Design a service account permission table without changing host users",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY009"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops users, groups and least privilege through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Design a service account permission table without changing host users.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E001"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "linux",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY011",
+    "day": 11,
+    "title": "Storage, inodes and filesystem boundaries",
+    "topic": "linux",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare directory size, filesystem capacity and inode evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY010"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops storage, inodes and filesystem boundaries through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare directory size, filesystem capacity and inode evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E001"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "linux",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY012",
+    "day": 12,
+    "title": "Service lifecycle and logs",
+    "topic": "linux",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Read a simulated systemd unit and match failure logs to restart behavior",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY011"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops service lifecycle and logs through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Read a simulated systemd unit and match failure logs to restart behavior.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E001"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "linux",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY013",
+    "day": 13,
+    "title": "Virtual machines and isolation",
+    "topic": "linux",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare VM, process and container isolation for a lab workload",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY012"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops virtual machines and isolation through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare VM, process and container isolation for a lab workload.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E001"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "linux",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY014",
+    "day": 14,
+    "title": "Linux troubleshooting checkpoint",
+    "topic": "linux",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Diagnose a simulated full-disk service failure from bounded evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY013"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops linux troubleshooting checkpoint through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Diagnose a simulated full-disk service failure from bounded evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E001"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "linux",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY015",
+    "day": 15,
+    "title": "Addresses, subnets and routes",
+    "topic": "networking",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Trace a sample packet through a documented subnet and route table",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY014"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops addresses, subnets and routes through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Trace a sample packet through a documented subnet and route table.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C002"
+    ],
+    "sources": [
+      "https://curl.se/docs/manpage.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "networking",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY016",
+    "day": 16,
+    "title": "Ports and TCP connections",
+    "topic": "networking",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare listener, timeout and refused-connection evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY015"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops ports and tcp connections through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare listener, timeout and refused-connection evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C002"
+    ],
+    "sources": [
+      "https://curl.se/docs/manpage.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "networking",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY017",
+    "day": 17,
+    "title": "DNS answers and caching",
+    "topic": "networking",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare supplied resolver answers and TTLs across two environments",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY016"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops dns answers and caching through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare supplied resolver answers and TTLs across two environments.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C002"
+    ],
+    "sources": [
+      "https://curl.se/docs/manpage.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "networking",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY018",
+    "day": 18,
+    "title": "HTTP methods and status semantics",
+    "topic": "networking",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Classify sample HTTP requests by safety, idempotency and response meaning",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY017"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops http methods and status semantics through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Classify sample HTTP requests by safety, idempotency and response meaning.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C002"
+    ],
+    "sources": [
+      "https://curl.se/docs/manpage.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "networking",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY019",
+    "day": 19,
+    "title": "TLS identity and trust",
+    "topic": "networking",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Inspect a sanitised certificate summary for hostname and expiry errors",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY018"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops tls identity and trust through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Inspect a sanitised certificate summary for hostname and expiry errors.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C002"
+    ],
+    "sources": [
+      "https://curl.se/docs/manpage.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "networking",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY020",
+    "day": 20,
+    "title": "APIs and authentication boundaries",
+    "topic": "networking",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Design a scoped token exchange and redact a sample request",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY019"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops apis and authentication boundaries through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Design a scoped token exchange and redact a sample request.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C002"
+    ],
+    "sources": [
+      "https://curl.se/docs/manpage.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "networking",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY021",
+    "day": 21,
+    "title": "Network troubleshooting review",
+    "topic": "networking",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Locate the failing request boundary from DNS, TLS and HTTP evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY020"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops network troubleshooting review through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Locate the failing request boundary from DNS, TLS and HTTP evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C002"
+    ],
+    "sources": [
+      "https://curl.se/docs/manpage.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "networking",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY022",
+    "day": 22,
+    "title": "Branches and small reviewable changes",
+    "topic": "git",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Create two disposable branches and compare diffs",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY021"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops branches and small reviewable changes through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Create two disposable branches and compare diffs.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://git-scm.com/docs/gittutorial"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "git",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY023",
+    "day": 23,
+    "title": "Resolve a conflict with intent",
+    "topic": "git",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Resolve a local conflict while preserving both stated requirements",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY022"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops resolve a conflict with intent through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Resolve a local conflict while preserving both stated requirements.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://git-scm.com/docs/gittutorial"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "git",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY024",
+    "day": 24,
+    "title": "GitHub review and issue workflows",
+    "topic": "git",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Draft a review checklist and an actionable issue offline",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY023"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops github review and issue workflows through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Draft a review checklist and an actionable issue offline.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://git-scm.com/docs/gittutorial"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "git",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY025",
+    "day": 25,
+    "title": "Undo safely and preserve evidence",
+    "topic": "git",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare revert, restore and reset in a disposable repository",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY024"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops undo safely and preserve evidence through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare revert, restore and reset in a disposable repository.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C001"
+    ],
+    "sources": [
+      "https://git-scm.com/docs/gittutorial"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "git",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY026",
+    "day": 26,
+    "title": "Quote inputs and handle failures",
+    "topic": "bash",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Test a script with spaces, empty input and failed commands",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY025"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops quote inputs and handle failures through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Test a script with spaces, empty input and failed commands.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E002"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/bash/manual/bash.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "bash",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY027",
+    "day": 27,
+    "title": "Compose small command-line tools",
+    "topic": "bash",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Transform a fixture with explicit pipeline failure handling",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY026"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops compose small command-line tools through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Transform a fixture with explicit pipeline failure handling.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E002"
+    ],
+    "sources": [
+      "https://www.gnu.org/software/bash/manual/bash.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "bash",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY028",
+    "day": 28,
+    "title": "Python files and structured data",
+    "topic": "python",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Parse a small JSON fixture and report selected fields",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY027"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops python files and structured data through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Parse a small JSON fixture and report selected fields.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E002"
+    ],
+    "sources": [
+      "https://docs.python.org/3/library/unittest.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "python",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY029",
+    "day": 29,
+    "title": "Validate data before automation",
+    "topic": "python",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Reject invalid types and missing fields with useful exit codes",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY028"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops validate data before automation through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Reject invalid types and missing fields with useful exit codes.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E002"
+    ],
+    "sources": [
+      "https://docs.python.org/3/library/unittest.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "python",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY030",
+    "day": 30,
+    "title": "Test boundary conditions",
+    "topic": "python",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Write tests for empty, malformed and unexpected input",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY029"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops test boundary conditions through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Write tests for empty, malformed and unexpected input.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E002"
+    ],
+    "sources": [
+      "https://docs.python.org/3/library/unittest.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "python",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY031",
+    "day": 31,
+    "title": "Scripted workflow checkpoint",
+    "topic": "python",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Combine shell and Python into a local evidence collection task",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY030"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops scripted workflow checkpoint through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Combine shell and Python into a local evidence collection task.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E002"
+    ],
+    "sources": [
+      "https://docs.python.org/3/library/unittest.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "python",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY032",
+    "day": 32,
+    "title": "Cloud responsibility and cost boundaries",
+    "topic": "cloud",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Map customer/provider responsibilities and write a no-spend lab plan",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY031"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops cloud responsibility and cost boundaries through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Map customer/provider responsibilities and write a no-spend lab plan.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-A002"
+    ],
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY033",
+    "day": 33,
+    "title": "AWS identity before resources",
+    "topic": "cloud",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Review an example IAM policy for unnecessary authority",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY032"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops aws identity before resources through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Review an example IAM policy for unnecessary authority.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-A002"
+    ],
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY034",
+    "day": 34,
+    "title": "AWS networking foundations",
+    "topic": "cloud",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Draw a VPC request path with subnet, route and security group boundaries",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY033"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops aws networking foundations through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Draw a VPC request path with subnet, route and security group boundaries.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-A002"
+    ],
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY035",
+    "day": 35,
+    "title": "Compute and load balancing",
+    "topic": "cloud",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare a single instance and a load-balanced service against requirements",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY034"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops compute and load balancing through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare a single instance and a load-balanced service against requirements.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-A002"
+    ],
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY036",
+    "day": 36,
+    "title": "Storage and database choices",
+    "topic": "cloud",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Choose storage semantics and backup requirements for a sample service",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY035"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops storage and database choices through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Choose storage semantics and backup requirements for a sample service.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-A002"
+    ],
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY037",
+    "day": 37,
+    "title": "Availability and recovery objectives",
+    "topic": "cloud",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Define acceptable loss and recovery time for a fictional workload",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY036"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops availability and recovery objectives through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Define acceptable loss and recovery time for a fictional workload.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-A002"
+    ],
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY038",
+    "day": 38,
+    "title": "Cloud architecture review",
+    "topic": "cloud",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Review a costed fictional AWS design; compare Azure and GCP terminology",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY037"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops cloud architecture review through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Review a costed fictional AWS design; compare Azure and GCP terminology.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-A002"
+    ],
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "cloud",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY039",
+    "day": 39,
+    "title": "Build inputs and Maven lifecycle",
+    "topic": "delivery",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Trace source through compile, test and package using a sample POM",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY038"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops build inputs and maven lifecycle through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Trace source through compile, test and package using a sample POM.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "delivery",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY040",
+    "day": 40,
+    "title": "Artifacts and repository promotion",
+    "topic": "delivery",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Design versioning and promotion in an Artifactory-style repository",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY039"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops artifacts and repository promotion through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Design versioning and promotion in an Artifactory-style repository.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "delivery",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY041",
+    "day": 41,
+    "title": "Quality signals and SonarQube limits",
+    "topic": "delivery",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Distinguish static quality findings from runtime correctness",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY040"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops quality signals and sonarqube limits through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Distinguish static quality findings from runtime correctness.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "delivery",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY042",
+    "day": 42,
+    "title": "Images, layers and context",
+    "topic": "containers",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Review a Docker build context for accidental secret inclusion",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY041"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops images, layers and context through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Review a Docker build context for accidental secret inclusion.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C003"
+    ],
+    "sources": [
+      "https://docs.docker.com/build/building/best-practices/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "containers",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY043",
+    "day": 43,
+    "title": "Build a small container locally",
+    "topic": "containers",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Build a reviewed local service image and record runtime/version evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY042"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops build a small container locally through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Build a reviewed local service image and record runtime/version evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C003"
+    ],
+    "sources": [
+      "https://docs.docker.com/build/building/best-practices/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "containers",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY044",
+    "day": 44,
+    "title": "Container networks and volumes",
+    "topic": "containers",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Test persistence and connectivity in a disposable local setup",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY043"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops container networks and volumes through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Test persistence and connectivity in a disposable local setup.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C003"
+    ],
+    "sources": [
+      "https://docs.docker.com/build/building/best-practices/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "containers",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY045",
+    "day": 45,
+    "title": "Image identity and scanning",
+    "topic": "containers",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare tag, digest, provenance and vulnerability evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY044"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops image identity and scanning through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare tag, digest, provenance and vulnerability evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C003"
+    ],
+    "sources": [
+      "https://docs.docker.com/build/building/best-practices/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "containers",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY046",
+    "day": 46,
+    "title": "Container delivery checkpoint",
+    "topic": "containers",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Reproduce a candidate container release and document rollback limits",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY045"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops container delivery checkpoint through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Reproduce a candidate container release and document rollback limits.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C003"
+    ],
+    "sources": [
+      "https://docs.docker.com/build/building/best-practices/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "containers",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY047",
+    "day": 47,
+    "title": "CI events and trust boundaries",
+    "topic": "delivery",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare fork PR and trusted deployment contexts",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY046"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops ci events and trust boundaries through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare fork PR and trusted deployment contexts.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "delivery",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY048",
+    "day": 48,
+    "title": "GitHub Actions quality gate",
+    "topic": "delivery",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Add deterministic tests to a disposable workflow with minimal permissions",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY047"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops github actions quality gate through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Add deterministic tests to a disposable workflow with minimal permissions.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "delivery",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY049",
+    "day": 49,
+    "title": "Jenkins and GitLab pipeline translation",
+    "topic": "delivery",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Translate stage intent without assuming identical security models",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY048"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops jenkins and gitlab pipeline translation through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Translate stage intent without assuming identical security models.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "delivery",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY050",
+    "day": 50,
+    "title": "Promote once and deploy deliberately",
+    "topic": "delivery",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Record source, artifact and configuration identity for promotion",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY049"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops promote once and deploy deliberately through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Record source, artifact and configuration identity for promotion.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "delivery",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY051",
+    "day": 51,
+    "title": "Pipeline troubleshooting day",
+    "topic": "delivery",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Diagnose a false-green pipeline and leaked fake sentinel",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY050"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops pipeline troubleshooting day through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Diagnose a false-green pipeline and leaked fake sentinel.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-E003"
+    ],
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "delivery",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY052",
+    "day": 52,
+    "title": "Terraform state and desired configuration",
+    "topic": "infrastructure",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Explain resource addresses and inspect a sanitised state summary",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY051"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops terraform state and desired configuration through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Explain resource addresses and inspect a sanitised state summary.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://developer.hashicorp.com/terraform/cli/commands/plan"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "infrastructure",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY053",
+    "day": 53,
+    "title": "Read a plan before applying",
+    "topic": "infrastructure",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Classify add, update, replace and destroy effects in a fixture",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY052"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops read a plan before applying through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Classify add, update, replace and destroy effects in a fixture.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://developer.hashicorp.com/terraform/cli/commands/plan"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "infrastructure",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY054",
+    "day": 54,
+    "title": "Variables, modules and provider versions",
+    "topic": "infrastructure",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Design a small reusable interface with pinned constraints",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY053"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops variables, modules and provider versions through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Design a small reusable interface with pinned constraints.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://developer.hashicorp.com/terraform/cli/commands/plan"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "infrastructure",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY055",
+    "day": 55,
+    "title": "Drift and state safety",
+    "topic": "infrastructure",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Distinguish config changes, drift and address refactors in plan evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY054"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops drift and state safety through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Distinguish config changes, drift and address refactors in plan evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://developer.hashicorp.com/terraform/cli/commands/plan"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "infrastructure",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY056",
+    "day": 56,
+    "title": "Infrastructure review checkpoint",
+    "topic": "infrastructure",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Approve or reject a fictional stateful replacement with explicit evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY055"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops infrastructure review checkpoint through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Approve or reject a fictional stateful replacement with explicit evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://developer.hashicorp.com/terraform/cli/commands/plan"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "infrastructure",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY057",
+    "day": 57,
+    "title": "Ansible inventory and desired state",
+    "topic": "configuration",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Review a local-only inventory and an idempotent file task",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY056"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops ansible inventory and desired state through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Review a local-only inventory and an idempotent file task.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_checkmode.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "configuration",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY058",
+    "day": 58,
+    "title": "Check mode and idempotency",
+    "topic": "configuration",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Predict first and second run changes; identify check-mode limitations",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY057"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops check mode and idempotency through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Predict first and second run changes; identify check-mode limitations.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_checkmode.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "configuration",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY059",
+    "day": 59,
+    "title": "Configuration and image trade-offs",
+    "topic": "configuration",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compare Ansible convergence with a Packer image pipeline",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY058"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops configuration and image trade-offs through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compare Ansible convergence with a Packer image pipeline.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I003"
+    ],
+    "sources": [
+      "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_checkmode.html"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "configuration",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY060",
+    "day": 60,
+    "title": "The Kubernetes object model",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Connect desired state, controllers and observed status",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY059"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops the kubernetes object model through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Connect desired state, controllers and observed status.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY061",
+    "day": 61,
+    "title": "Deploy to a disposable local cluster",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Deploy a small reviewed app in a dedicated local namespace",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY060"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops deploy to a disposable local cluster through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Deploy a small reviewed app in a dedicated local namespace.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY062",
+    "day": 62,
+    "title": "Services and EndpointSlices",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Verify selector matching and ready endpoints",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY061"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops services and endpointslices through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Verify selector matching and ready endpoints.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY063",
+    "day": 63,
+    "title": "Configuration and secret boundaries",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Separate nonsecret config from secret references and access controls",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY062"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops configuration and secret boundaries through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Separate nonsecret config from secret references and access controls.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY064",
+    "day": 64,
+    "title": "Requests, limits and scheduling",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Explain a Pending pod using node and resource evidence",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY063"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops requests, limits and scheduling through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Explain a Pending pod using node and resource evidence.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY065",
+    "day": 65,
+    "title": "Startup, readiness and liveness",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Test a slow-start scenario without hiding a stuck process",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY064"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops startup, readiness and liveness through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Test a slow-start scenario without hiding a stuck process.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY066",
+    "day": 66,
+    "title": "Helm templates and values",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Render a chart and check selectors and ports before applying",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY065"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops helm templates and values through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Render a chart and check selectors and ports before applying.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY067",
+    "day": 67,
+    "title": "Rollouts and Kubernetes troubleshooting",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Investigate a failed rollout and verify a bounded recovery",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY066"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops rollouts and kubernetes troubleshooting through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Investigate a failed rollout and verify a bounded recovery.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY068",
+    "day": 68,
+    "title": "Local Kubernetes checkpoint and EKS context",
+    "topic": "kubernetes",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Package local evidence and identify managed-control-plane differences",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY067"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops local kubernetes checkpoint and eks context through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Package local evidence and identify managed-control-plane differences.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY069",
+    "day": 69,
+    "title": "Git as reviewed desired state",
+    "topic": "gitops",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Separate artifact build, config change and reconciliation",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY068"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops git as reviewed desired state through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Separate artifact build, config change and reconciliation.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "gitops",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY070",
+    "day": 70,
+    "title": "Argo CD drift and sync safety",
+    "topic": "gitops",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Interpret a fictional out-of-sync diff before choosing recovery",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY069"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops argo cd drift and sync safety through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Interpret a fictional out-of-sync diff before choosing recovery.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "gitops",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY071",
+    "day": 71,
+    "title": "GitOps recovery checkpoint",
+    "topic": "gitops",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Explain revert, reconciliation and data compatibility limits",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY070"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops gitops recovery checkpoint through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Explain revert, reconciliation and data compatibility limits.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I001"
+    ],
+    "sources": [
+      "https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "gitops",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY072",
+    "day": 72,
+    "title": "Signals and instrumentation",
+    "topic": "observability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Choose logs, metrics and traces for a specific user failure",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY071"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops signals and instrumentation through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Choose logs, metrics and traces for a specific user failure.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C004"
+    ],
+    "sources": [
+      "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "observability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY073",
+    "day": 73,
+    "title": "Prometheus counters and rates",
+    "topic": "observability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Interpret counter reset and aggregation using fixture data",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY072"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops prometheus counters and rates through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Interpret counter reset and aggregation using fixture data.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C004"
+    ],
+    "sources": [
+      "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "observability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY074",
+    "day": 74,
+    "title": "Grafana dashboards with decisions",
+    "topic": "observability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Design panels that answer an operational question",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY073"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops grafana dashboards with decisions through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Design panels that answer an operational question.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C004"
+    ],
+    "sources": [
+      "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "observability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY075",
+    "day": 75,
+    "title": "OpenTelemetry trace context",
+    "topic": "observability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Find a missing span boundary in a sanitised trace",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY074"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops opentelemetry trace context through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Find a missing span boundary in a sanitised trace.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C004"
+    ],
+    "sources": [
+      "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "observability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY076",
+    "day": 76,
+    "title": "Alert behavior and missing evidence",
+    "topic": "observability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Test error, zero-traffic and missing-telemetry cases",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY075"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops alert behavior and missing evidence through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Test error, zero-traffic and missing-telemetry cases.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-C004"
+    ],
+    "sources": [
+      "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "observability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY077",
+    "day": 77,
+    "title": "Threat model the delivery path",
+    "topic": "security",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Identify assets, actors and trust boundaries for the lab",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY076"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops threat model the delivery path through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Identify assets, actors and trust boundaries for the lab.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I002"
+    ],
+    "sources": [
+      "https://owasp.org/www-project-top-ten/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "security",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY078",
+    "day": 78,
+    "title": "Secrets, dependencies and supply chain",
+    "topic": "security",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Review a secret-handling and artifact-provenance checklist",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY077"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops secrets, dependencies and supply chain through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Review a secret-handling and artifact-provenance checklist.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I002"
+    ],
+    "sources": [
+      "https://owasp.org/www-project-top-ten/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "security",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY079",
+    "day": 79,
+    "title": "Policy and infrastructure scanning",
+    "topic": "security",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Separate scanner findings, policy decisions and risk acceptance",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY078"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops policy and infrastructure scanning through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Separate scanner findings, policy decisions and risk acceptance.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-I002"
+    ],
+    "sources": [
+      "https://owasp.org/www-project-top-ten/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "security",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY080",
+    "day": 80,
+    "title": "Define an SLI and provisional SLO",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Compute a request-based budget with explicit eligibility",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY079"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops define an sli and provisional slo through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Compute a request-based budget with explicit eligibility.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY081",
+    "day": 81,
+    "title": "Incident response and communication",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Draft a factual timeline and recovery decision log",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY080"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops incident response and communication through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Draft a factual timeline and recovery decision log.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY082",
+    "day": 82,
+    "title": "Backups and a restore rehearsal",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Restore a tiny local dataset and verify integrity and app readability",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY081"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops backups and a restore rehearsal through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Restore a tiny local dataset and verify integrity and app readability.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY083",
+    "day": 83,
+    "title": "Capacity and dependency failures",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Reason about queue growth, cache loss and database saturation",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY082"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops capacity and dependency failures through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Reason about queue growth, cache loss and database saturation.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY084",
+    "day": 84,
+    "title": "Responsible assistant boundaries",
+    "topic": "ai",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Evaluate an evidence-grounded response and reject injected instructions",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY083"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops responsible assistant boundaries through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Evaluate an evidence-grounded response and reject injected instructions.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-P002"
+    ],
+    "sources": [
+      "https://www.nist.gov/itl/ai-risk-management-framework"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "ai",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY085",
+    "day": 85,
+    "title": "Mock-assisted review and evaluation",
+    "topic": "ai",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Test structured outputs, timeout fallback and unsupported citations",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY084"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops mock-assisted review and evaluation through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Test structured outputs, timeout fallback and unsupported citations.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-P002"
+    ],
+    "sources": [
+      "https://www.nist.gov/itl/ai-risk-management-framework"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "ai",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY086",
+    "day": 86,
+    "title": "Retrieval and source provenance",
+    "topic": "ai",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Retrieve approved runbook passages and verify each evidence citation",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY085"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops retrieval and source provenance through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Retrieve approved runbook passages and verify each evidence citation.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-P002"
+    ],
+    "sources": [
+      "https://www.nist.gov/itl/ai-risk-management-framework"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "ai",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY087",
+    "day": 87,
+    "title": "Controlled tools and failure boundaries",
+    "topic": "ai",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Design read-only tool permissions, approval boundaries and an audit record",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY086"
+    ],
+    "estimated_minutes": 60,
+    "explanation": "This session develops controlled tools and failure boundaries through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Design read-only tool permissions, approval boundaries and an audit record.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-P002"
+    ],
+    "sources": [
+      "https://www.nist.gov/itl/ai-risk-management-framework"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "ai",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY088",
+    "day": 88,
+    "title": "Final project architecture checkpoint",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Specify a small delivery system, acceptance criteria and cost boundaries",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY087"
+    ],
+    "estimated_minutes": 90,
+    "explanation": "This session develops final project architecture checkpoint through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Specify a small delivery system, acceptance criteria and cost boundaries.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY089",
+    "day": 89,
+    "title": "Final project delivery evidence",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Assemble source, tests, artifact, configuration and deployment records",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY088"
+    ],
+    "estimated_minutes": 90,
+    "explanation": "This session develops final project delivery evidence through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Assemble source, tests, artifact, configuration and deployment records.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  },
+  {
+    "id": "VW-DAY090",
+    "day": 90,
+    "title": "Final project recovery and retrospective",
+    "topic": "reliability",
+    "status": "planned",
+    "path": null,
+    "learning_outcomes": [
+      "Demonstrate a bounded failure, recovery and honest portfolio limitations",
+      "Explain the evidence and one limitation of the result."
+    ],
+    "prerequisites": [
+      "VW-DAY089"
+    ],
+    "estimated_minutes": 90,
+    "explanation": "This session develops final project recovery and retrospective through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "task": "Demonstrate a bounded failure, recovery and honest portfolio limitations.",
+    "success_criteria": [
+      "A saved observation or artifact demonstrates the stated task.",
+      "The evidence record includes environment, result and a limitation."
+    ],
+    "reflection": [
+      "What is established by your evidence?",
+      "What would you test next, and why?"
+    ],
+    "related_library": [
+      "VW-D002"
+    ],
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "cost": "free-local-default",
+    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    },
+    "tags": [
+      "reliability",
+      "devops"
+    ],
+    "type": "day",
+    "difficulty": "beginner",
+    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "sources_checked": "2026-11-02"
+  }
+]

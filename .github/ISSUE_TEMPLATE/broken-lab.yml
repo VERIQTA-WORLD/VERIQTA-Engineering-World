@@ -1,0 +1,20 @@
+name: Broken lab
+description: Report a reproducible problem with a practical activity.
+body:
+  - type: input
+    id: content
+    attributes:
+      label: Content ID or proposed topic
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and learner outcome
+      description: Include expected/observed results and sanitised reproduction steps. Never include credentials or private information.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment, versions and suggested verification

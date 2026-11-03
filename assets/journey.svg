@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="240" viewBox="0 0 1080 240" role="img" aria-labelledby="title desc">
+<title id="title">The DevOps learning progression</title><desc id="desc">Four connected stages: understand systems; deliver changes; operate safely; integrate and reflect.</desc>
+<rect width="1080" height="240" rx="18" fill="#172322"/>
+<path d="M135 105H945" stroke="#48d5a2" stroke-width="4"/>
+<g fill="#0b4e40" stroke="#7ce5bb" stroke-width="2"><circle cx="135" cy="105" r="32"/><circle cx="405" cy="105" r="32"/><circle cx="675" cy="105" r="32"/><circle cx="945" cy="105" r="32"/></g>
+<g fill="white" font-family="Arial, sans-serif" font-size="22" text-anchor="middle"><text x="135" y="113">01</text><text x="405" y="113">02</text><text x="675" y="113">03</text><text x="945" y="113">04</text><text x="135" y="174">Understand systems</text><text x="405" y="174">Deliver changes</text><text x="675" y="174">Operate safely</text><text x="945" y="174">Integrate and reflect</text></g>
+<g fill="#7ce5bb" font-family="Arial, sans-serif" font-size="17" text-anchor="middle"><text x="135" y="204">Foundations and evidence</text><text x="405" y="204">Builds, CI and infrastructure</text><text x="675" y="204">Signals, security and recovery</text><text x="945" y="204">AI review and final project</text></g>
+</svg>

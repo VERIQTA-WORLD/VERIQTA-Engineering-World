@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<title id="title">VERIQTA Engineering World</title>
+<desc id="desc">An original charcoal and green banner: learn systems, build with evidence, grow through practice.</desc>
+<rect width="1200" height="330" rx="24" fill="#172322"/>
+<path d="M0 0H14V330H0Z" fill="#48d5a2"/>
+<circle cx="1080" cy="65" r="145" fill="#0b4e40"/>
+<circle cx="1080" cy="65" r="95" fill="none" stroke="#48d5a2" stroke-width="2"/>
+<path d="M990 205L1040 155L1090 205L1140 155" fill="none" stroke="#48d5a2" stroke-width="5"/>
+<text x="60" y="68" fill="#7ce5bb" font-family="Arial, sans-serif" font-size="19" letter-spacing="4">LEARN · BUILD · VERIFY</text>
+<text x="60" y="140" fill="#fff" font-family="Arial, sans-serif" font-weight="700" font-size="52">VERIQTA</text>
+<text x="60" y="202" fill="#fff" font-family="Arial, sans-serif" font-weight="700" font-size="52">Engineering World</text>
+<text x="60" y="260" fill="#cfdfda" font-family="Arial, sans-serif" font-size="24">Systems, cloud, delivery, reliability and responsible AI.</text>
+<text x="60" y="300" fill="#7ce5bb" font-family="Arial, sans-serif" font-size="18">Practical learning. Explainable decisions. Shared knowledge.</text>
+</svg>

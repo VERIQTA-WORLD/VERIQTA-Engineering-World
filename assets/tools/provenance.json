@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/simple-icons/simple-icons/tree/16.0.0/icons",
+  "version": "16.0.0",
+  "licence": "CC0-1.0 for Simple Icons collection; see LICENSE.md; trademark rights separate",
+  "modification": "Brand-colour fill attribute added; paths unchanged",
+  "files": {
+    "linux.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/linux.svg",
+    "git.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/git.svg",
+    "python.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/python.svg",
+    "docker.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/docker.svg",
+    "kubernetes.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/kubernetes.svg",
+    "terraform.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/terraform.svg",
+    "prometheus.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/prometheus.svg",
+    "githubactions.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/githubactions.svg",
+    "ansible.svg": "https://github.com/simple-icons/simple-icons/blob/16.0.0/icons/ansible.svg"
+  }
+}

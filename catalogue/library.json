@@ -1,0 +1,588 @@
+[
+  {
+    "id": "VW-C001",
+    "title": "A green deployment and a failed user request",
+    "topic": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "type": "concept",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "estimated_minutes": 20,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://sre.google/sre-book/embracing-risk/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-c001.md",
+    "solution": "solutions/vw-c001.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-C002",
+    "title": "Why DNS success does not prove HTTPS health",
+    "topic": "networking",
+    "tags": [
+      "networking"
+    ],
+    "type": "concept",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "estimated_minutes": 25,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://curl.se/docs/manpage.html"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-c002.md",
+    "solution": "solutions/vw-c002.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-C003",
+    "title": "An image tag is not a release identity",
+    "topic": "containers",
+    "tags": [
+      "containers"
+    ],
+    "type": "concept",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 25,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://docs.docker.com/build/building/best-practices/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-c003.md",
+    "solution": "solutions/vw-c003.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-C004",
+    "title": "An average can hide an outage",
+    "topic": "observability",
+    "tags": [
+      "observability"
+    ],
+    "type": "concept",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 30,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-c004.md",
+    "solution": "solutions/vw-c004.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-E001",
+    "title": "Find the large file without filling a disk",
+    "topic": "linux",
+    "tags": [
+      "linux"
+    ],
+    "type": "exercise",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "estimated_minutes": 35,
+    "environment": "POSIX shell, Python 3.9+, BSD/GNU du and wc; disposable local directory",
+    "cost": "free-local",
+    "versions": "Python 3.9+; POSIX utilities; tested subset on macOS",
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-e001.md",
+    "solution": "solutions/vw-e001.md",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
+      "date": "2026-11-02",
+      "result": "passed: Published setup, byte-count assertion and scoped cleanup; no live disk incident"
+    }
+  },
+  {
+    "id": "VW-E002",
+    "title": "Reject malformed release manifests",
+    "topic": "python",
+    "tags": [
+      "python"
+    ],
+    "type": "exercise",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "VW-C001"
+    ],
+    "estimated_minutes": 45,
+    "environment": "Python 3.9+ standard library; disposable local directory",
+    "cost": "free-local",
+    "versions": "Python 3.9+; reference tested on 3.9.6",
+    "sources": [
+      "https://docs.python.org/3/library/unittest.html"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-e002.md",
+    "solution": "solutions/vw-e002.md",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
+      "date": "2026-11-02",
+      "result": "passed: Reference implementation type/boundary tests plus CLI valid/malformed/list/null/missing/usage cases"
+    }
+  },
+  {
+    "id": "VW-E003",
+    "title": "Review a CI gate before giving it authority",
+    "topic": "delivery",
+    "tags": [
+      "delivery",
+      "security"
+    ],
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 40,
+    "environment": "Offline YAML review; no repository execution required",
+    "cost": "free-local",
+    "versions": "GitHub Actions semantics; fixture checkout v4 is intentionally unpinned",
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-e003.md",
+    "solution": "solutions/vw-e003.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-E004",
+    "title": "Render Helm values before approving a change",
+    "topic": "kubernetes",
+    "tags": [
+      "helm",
+      "kubernetes",
+      "review"
+    ],
+    "type": "exercise",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 50,
+    "environment": "Offline manifest review; optional Helm 3 and disposable local Kubernetes cluster",
+    "cost": "free-local",
+    "versions": "Kubernetes apps/v1 and v1 objects; optional Helm 3; runtime not tested",
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-e004.md",
+    "solution": "solutions/vw-e004.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-I001",
+    "title": "The service with no destinations",
+    "topic": "kubernetes",
+    "tags": [
+      "kubernetes"
+    ],
+    "type": "incident",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-i001.md",
+    "solution": "solutions/vw-i001.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-I002",
+    "title": "A passing pipeline publishes a secret",
+    "topic": "delivery",
+    "tags": [
+      "delivery",
+      "security"
+    ],
+    "type": "incident",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-i002.md",
+    "solution": "solutions/vw-i002.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-I003",
+    "title": "Replacement hidden inside a small Terraform diff",
+    "topic": "infrastructure",
+    "tags": [
+      "infrastructure"
+    ],
+    "type": "incident",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://developer.hashicorp.com/terraform/cli/commands/plan"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-i003.md",
+    "solution": "solutions/vw-i003.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-I004",
+    "title": "The error alert that goes quiet during failure",
+    "topic": "observability",
+    "tags": [
+      "observability"
+    ],
+    "type": "incident",
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-i004.md",
+    "solution": "solutions/vw-i004.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-A001",
+    "title": "Challenge an AI Linux disk diagnosis",
+    "topic": "linux",
+    "tags": [
+      "linux",
+      "ai",
+      "verification"
+    ],
+    "type": "ai-exercise",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://www.gnu.org/software/coreutils/manual/coreutils.html"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-a001.md",
+    "solution": "solutions/vw-a001.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-A002",
+    "title": "Review an AI IAM policy shortcut",
+    "topic": "cloud",
+    "tags": [
+      "cloud",
+      "ai",
+      "verification",
+      "security"
+    ],
+    "type": "ai-exercise",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-a002.md",
+    "solution": "solutions/vw-a002.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-A003",
+    "title": "Test an AI Dockerfile review against build context",
+    "topic": "containers",
+    "tags": [
+      "containers",
+      "ai",
+      "verification"
+    ],
+    "type": "ai-exercise",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://docs.docker.com/build/building/best-practices/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-a003.md",
+    "solution": "solutions/vw-a003.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-A004",
+    "title": "Disprove an AI Kubernetes restart explanation",
+    "topic": "kubernetes",
+    "tags": [
+      "kubernetes",
+      "ai",
+      "verification"
+    ],
+    "type": "ai-exercise",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-a004.md",
+    "solution": "solutions/vw-a004.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-D001",
+    "title": "Choose a release gate for a small service",
+    "topic": "delivery",
+    "tags": [
+      "delivery"
+    ],
+    "type": "decision",
+    "difficulty": "intermediate",
+    "prerequisites": [],
+    "estimated_minutes": 40,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-d001.md",
+    "solution": "solutions/vw-d001.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-D002",
+    "title": "Choose a useful first reliability objective",
+    "topic": "reliability",
+    "tags": [
+      "reliability"
+    ],
+    "type": "decision",
+    "difficulty": "advanced",
+    "prerequisites": [],
+    "estimated_minutes": 45,
+    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "cost": "free-local",
+    "versions": "Text fixture; no product runtime required",
+    "sources": [
+      "https://sre.google/workbook/incident-response/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-d002.md",
+    "solution": "solutions/vw-d002.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-P001",
+    "title": "Build a release evidence bundle",
+    "topic": "delivery",
+    "tags": [
+      "delivery"
+    ],
+    "type": "project",
+    "difficulty": "intermediate",
+    "prerequisites": [
+      "VW-E002",
+      "VW-E003",
+      "VW-C003"
+    ],
+    "estimated_minutes": 150,
+    "environment": "Python 3.9+, Git 2.x, POSIX shell; optional local Docker; no cloud",
+    "cost": "free-local",
+    "versions": "Python 3.9+; Git 2.x; optional Docker version to be recorded by learner",
+    "sources": [
+      "https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-p001.md",
+    "solution": "solutions/vw-p001.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-P002",
+    "title": "Build a read-only incident evidence assistant",
+    "topic": "ai",
+    "tags": [
+      "ai",
+      "retrieval",
+      "evaluation",
+      "security"
+    ],
+    "type": "project",
+    "difficulty": "advanced",
+    "prerequisites": [
+      "VW-E002",
+      "VW-A001",
+      "VW-A004"
+    ],
+    "estimated_minutes": 180,
+    "environment": "Python 3.9+ standard library, offline fixtures and mocked model adapter",
+    "cost": "free-local",
+    "versions": "Python 3.9+; no model SDK or model version required under mocks",
+    "sources": [
+      "https://www.nist.gov/itl/ai-risk-management-framework"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-p002.md",
+    "solution": "solutions/vw-p002.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  }
+]
