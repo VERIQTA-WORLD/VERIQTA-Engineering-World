@@ -1,5 +1,7 @@
 # Engineering practice library
 
+For a connected beginner sequence, start with [Engineering outcomes and evidence](../foundations/engineering-evidence/README.md). The [section plan](../docs/section-plan.md) shows the wider progression.
+
 One canonical copy of every activity. Authored entries below are drafts; try the task before viewing its separate solution. No account is needed.
 
 ## By topic
@@ -10,7 +12,9 @@ One canonical copy of every activity. Authored entries below are drafts; try the
 
 Engineering foundations. Planned expansion: DevOps principles, workflows, evidence, YAML, JSON, APIs and authentication, storage, virtualisation.
 
-- [VW-C001: A green deployment and a failed user request](vw-c001.md) — beginner, 20 min, concept, draft.
+- [VW-C001: A green deployment and a failed user request](vw-c001.md) — beginner, 25 min, concept, draft.
+- [VW-E007: Review a release evidence packet](vw-e007.md) — beginner, 55 min, exercise, draft.
+- [VW-I006: The recovery announcement that outran the evidence](vw-i006.md) — beginner, 40 min, incident, draft.
 
 ## Linux
 
@@ -132,6 +136,8 @@ AI for engineering. Planned expansion: Capabilities, context, prompts, structure
 - [VW-E002: Reject malformed release manifests](vw-e002.md)
 - [VW-I001: The service with no destinations](vw-i001.md)
 - [VW-A001: Challenge an AI Linux disk diagnosis](vw-a001.md)
+- [VW-E007: Review a release evidence packet](vw-e007.md)
+- [VW-I006: The recovery announcement that outran the evidence](vw-i006.md)
 
 ### Intermediate
 
@@ -168,6 +174,7 @@ AI for engineering. Planned expansion: Capabilities, context, prompts, structure
 - [VW-E002: Reject malformed release manifests](vw-e002.md)
 - [VW-E003: Review a CI gate before giving it authority](vw-e003.md)
 - [VW-E004: Render Helm values before approving a change](vw-e004.md)
+- [VW-E007: Review a release evidence packet](vw-e007.md)
 
 ### incident
 
@@ -175,6 +182,7 @@ AI for engineering. Planned expansion: Capabilities, context, prompts, structure
 - [VW-I002: A passing pipeline publishes a secret](vw-i002.md)
 - [VW-I003: Replacement hidden inside a small Terraform diff](vw-i003.md)
 - [VW-I004: The error alert that goes quiet during failure](vw-i004.md)
+- [VW-I006: The recovery announcement that outran the evidence](vw-i006.md)
 
 ### ai-exercise
 

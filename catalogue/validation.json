@@ -41,12 +41,21 @@
       "id": "VW-E002",
       "scope": "Reference implementation type/boundary tests plus CLI valid/malformed/list/null/missing/usage cases",
       "result": "passed"
+    },
+    {
+      "id": "VW-S001",
+      "date": "2026-11-02",
+      "environment": "macOS 26.2; Python 3.9.6; standard library, offline",
+      "scope": "Published 28-row VW-E007 CSV and optional reference checker, 10 measurement/CLI test methods plus five section-validator tests",
+      "result": "passed",
+      "limitations": "Arithmetic/input handling only; source labels and manual reasoning not independently reviewed; no deployed application."
     }
   ],
   "static": {
     "status": "passed",
     "scope": "Metadata, IDs, references, required sections, Markdown, all local links/anchors/images, SVGs, generated indexes/counts, Python compilation and YAML syntax",
-    "validator_tests": 19
+    "validator_tests": 24,
+    "evidence_checker_tests": 10
   },
   "not_run": [
     "Docker daemon unavailable",
@@ -60,6 +69,6 @@
   "visual": {
     "status": "passed",
     "scope": "GitHub Markdown API output; local narrow browser, light/dark preview",
-    "limitations": "Actual GitHub repository rendering and physical mobile devices not yet checked"
+    "limitations": "Historical first-milestone preview record; current section link structure checked statically, physical mobile devices not tested."
   }
 }

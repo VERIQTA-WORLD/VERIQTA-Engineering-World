@@ -4,17 +4,21 @@
     "title": "A green deployment and a failed user request",
     "topic": "foundations",
     "tags": [
-      "foundations"
+      "foundations",
+      "evidence",
+      "outcomes",
+      "shared-responsibility"
     ],
     "type": "concept",
     "difficulty": "beginner",
     "prerequisites": [],
-    "estimated_minutes": 20,
-    "environment": "Markdown reader; Python 3.9+ only where commands are supplied",
+    "estimated_minutes": 25,
+    "environment": "Markdown reader or text editor; no runtime or account required",
     "cost": "free-local",
-    "versions": "Text fixture; no product runtime required",
+    "versions": "Conceptual HTTP/request evidence; no product runtime",
     "sources": [
-      "https://sre.google/sre-book/embracing-risk/"
+      "https://sre.google/sre-book/monitoring-distributed-systems/",
+      "https://sre.google/workbook/implementing-slos/"
     ],
     "sources_checked": "2026-11-02",
     "status": "draft",
@@ -578,6 +582,76 @@
     "status": "draft",
     "path": "library/vw-p002.md",
     "solution": "solutions/vw-p002.md",
+    "execution": {
+      "status": "not-run",
+      "environment": null,
+      "date": null,
+      "result": null
+    }
+  },
+  {
+    "id": "VW-E007",
+    "title": "Review a release evidence packet",
+    "topic": "foundations",
+    "tags": [
+      "foundations",
+      "evidence",
+      "outcomes",
+      "shared-responsibility"
+    ],
+    "type": "exercise",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "VW-C001"
+    ],
+    "estimated_minutes": 55,
+    "environment": "Manual calculation in a reader/editor; optional Python 3.9+ standard library on Linux, macOS or Windows",
+    "cost": "free-local",
+    "versions": "CSV fixture v1; reference checker compatible with Python 3.9+; no external packages",
+    "sources": [
+      "https://sre.google/sre-book/monitoring-distributed-systems/",
+      "https://sre.google/workbook/implementing-slos/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-e007.md",
+    "solution": "solutions/vw-e007.md",
+    "execution": {
+      "status": "partial",
+      "environment": "macOS 26.2; Python 3.9.6; standard library, offline",
+      "date": "2026-11-02",
+      "result": "Passed fixture arithmetic, boundaries, exclusions, unknown correctness and CLI tests; learner decision/reasoning not execution-validated."
+    }
+  },
+  {
+    "id": "VW-I006",
+    "title": "The recovery announcement that outran the evidence",
+    "topic": "foundations",
+    "tags": [
+      "foundations",
+      "evidence",
+      "outcomes",
+      "shared-responsibility"
+    ],
+    "type": "incident",
+    "difficulty": "beginner",
+    "prerequisites": [
+      "VW-C001",
+      "VW-E007"
+    ],
+    "estimated_minutes": 40,
+    "environment": "Markdown reader or text editor; no runtime or account required",
+    "cost": "free-local",
+    "versions": "Conceptual HTTP/request evidence; no product runtime",
+    "sources": [
+      "https://sre.google/sre-book/monitoring-distributed-systems/",
+      "https://sre.google/workbook/implementing-slos/",
+      "https://sre.google/sre-book/effective-troubleshooting/"
+    ],
+    "sources_checked": "2026-11-02",
+    "status": "draft",
+    "path": "library/vw-i006.md",
+    "solution": "solutions/vw-i006.md",
     "execution": {
       "status": "not-run",
       "environment": null,

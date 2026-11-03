@@ -115,12 +115,50 @@ def markdown_errors(root, path):
             errors.append(f'{rel}: HTML image lacks alt text')
     return errors
 
+def section_errors(root, records, content_ids):
+    errors = []
+    section_ids = {x.get('id') for x in records}
+    if len(section_ids) != len(records):
+        errors.append('Duplicate section ID')
+    for x in records:
+        ident = x.get('id', '<missing>')
+        if not re.fullmatch(r'VW-S[0-9]{3}', ident):
+            errors.append(f'{ident}: invalid section ID')
+        if x.get('status') not in STATUS:
+            errors.append(f'{ident}: invalid section status')
+        if x.get('publication_state') not in {'planned', 'in-progress', 'ready'}:
+            errors.append(f'{ident}: invalid publication state')
+        for prerequisite in x.get('prerequisites', []):
+            if prerequisite not in section_ids or prerequisite == ident:
+                errors.append(f'{ident}: invalid section prerequisite')
+        for target in x.get('content_ids', []):
+            if target not in content_ids:
+                errors.append(f'{ident}: invalid section content reference {target}')
+        if x.get('status') == 'planned':
+            if x.get('path') is not None or x.get('publication_state') != 'planned':
+                errors.append(f'{ident}: planned section claims authored path/readiness')
+            continue
+        for field in ['path', 'checkpoint', 'validation']:
+            value = x.get(field)
+            if not value or not (root / value).is_file():
+                errors.append(f'{ident}: missing section {field}')
+        if not x.get('content_ids'):
+            errors.append(f'{ident}: section lacks canonical activities')
+        if x.get('status') == 'reviewed':
+            review = x.get('independent_review', {})
+            if not review.get('reviewer') or not review.get('date'):
+                errors.append(f'{ident}: section review lacks evidence')
+    return errors
+
+
 def validate(root=ROOT):
     errors=[]
     library=json.loads((root/'catalogue/library.json').read_text())
     journey=json.loads((root/'catalogue/journey.json').read_text())
     backlog=json.loads((root/'catalogue/backlog.json').read_text())
     errors += record_errors(library) + record_errors(journey,True)
+    section_records=json.loads((root/'catalogue/sections.json').read_text())
+    errors += section_errors(root, section_records, {x['id'] for x in library+journey})
     ids=[x['id'] for x in library+journey+backlog]
     if len(ids)!=len(set(ids)):
         errors.append('Duplicate ID across catalogues')
@@ -161,6 +199,9 @@ def validate(root=ROOT):
             required={'learning outcomes','prerequisites','environment and scope','setup','explanation','practical task','verification','cleanup','reflection','sources'}
         # Combined headings are acceptable only if they explicitly name the section.
         missing=[s for s in required if not any(s==h or s in h for h in sections)]
+        if kind=='day' and x.get('learning_format') == 'conceptual':
+            # Conceptual lessons have no artificial resource setup/teardown.
+            missing=[name for name in missing if name not in {'setup','cleanup'}]
         if missing:
             errors.append(f"{x['id']}: missing sections {sorted(missing)}")
         if kind=='day' and not (root/f"solutions/day-{x['day']:02}.md").is_file():

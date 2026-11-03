@@ -7,29 +7,32 @@
     "status": "draft",
     "path": "journey/days/day-01.md",
     "learning_outcomes": [
-      "Map a small service change from request to feedback; identify one user outcome",
-      "Explain the evidence and one limitation of the result."
+      "Distinguish an engineering output from a user outcome.",
+      "Define a scoped, falsifiable check and a feedback owner."
     ],
     "prerequisites": [],
     "estimated_minutes": 60,
-    "explanation": "This session develops define an engineering outcome through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.",
+    "explanation": "A measurable user outcome connects the intended change, observation boundary, result correctness, timing and feedback decision.",
     "task": "Map a small service change from request to feedback; identify one user outcome.",
     "success_criteria": [
-      "A saved observation or artifact demonstrates the stated task.",
-      "The evidence record includes environment, result and a limitation."
+      "The note defines behavior, eligible requests, observation boundary and window.",
+      "The feedback map, bounded stop condition and one limitation can be explained without claiming an unrun test succeeded."
     ],
     "reflection": [
       "What is established by your evidence?",
       "What would you test next, and why?"
     ],
     "related_library": [
-      "VW-C001"
+      "VW-C001",
+      "VW-E007",
+      "VW-I006"
     ],
     "sources": [
-      "https://sre.google/sre-book/embracing-risk/"
+      "https://sre.google/sre-book/monitoring-distributed-systems/",
+      "https://sre.google/workbook/implementing-slos/"
     ],
     "cost": "free-local-default",
-    "environment": "Offline fixtures by default; disposable local runtimes when explicitly stated. No paid cloud or model calls required.",
+    "environment": "Reader, text editor or paper; no tools, accounts or resources required",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -42,9 +45,10 @@
     ],
     "type": "day",
     "difficulty": "beginner",
-    "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
+    "versions": "Conceptual lesson; no software version requirement",
     "sources_checked": "2026-11-02",
-    "solution": "solutions/day-01.md"
+    "solution": "solutions/day-01.md",
+    "learning_format": "conceptual"
   },
   {
     "id": "VW-DAY002",

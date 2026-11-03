@@ -13,7 +13,7 @@ Paths assemble canonical activities; they do not duplicate them. “Available st
 
 ## Beginners
 
-Start with the daily sequence and supplied fixtures. Make one observation at a time. Install no cloud resources for the first week. Use Linux or a disposable Linux VM when a lesson specifically requires Linux; macOS is supported only for explicitly portable tasks. Windows learners can use WSL for POSIX tasks.
+Start with [Engineering outcomes and evidence](../foundations/engineering-evidence/README.md) for a connected explanation, practice and checkpoint, or take its smaller [Day 1 introduction](../journey/days/day-01.md). Continue with the daily sequence and supplied fixtures. Make one observation at a time. Install no cloud resources for the first week. Use Linux or a disposable Linux VM when a lesson specifically requires Linux; macOS is supported only for explicitly portable tasks. Windows learners can use WSL for POSIX tasks.
 
 ## Practising engineers
 

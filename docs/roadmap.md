@@ -1,12 +1,16 @@
-# Roadmap and next implementation batch
+# Roadmap and section development
 
 The library grows by useful outcomes, not file count. Planned records are not completed exercises. The [domain backlog](../catalogue/backlog.json) covers the requested ecosystem without empty product folders.
 
-## Next batch: review first, then extend
+## Section sequence takes precedence
+
+Follow the [section development plan](section-plan.md), completing and publishing one coherent section before requesting approval for the next. The [Engineering outcomes and evidence](../foundations/engineering-evidence/README.md) section is the first developed unit; Safe local learning environments is next. The older batch proposals below remain future work, not authority to start multiple sections.
+
+## Future work after the prerequisite sections
 
 | Priority | Deliverable | Acceptance and prerequisite |
 | --- | --- | --- |
-| P0 | Independent technical review of Days 1–7 and 20 library items | Name reviewer/date; resolve incorrect reasoning; retain execution scope |
+| P0 | Independent technical review of authored material, section by section | Name reviewer/date; resolve incorrect reasoning; retain execution scope |
 | P0 | Establish a private conduct/security contact | Verified private reporting route; retain MIT terms and separate asset notices |
 | P1 | Author Days 8–14 | Processes, environment, users, storage, service lifecycle, VMs and Linux checkpoint; each with solution and safe cleanup |
 | P1 | VW-E005: Ansible local idempotency lab | Disposable local directory; first run changes, second run unchanged; document check-mode gaps |
@@ -18,7 +22,7 @@ The library grows by useful outcomes, not file count. Planned records are not co
 | P2 | Evidence-based published incident study | Primary public report, facts/adaptations split, no invented private details |
 | P2 | Original interview practice and operational runbook | Explained reasoning and bounded commands; no unsupported employer provenance |
 
-The next five library additions above bring the canonical authored total from 20 to 25, subject to review. Add their records only when substantive pages exist. Their IDs are reserved here; do not repurpose them.
+The five reserved library additions above would add five distinct items, subject to their prerequisite sections and review. Add their records only when substantive pages exist. Their IDs are reserved here; do not repurpose them.
 
 ## Connected project pipeline
 

@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "eligible": 12,
+    "status_200": 11,
+    "demonstrated_good": 9,
+    "unknown_correctness": 0,
+    "good_fraction": 0.75
+  },
+  "candidate": {
+    "eligible": 12,
+    "status_200": 11,
+    "demonstrated_good": 8,
+    "unknown_correctness": 1,
+    "good_fraction": 0.6666666666666666
+  }
+}

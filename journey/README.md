@@ -119,14 +119,14 @@ Planned entries below define learning scope. Full setup, explanations, solutions
 
 **Define an engineering outcome** · draft · 60 minutes
 
-- Outcomes: Map a small service change from request to feedback; identify one user outcome Explain the evidence and one limitation of the result.
+- Outcomes: Distinguish an engineering output from a user outcome. Define a scoped, falsifiable check and a feedback owner.
 - Prerequisites: None.
-- Focus: This session develops define an engineering outcome through one bounded engineering decision. The task focuses on observable evidence rather than product memorisation.
+- Focus: A measurable user outcome connects the intended change, observation boundary, result correctness, timing and feedback decision.
 - Core task: Map a small service change from request to feedback; identify one user outcome.
-- Success: A saved observation or artifact demonstrates the stated task. The evidence record includes environment, result and a limitation.
+- Success: The note defines behavior, eligible requests, observation boundary and window. The feedback map, bounded stop condition and one limitation can be explained without claiming an unrun test succeeded.
 - Reflection: What is established by your evidence? What would you test next, and why?
-- Related practice: [VW-C001](../library/vw-c001.md).
-- [Official reference](https://sre.google/sre-book/embracing-risk/).
+- Related practice: [VW-C001](../library/vw-c001.md) · [VW-E007](../library/vw-e007.md) · [VW-I006](../library/vw-i006.md).
+- [Official reference](https://sre.google/sre-book/monitoring-distributed-systems/).
 
 ### Day 2
 

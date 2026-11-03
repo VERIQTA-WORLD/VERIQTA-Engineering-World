@@ -87,5 +87,31 @@ class RepositoryInvariantTests(unittest.TestCase):
             p.write_text(json.dumps(records))
             self.assertTrue(any('invalid library reference' in e for e in v.validate(root)))
 
+class SectionValidationTests(unittest.TestCase):
+    def setUp(self):
+        import json
+        self.records=json.loads((v.ROOT/'catalogue/sections.json').read_text())
+        self.ids={'VW-DAY001','VW-DAY002','VW-DAY003','VW-C001','VW-E007','VW-I006'}
+
+    def test_valid_sections(self):
+        self.assertEqual(v.section_errors(v.ROOT,self.records,self.ids),[])
+
+    def test_invalid_content_reference(self):
+        self.records[0]['content_ids'].append('VW-UNKNOWN')
+        self.assertTrue(any('invalid section content reference' in e for e in v.section_errors(v.ROOT,self.records,self.ids)))
+
+    def test_planned_section_cannot_claim_authored_page(self):
+        self.records[1]['path']='foundations/engineering-evidence/README.md'
+        self.assertTrue(any('planned section claims' in e for e in v.section_errors(v.ROOT,self.records,self.ids)))
+
+    def test_ready_section_needs_validation_record(self):
+        self.records[0]['publication_state']='ready'
+        self.records[0]['validation']='missing.md'
+        self.assertTrue(any('missing section validation' in e for e in v.section_errors(v.ROOT,self.records,self.ids)))
+
+    def test_reviewed_section_needs_independent_reviewer(self):
+        self.records[0]['status']='reviewed'
+        self.assertTrue(any('section review lacks evidence' in e for e in v.section_errors(v.ROOT,self.records,self.ids)))
+
 if __name__=='__main__':
     unittest.main()

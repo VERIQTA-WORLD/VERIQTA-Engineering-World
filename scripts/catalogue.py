@@ -33,6 +33,8 @@ An engineering learning library for curious beginners, practising engineers and 
 
 ## Choose your starting point
 
+Study a coherent topic in [Engineering foundations](foundations/README.md), beginning with [outcomes and evidence](foundations/engineering-evidence/README.md). The [section sequence](docs/section-plan.md) shows prerequisites and planned expansion across engineering and AI.
+
 | Your starting point | A useful first step | What you will practise |
 | --- | --- | --- |
 | New to engineering | [Start Day 1](journey/days/day-01.md), then follow the [curriculum](journey/README.md) | Safe local work, basic tools and observable outcomes |
@@ -115,12 +117,12 @@ The daily activities are counted separately from canonical library items. Planne
 
 Bring a correction, a reproducible lab result or a distinct engineering problem. Read [Contributing](CONTRIBUTING.md), the [content standard](docs/style-guide.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). [Report an incorrect answer or broken lab](https://github.com/veriqta/VERIQTA-Engineering-World/issues/new/choose), or suggest a topic with a clear learning outcome.
 
-Follow the [roadmap](docs/roadmap.md) for the next batch. **[MIT licensed](LICENSE):** reuse the original code and educational documentation with the required notice. See [licensing and brand guidance](docs/licensing.md) for asset terms and trademark boundaries.
+Follow the [section sequence](docs/section-plan.md) and [roadmap](docs/roadmap.md) for planned learning units. **[MIT licensed](LICENSE):** reuse the original code and educational documentation with the required notice. See [licensing and brand guidance](docs/licensing.md) for asset terms and trademark boundaries.
 
 [Asset licences and provenance](docs/attribution.md).
 '''
     output['README.md'] = readme
-    library = '# Engineering practice library\n\nOne canonical copy of every activity. Authored entries below are drafts; try the task before viewing its separate solution. No account is needed.\n\n## By topic\n\n'
+    library = '# Engineering practice library\n\nFor a connected beginner sequence, start with [Engineering outcomes and evidence](../foundations/engineering-evidence/README.md). The [section plan](../docs/section-plan.md) shows the wider progression.\n\nOne canonical copy of every activity. Authored entries below are drafts; try the task before viewing its separate solution. No account is needed.\n\n## By topic\n\n'
     library += ' · '.join(f"[{x['title']}](#{x['topic']})" for x in backlog) + '\n\n'
     for plan in backlog:
         topic = plan['topic']
@@ -157,6 +159,7 @@ Follow the [roadmap](docs/roadmap.md) for the next batch. **[MIT licensed](LICEN
 
 - [Library](library.json): authored canonical items and their metadata.
 - [Journey](journey.json): exactly 100 ordered days; planned days have no lesson path.
+- [Sections](sections.json): authored section scope, canonical content references and the next planned section.
 - [Backlog](backlog.json): prioritised domain expansion, including tool-specific AI objectives.
 - [Validation](validation.json): observed checks with environment and scope, separate from editorial review.
 

@@ -12,6 +12,8 @@ An engineering learning library for curious beginners, practising engineers and 
 
 ## Choose your starting point
 
+Study a coherent topic in [Engineering foundations](foundations/README.md), beginning with [outcomes and evidence](foundations/engineering-evidence/README.md). The [section sequence](docs/section-plan.md) shows prerequisites and planned expansion across engineering and AI.
+
 | Your starting point | A useful first step | What you will practise |
 | --- | --- | --- |
 | New to engineering | [Start Day 1](journey/days/day-01.md), then follow the [curriculum](journey/README.md) | Safe local work, basic tools and observable outcomes |
@@ -82,15 +84,15 @@ Attempt an activity before opening its linked solution. All incident scenarios i
 
 ## Library progress
 
-**20 authored library items · 7 authored days · 93 planned days · 18 planned domain expansions.**
+**22 authored library items · 7 authored days · 93 planned days · 18 planned domain expansions.**
 
 Editorial status: 0 independently reviewed; all other authored content is draft. Execution evidence is reported separately in the [validation record](docs/validation.md).
 
 | Authored canonical type | Count |
 | --- | ---: |
 | Concept questions | 4 |
-| Practical exercises | 4 |
-| Troubleshooting incidents | 4 |
+| Practical exercises | 5 |
+| Troubleshooting incidents | 5 |
 | AI-assisted exercises | 4 |
 | Engineering decisions | 2 |
 | Mini-projects | 2 |
@@ -101,6 +103,6 @@ The daily activities are counted separately from canonical library items. Planne
 
 Bring a correction, a reproducible lab result or a distinct engineering problem. Read [Contributing](CONTRIBUTING.md), the [content standard](docs/style-guide.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). [Report an incorrect answer or broken lab](https://github.com/veriqta/VERIQTA-Engineering-World/issues/new/choose), or suggest a topic with a clear learning outcome.
 
-Follow the [roadmap](docs/roadmap.md) for the next batch. **[MIT licensed](LICENSE):** reuse the original code and educational documentation with the required notice. See [licensing and brand guidance](docs/licensing.md) for asset terms and trademark boundaries.
+Follow the [section sequence](docs/section-plan.md) and [roadmap](docs/roadmap.md) for planned learning units. **[MIT licensed](LICENSE):** reuse the original code and educational documentation with the required notice. See [licensing and brand guidance](docs/licensing.md) for asset terms and trademark boundaries.
 
 [Asset licences and provenance](docs/attribution.md).

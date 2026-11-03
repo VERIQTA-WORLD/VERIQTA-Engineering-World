@@ -27,3 +27,9 @@ Fictional scenarios must say simulation. For published incidents, cite the prima
 ## Markdown
 
 One H1 per page; descriptive links; fenced code with a language; alt text on images; no trailing whitespace or skipped heading levels. Avoid giant root pages and wide multi-column prose. Use relative internal links and keep anchors stable. The repository checker enforces a lightweight subset; visual and editorial review remain necessary.
+
+## Conceptual lessons and coherent sections
+
+Conceptual introductions need scope, prerequisites, explanation, an appropriate task, verification and reflection; do not invent resource setup or cleanup when no resources are created. A daily lesson may declare `learning_format: conceptual` in its catalogue record to use this format. Practical work retains the full lab standard.
+
+A section connects canonical activities through an ordered explanation, suitable practice, separate complete solutions and a checkpoint. Track section publication readiness separately from draft/reviewed editorial status and from execution evidence. A completed offline section does not imply a tool was deployed or an independent review occurred.

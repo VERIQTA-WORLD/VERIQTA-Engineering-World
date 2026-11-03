@@ -9,3 +9,11 @@ Keep one canonical exercise. Separate solutions. Catalogue JSON is authoritative
 Run python3 scripts/catalogue.py --write, python3 scripts/validate.py, python3 -m unittest discover -s tests -v and appropriate disposable lab checks. Do not execute arbitrary contributed scripts with privileged credentials. No paid APIs, cloud provisioning or private fixture data in default checks.
 
 Before publication inspect the complete staged diff, links, image paths, credentials and unrelated files. Never force push or rewrite shared history. Follow the current user's commit/push authorisation; do not infer perpetual publication authority from this file. Report commit and push status, authored/planned counts, validation scope, untested environments and the next concrete batch.
+
+## Section-by-section development
+
+Read docs/section-plan.md before selecting work. Develop one coherent section thoroughly; do not interpret an entire topic folder or the full AI curriculum as one section. Preserve the approved 100-day journey, branding and MIT licence. Keep learner pages free of instructions to Codex and public claims of superiority or reference-repository inspiration.
+
+State the selected section's scope first. Complete explanation, varied appropriate practice, fixtures, separate defensible solutions, checkpoint, catalogue/navigation updates and honest validation within that scope. Distinguish authored, technically checked, runtime-executed and independently reviewed material. Do not label generation independent review.
+
+When the user authorises section publication, validate, inspect the diff and push the completed section to main without force-pushing. Summarise completion, checks, limitations and next section. Ask exactly “Would you like me to continue to [specific next section]?” with the actual next section name, then stop and wait. Do not begin the next section without the user's answer. This workflow supersedes older multi-batch roadmap instructions. Do not ask for approval between routine files or steps within the approved section.
