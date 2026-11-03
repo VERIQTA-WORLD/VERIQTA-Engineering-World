@@ -6,7 +6,7 @@ Read docs/architecture.md, docs/style-guide.md and docs/maintainers.md before ed
 
 Keep one canonical exercise. Separate solutions. Catalogue JSON is authoritative for status and generated indexes. Planned items do not count as authored. Generation never qualifies as independent review. Execution evidence must identify scope, date, environment and actual result; static checks are not runtime validation.
 
-Run python3 scripts/catalogue.py --write, python3 scripts/validate.py, python3 -m unittest discover -s tests -v and appropriate disposable lab checks. Do not execute arbitrary contributed scripts with privileged credentials. No paid APIs, cloud provisioning or private fixture data in default checks.
+Run python3 scripts/catalogue.py --write, python3 scripts/validate.py, python3 -m unittest discover -s tests -v, python3 -m unittest discover -s ai/engineering-evidence/tests -v and appropriate disposable lab checks. Do not execute arbitrary contributed scripts with privileged credentials. No paid APIs, cloud provisioning or private fixture data in default checks.
 
 Before publication inspect the complete staged diff, links, image paths, credentials and unrelated files. Never force push or rewrite shared history. Follow the current user's commit/push authorisation; do not infer perpetual publication authority from this file. Report commit and push status, authored/planned counts, validation scope, untested environments and the next concrete batch.
 
@@ -22,6 +22,10 @@ When the user authorises section publication, validate, inspect the diff and pus
 
 Write learner pages as finished teaching material. Keep editorial draft/review labels in catalogues and maintainer records, not lesson headings, solutions, badges or learner indexes. Preserve honest supported-environment and execution limitations. Place the AI curriculum and its new section material under ai/. Do not promote editorial status merely to remove a public label.
 
-Use the existing top-level folders. Do not add root subject or example directories for AI sections; put section lessons, new practice, examples and solutions under ai/. Keep stable links in existing library/ and solutions/ where needed.
+Use the existing top-level folders. Do not add root subject or example directories for AI sections; put section lessons, new practice, examples and solutions under ai/. Update links and catalogue records when moving answers into their learning area.
 
 Learning paths belong in the root README and link directly to canonical subject material. Do not recreate a root paths/ folder. Keep root scripts/ for repository-wide maintenance only; put subject-specific executable examples inside the relevant subject folder.
+
+## Root layout constraint
+
+Do not add any new top-level folder without an explicit user request to create that folder. Use the original approved layout; the retired paths/ and solutions/ folders must not be recreated. Current root folders are .github/, ai/, assets/, catalogue/, docs/, journey/, library/, scripts/ and tests/. Place subject-specific answers, examples and tests inside the corresponding learning area. Root tests/ is for repository-wide validators; root scripts/ is for repository-wide maintenance. AGENTS.md remains at the root because its instructions apply across the repository. This rule applies to future sections as well as routine edits.

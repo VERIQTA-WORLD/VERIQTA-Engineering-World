@@ -79,4 +79,4 @@ Use git show to compare the evidence each commit preserves.
 
 [Official reference](https://git-scm.com/docs/gittutorial). Source recorded 2026-11-02. Full metadata is in [the journey catalogue](../../catalogue/journey.json).
 
-[Solution](../../solutions/day-05.md) · [Curriculum](../README.md)
+[Solution](../solutions/day-05.md) · [Curriculum](../README.md)

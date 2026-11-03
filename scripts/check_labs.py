@@ -52,7 +52,7 @@ def main():
         results.append({'id':'VW-DAY007','scope':'Reused Day 6 script rejects supplied prod fixture; handoff reasoning requires review','result':'passed'})
         shell(prefix+block('library/vw-e001.md','sh')+'\ntest "$(wc -c < "$lab/debug.log" | tr -d " ")" = 13000\nrm "$lab/app.log" "$lab/debug.log" "$lab/keep.txt"\nrmdir "$lab"\n',cwd)
         results.append({'id':'VW-E001','scope':'Published setup, byte-count assertion and scoped cleanup; no live disk incident','result':'passed'})
-        code=block('solutions/vw-e002.md','python')
+        code=block('library/solutions/vw-e002.md','python')
         namespace={'__name__':'lab_reference'}
         exec(compile(code,'manifest_reference','exec'),namespace)
         good={'service':'cart','replicas':2,'digest':'sha256:'+'a'*64}

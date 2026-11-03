@@ -72,4 +72,4 @@ Have a peer reproduce the result from your handoff without further instructions.
 
 [Official reference](https://www.gnu.org/software/bash/manual/bash.html). Source recorded 2026-11-02. Full metadata is in [the journey catalogue](../../catalogue/journey.json).
 
-[Solution](../../solutions/day-07.md) · [Curriculum](../README.md)
+[Solution](../solutions/day-07.md) · [Curriculum](../README.md)

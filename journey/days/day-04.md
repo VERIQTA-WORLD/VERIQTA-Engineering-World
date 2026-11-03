@@ -71,4 +71,4 @@ Add a malformed record and explain whether your simple counting method still wor
 
 [Official reference](https://www.gnu.org/software/coreutils/manual/coreutils.html). Source recorded 2026-11-02. Full metadata is in [the journey catalogue](../../catalogue/journey.json).
 
-[Solution](../../solutions/day-04.md) · [Curriculum](../README.md)
+[Solution](../solutions/day-04.md) · [Curriculum](../README.md)

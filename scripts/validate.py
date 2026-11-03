@@ -204,7 +204,7 @@ def validate(root=ROOT):
             missing=[name for name in missing if name not in {'setup','cleanup'}]
         if missing:
             errors.append(f"{x['id']}: missing sections {sorted(missing)}")
-        if kind=='day' and not (root/f"solutions/day-{x['day']:02}.md").is_file():
+        if kind=='day' and not (x.get('solution') and (root/x['solution']).is_file()):
             errors.append(f"{x['id']}: missing daily solution")
     if len(all_paths)!=len(set(all_paths)):
         errors.append('Canonical paths reused by multiple records')

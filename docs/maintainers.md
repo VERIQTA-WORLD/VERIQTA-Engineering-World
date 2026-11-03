@@ -8,6 +8,7 @@ Use Python 3.9+ with the standard library. Run:
 python3 scripts/catalogue.py --write
 python3 scripts/validate.py
 python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s ai/engineering-evidence/tests -v
 python3 scripts/check_labs.py
 python3 ai/engineering-evidence/examples/check_evidence.py ai/engineering-evidence/examples/requests.csv
 ```

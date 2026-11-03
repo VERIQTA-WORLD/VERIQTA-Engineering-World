@@ -81,4 +81,4 @@ Reject duplicate mode keys and add a test before claiming stronger validation.
 
 [Official reference](https://www.gnu.org/software/bash/manual/bash.html). Source recorded 2026-11-02. Full metadata is in [the journey catalogue](../../catalogue/journey.json).
 
-[Solution](../../solutions/day-06.md) · [Curriculum](../README.md)
+[Solution](../solutions/day-06.md) · [Curriculum](../README.md)

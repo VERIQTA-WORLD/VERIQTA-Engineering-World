@@ -60,7 +60,7 @@ Your note has a user-visible result, explicit scope and an inspectable feedback 
 
 Read your note as if another learner had to perform the check. Can they identify the path, expected answer, duration boundary, eligible population and window without asking you? If a crucial detail is missing, revise it.
 
-Then compare your attempt with the [complete example and reasoning](../../solutions/day-01.md). Multiple definitions can be defensible; passing means that the evidence could establish or contradict your stated outcome. Record the check as a proposed check until you run it.
+Then compare your attempt with the [complete example and reasoning](../solutions/day-01.md). Multiple definitions can be defensible; passing means that the evidence could establish or contradict your stated outcome. Record the check as a proposed check until you run it.
 
 ## Troubleshooting
 
@@ -82,4 +82,4 @@ For deeper study, follow [Engineering outcomes and evidence](../../ai/engineerin
 
 Primary references checked 2026-11-02: [Google SRE: monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/) and [implementing SLOs](https://sre.google/workbook/implementing-slos/). The scenario and activity are original. [Catalogue metadata](../../catalogue/journey.json) records authorship and validation separately.
 
-[Solution](../../solutions/day-01.md) · [Day 2](day-02.md) · [100-day curriculum](../README.md)
+[Solution](../solutions/day-01.md) · [Day 2](day-02.md) · [100-day curriculum](../README.md)

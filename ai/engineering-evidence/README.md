@@ -134,4 +134,4 @@ Pass when all five are supported by named evidence and your calculation can be r
 
 Primary references checked 2026-11-02: [Google SRE: monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/) explains user-visible and internal observation; [implementing SLOs](https://sre.google/workbook/implementing-slos/) develops explicit measures and objectives. This section uses original small fictional data, not a production case study or copied exercise.
 
-Next planned section: **Safe local learning environments**. Existing [Day 2](../../journey/days/day-02.md) provides a starter workspace activity; the full section is not yet authored. [AI learning index](../../ai/README.md) · [Section sequence](../../docs/section-plan.md) · [Validation scope](../../docs/validation-engineering-evidence.md)
+Next planned section: **Safe local learning environments**. Existing [Day 2](../../journey/days/day-02.md) provides a starter workspace activity; the full section is not yet authored. [AI learning index](../README.md) · [Section sequence](../../docs/section-plan.md) · [Validation scope](../../docs/validation-engineering-evidence.md)

@@ -23,7 +23,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-c001.md",
-    "solution": "solutions/vw-c001.md",
+    "solution": "library/solutions/vw-c001.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -51,7 +51,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-c002.md",
-    "solution": "solutions/vw-c002.md",
+    "solution": "library/solutions/vw-c002.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -79,7 +79,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-c003.md",
-    "solution": "solutions/vw-c003.md",
+    "solution": "library/solutions/vw-c003.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -107,7 +107,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-c004.md",
-    "solution": "solutions/vw-c004.md",
+    "solution": "library/solutions/vw-c004.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -135,7 +135,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-e001.md",
-    "solution": "solutions/vw-e001.md",
+    "solution": "library/solutions/vw-e001.md",
     "execution": {
       "status": "partial",
       "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
@@ -165,7 +165,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-e002.md",
-    "solution": "solutions/vw-e002.md",
+    "solution": "library/solutions/vw-e002.md",
     "execution": {
       "status": "partial",
       "environment": "macOS 26.2; Python 3.9.6; POSIX sh; git version 2.50.1 (Apple Git-155)",
@@ -194,7 +194,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-e003.md",
-    "solution": "solutions/vw-e003.md",
+    "solution": "library/solutions/vw-e003.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -224,7 +224,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-e004.md",
-    "solution": "solutions/vw-e004.md",
+    "solution": "library/solutions/vw-e004.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -252,7 +252,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-i001.md",
-    "solution": "solutions/vw-i001.md",
+    "solution": "library/solutions/vw-i001.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -281,7 +281,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-i002.md",
-    "solution": "solutions/vw-i002.md",
+    "solution": "library/solutions/vw-i002.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -309,7 +309,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-i003.md",
-    "solution": "solutions/vw-i003.md",
+    "solution": "library/solutions/vw-i003.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -337,7 +337,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-i004.md",
-    "solution": "solutions/vw-i004.md",
+    "solution": "library/solutions/vw-i004.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -367,7 +367,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-a001.md",
-    "solution": "solutions/vw-a001.md",
+    "solution": "ai/solutions/vw-a001.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -398,7 +398,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-a002.md",
-    "solution": "solutions/vw-a002.md",
+    "solution": "ai/solutions/vw-a002.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -428,7 +428,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-a003.md",
-    "solution": "solutions/vw-a003.md",
+    "solution": "ai/solutions/vw-a003.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -458,7 +458,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-a004.md",
-    "solution": "solutions/vw-a004.md",
+    "solution": "ai/solutions/vw-a004.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -486,7 +486,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-d001.md",
-    "solution": "solutions/vw-d001.md",
+    "solution": "library/solutions/vw-d001.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -514,7 +514,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-d002.md",
-    "solution": "solutions/vw-d002.md",
+    "solution": "library/solutions/vw-d002.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -546,7 +546,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-p001.md",
-    "solution": "solutions/vw-p001.md",
+    "solution": "library/solutions/vw-p001.md",
     "execution": {
       "status": "not-run",
       "environment": null,
@@ -581,7 +581,7 @@
     "sources_checked": "2026-11-02",
     "status": "draft",
     "path": "library/vw-p002.md",
-    "solution": "solutions/vw-p002.md",
+    "solution": "ai/solutions/vw-p002.md",
     "execution": {
       "status": "not-run",
       "environment": null,

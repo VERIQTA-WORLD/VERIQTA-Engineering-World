@@ -47,7 +47,7 @@
     "difficulty": "beginner",
     "versions": "Conceptual lesson; no software version requirement",
     "sources_checked": "2026-11-02",
-    "solution": "solutions/day-01.md",
+    "solution": "journey/solutions/day-01.md",
     "learning_format": "conceptual"
   },
   {
@@ -97,7 +97,7 @@
     "difficulty": "beginner",
     "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
     "sources_checked": "2026-11-02",
-    "solution": "solutions/day-02.md"
+    "solution": "journey/solutions/day-02.md"
   },
   {
     "id": "VW-DAY003",
@@ -146,7 +146,7 @@
     "difficulty": "beginner",
     "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
     "sources_checked": "2026-11-02",
-    "solution": "solutions/day-03.md"
+    "solution": "journey/solutions/day-03.md"
   },
   {
     "id": "VW-DAY004",
@@ -195,7 +195,7 @@
     "difficulty": "beginner",
     "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
     "sources_checked": "2026-11-02",
-    "solution": "solutions/day-04.md"
+    "solution": "journey/solutions/day-04.md"
   },
   {
     "id": "VW-DAY005",
@@ -244,7 +244,7 @@
     "difficulty": "beginner",
     "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
     "sources_checked": "2026-11-02",
-    "solution": "solutions/day-05.md"
+    "solution": "journey/solutions/day-05.md"
   },
   {
     "id": "VW-DAY006",
@@ -293,7 +293,7 @@
     "difficulty": "beginner",
     "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
     "sources_checked": "2026-11-02",
-    "solution": "solutions/day-06.md"
+    "solution": "journey/solutions/day-06.md"
   },
   {
     "id": "VW-DAY007",
@@ -342,7 +342,7 @@
     "difficulty": "beginner",
     "versions": "Planned runtime selection; authored first week: POSIX shell, Git 2.x, Python 3.9+",
     "sources_checked": "2026-11-02",
-    "solution": "solutions/day-07.md"
+    "solution": "journey/solutions/day-07.md"
   },
   {
     "id": "VW-DAY008",

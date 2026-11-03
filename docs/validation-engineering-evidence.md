@@ -17,6 +17,7 @@ Run from the repository root:
 ```sh
 python3 ai/engineering-evidence/examples/check_evidence.py ai/engineering-evidence/examples/requests.csv
 python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s ai/engineering-evidence/tests -v
 python3 scripts/validate.py
 ```
 

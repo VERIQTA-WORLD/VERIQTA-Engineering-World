@@ -74,4 +74,4 @@ Inspect, without changing, how your OS reports ACLs.
 
 [Official reference](https://www.gnu.org/software/coreutils/manual/coreutils.html). Source recorded 2026-11-02. Full metadata is in [the journey catalogue](../../catalogue/journey.json).
 
-[Solution](../../solutions/day-03.md) · [Curriculum](../README.md)
+[Solution](../solutions/day-03.md) · [Curriculum](../README.md)

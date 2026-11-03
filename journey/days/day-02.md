@@ -74,4 +74,4 @@ Create a checklist for a disposable Linux VM without provisioning one.
 
 [Official reference](https://www.gnu.org/software/coreutils/manual/coreutils.html). Source recorded 2026-11-02. Full metadata is in [the journey catalogue](../../catalogue/journey.json).
 
-[Solution](../../solutions/day-02.md) · [Curriculum](../README.md)
+[Solution](../solutions/day-02.md) · [Curriculum](../README.md)

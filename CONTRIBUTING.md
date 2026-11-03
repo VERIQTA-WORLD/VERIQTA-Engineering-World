@@ -13,7 +13,7 @@ Read the [style guide](docs/style-guide.md), [code of conduct](CODE_OF_CONDUCT.m
 3. Add a stable unique record to the relevant JSON catalogue. Keep new work draft; planned work has no placeholder lesson file.
 4. Include environment, cost, versions, sources and the date you actually checked them. Record execution evidence only for commands you ran.
 5. Regenerate navigation with `python3 scripts/catalogue.py --write`.
-6. Run `python3 scripts/validate.py`, `python3 -m unittest discover -s tests -v` and `python3 scripts/check_labs.py` where the supported local environment is available.
+6. Run `python3 scripts/validate.py`, `python3 -m unittest discover -s tests -v`, `python3 -m unittest discover -s ai/engineering-evidence/tests -v` and `python3 scripts/check_labs.py` where the supported local environment is available.
 7. Open a pull request explaining the result, validation and limitations. Maintainer-authorised direct publication may follow the same checks.
 
 ## Reporting issues
